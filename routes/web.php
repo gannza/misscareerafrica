@@ -30,3 +30,9 @@ Route::post(
     'generator_builder/generate-from-file',
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 );
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+

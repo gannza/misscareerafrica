@@ -179,7 +179,8 @@ return [
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
-        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class
+        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+        Yajra\DataTables\DataTablesServiceProvider::class,
 
     ],
 
@@ -231,6 +232,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'DataTables' => Yajra\DataTables\Facades\DataTables::class,
 
     ],
 
