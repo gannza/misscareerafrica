@@ -36,3 +36,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
+
+
+Route::resource('sessions', 'SessionController');
+
+Route::resource('sessions', 'SessionController');

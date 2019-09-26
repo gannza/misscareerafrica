@@ -16,12 +16,6 @@
     <p>{!! $session->session !!}</p>
 </div>
 
-<!-- Image Field -->
-<div class="form-group">
-    {!! Form::label('image', 'Image:') !!}
-    <p>{!! $session->image !!}</p>
-</div>
-
 <!-- Country Field -->
 <div class="form-group">
     {!! Form::label('country', 'Country:') !!}
@@ -32,6 +26,12 @@
 <div class="form-group">
     {!! Form::label('date', 'Date:') !!}
     <p>{!! $session->date !!}</p>
+</div>
+
+<!-- Image Field -->
+<div class="form-group">
+    {!! Form::label('image', 'Image:') !!}
+    <p>{!! $session->image !!}</p>
 </div>
 
 <!-- Numbering Field -->

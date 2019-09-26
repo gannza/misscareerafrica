@@ -1,9 +1,3 @@
-<!-- Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('id', 'Id:') !!}
-    {!! Form::text('id', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Title Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('title', 'Title:') !!}
@@ -16,12 +10,6 @@
     {!! Form::text('session', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Image Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('image', 'Image:') !!}
-    {!! Form::text('image', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Country Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('country', 'Country:') !!}
@@ -31,20 +19,35 @@
 <!-- Date Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('date', 'Date:') !!}
-    {!! Form::text('date', null, ['class' => 'form-control']) !!}
+    {!! Form::text('date', null, ['class' => 'form-control','id'=>'date']) !!}
 </div>
+
+@section('scripts')
+   
+@endsection
+
+<!-- Image Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('image', 'Image:') !!}
+    {!! Form::file('image') !!}
+</div>
+<div class="clearfix"></div>
 
 <!-- Numbering Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('numbering', 'Numbering:') !!}
-    {!! Form::text('numbering', null, ['class' => 'form-control']) !!}
+    {!! Form::number('numbering', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Is Current Applying Field -->
+<!-- 'bootstrap / Toggle Switch Is Current Applying Field' -->
 <div class="form-group col-sm-6">
     {!! Form::label('is_current_applying', 'Is Current Applying:') !!}
-    {!! Form::text('is_current_applying', null, ['class' => 'form-control']) !!}
+    <label class="checkbox-inline">
+        {!! Form::hidden('is_current_applying', 0) !!}
+        {!! Form::checkbox('is_current_applying', 1, null,  ['data-toggle' => 'toggle']) !!}
+    </label>
 </div>
+
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">

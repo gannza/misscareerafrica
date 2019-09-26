@@ -5,9 +5,9 @@
                 <th>Id</th>
         <th>Title</th>
         <th>Session</th>
-        <th>Image</th>
         <th>Country</th>
         <th>Date</th>
+        <th>Image</th>
         <th>Numbering</th>
         <th>Is Current Applying</th>
                 <th colspan="3">Action</th>
@@ -19,9 +19,9 @@
                 <td>{!! $session->id !!}</td>
             <td>{!! $session->title !!}</td>
             <td>{!! $session->session !!}</td>
-            <td>{!! $session->image !!}</td>
             <td>{!! $session->country !!}</td>
             <td>{!! $session->date !!}</td>
+            <td>{!! $session->image !!}</td>
             <td>{!! $session->numbering !!}</td>
             <td>{!! $session->is_current_applying !!}</td>
                 <td>
