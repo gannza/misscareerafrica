@@ -84,3 +84,6 @@ Route::resource('candidates', 'CandidateController');
 //
 Route::post('apply', 'CandidateController@candidateApplying');
 
+
+
+Route::resource('sponsors', 'SponsorController');

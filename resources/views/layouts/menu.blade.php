@@ -7,3 +7,7 @@
     <a href="{!! route('candidates.index') !!}"><i class="fa fa-edit"></i><span>Candidates</span></a>
 </li>
 
+<li class="{{ Request::is('sponsors*') ? 'active' : '' }}">
+    <a href="{!! route('sponsors.index') !!}"><i class="fa fa-edit"></i><span>Sponsors</span></a>
+</li>
+

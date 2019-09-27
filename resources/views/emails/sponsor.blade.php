@@ -2,10 +2,10 @@
     <body>
     Hello, {{$name}}
     <br>
-    Thank your for applying to become a misscareer.
+    Thank your for applying to become a sponsor.
     <br>
     <br>
-        We will notify you once you are selected.
+        We will notify you further details.
     <br>
     
     <br>
