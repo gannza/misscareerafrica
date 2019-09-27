@@ -82,5 +82,5 @@ Route::resource('sessions', 'SessionController');
 
 Route::resource('candidates', 'CandidateController');
 //
-Route::get('apply', 'CandidateController@candidateApplying');
+Route::post('apply', 'CandidateController@candidateApplying');
 

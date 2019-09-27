@@ -73,6 +73,7 @@ class CandidateController extends AppBaseController
         $input['session_id']=Session::where('is_current_applying',1)->first()->id;
         $input['is_selected']=0;
         $input['votes']=0;
+        Log::info($input);
         $candidate = $this->candidateRepository->create($input);
 
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
