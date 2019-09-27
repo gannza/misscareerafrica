@@ -107,32 +107,32 @@
         <!-- Q1 Field -->
         <div class="form-group">
             {!! Form::label('q1', 'Q1. Tell us about yourself? (500 Max)') !!}
-            <p>{!! $candidate->q1 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q1 !!}</p>
         </div>
 
         <!-- Q2 Field -->
         <div class="form-group">
             {!! Form::label('q2', 'Q2. What is your next five years career plans? (500 Max)') !!}
-            <p>{!! $candidate->q2 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q2 !!}</p>
         </div>
 
         <!-- Q3 Field -->
         <div class="form-group">
             {!! Form::label('q3', 'Q3. What is your project name?') !!}
-            <p>{!! $candidate->q3 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q3 !!}</p>
         </div>
 
         <!-- Q4 Field -->
         <div class="form-group">
             {!! Form::label('q4', 'Q4. Describe your project? (500 Max)') !!}
-            <p>{!! $candidate->q4 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q4 !!}</p>
         </div>
 
         <!-- Q5 Field -->
         <div class="form-group">
             {!! Form::label('q5', 'Q5. How will you use the title to influence your community and africa at large once
             crowned Miss Career Africa? (500 Max)') !!}
-            <p>{!! $candidate->q5 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q5 !!}</p>
         </div>
 
         <!-- Q6 Field -->
@@ -145,14 +145,15 @@
         <div class="form-group">
             {!! Form::label('q7', 'Q7. Briefly describe your recent career achievements you are proud of? (500 Max)')
             !!}
-            <p>{!! $candidate->q7 !!}</p>
+            <p style="margin-left:30px">{!! $candidate->q7 !!}</p>
         </div>
 
 
 
     </div>
-    <hr />
+
     <div class="col-md-8">
+        <hr />
         <!-- Session Id Field -->
         <div class="form-group">
             {!! Form::label('session_id', 'Session Id:') !!}
@@ -173,6 +174,7 @@
         </div>
     </div>
     <div class="col-md-4">
+        <hr />
         <!-- Created At Field -->
         <div class="form-group">
             {!! Form::label('created_at', 'Created At:') !!}
