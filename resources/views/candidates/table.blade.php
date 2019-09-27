@@ -7,7 +7,6 @@
         <th>Lname</th>
         <th>Email</th>
         <th>Dob</th>
-        <th>Phone Code</th>
         <th>Phone Number</th>
         <th>Street</th>
         <th>City</th>
@@ -32,8 +31,7 @@
             <td>{!! $candidate->lname !!}</td>
             <td>{!! $candidate->email !!}</td>
             <td>{!! $candidate->dob !!}</td>
-            <td>{!! $candidate->phone_code !!}</td>
-            <td>{!! $candidate->phone_number !!}</td>
+            <td>{!! $candidate->phone_code !!} {!! $candidate->phone_number !!}</td>
             <td>{!! $candidate->street !!}</td>
             <td>{!! $candidate->city !!}</td>
             <td>{!! $candidate->province !!}</td>
