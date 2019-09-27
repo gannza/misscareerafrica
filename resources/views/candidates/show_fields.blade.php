@@ -156,20 +156,20 @@
         <hr />
         <!-- Session Id Field -->
         <div class="form-group">
-            {!! Form::label('session_id', 'Session Id:') !!}
-            <p>{!! $candidate->session_id !!}</p>
+           
+            <p> {!! Form::label('session_id', 'Session Id:') !!}: {!! $candidate->session_id !!}</p>
         </div>
 
         <!-- Votes Field -->
         <div class="form-group">
-            {!! Form::label('votes', 'Votes:') !!}
-            <p>{!! $candidate->votes !!}</p>
+           
+            <p> {!! Form::label('votes', 'Votes:') !!}: {!! $candidate->votes !!}</p>
         </div>
 
         <!-- Is Selected Field -->
         <div class="form-group">
-            {!! Form::label('is_selected', 'Is Candidate Selected:') !!}
-            <p>{!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label
+           
+            <p> {!! Form::label('is_selected', 'Is Candidate Selected:') !!}: {!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label
                     class="badge badge-danger">NO</label>' !!}</p>
         </div>
     </div>
@@ -177,14 +177,14 @@
         <hr />
         <!-- Created At Field -->
         <div class="form-group">
-            {!! Form::label('created_at', 'Created At:') !!}
-            <p>{!! $candidate->created_at !!}</p>
+           
+            <p> {!! Form::label('created_at', 'Created At:') !!}:{!! $candidate->created_at !!}</p>
         </div>
 
         <!-- Updated At Field -->
         <div class="form-group">
-            {!! Form::label('updated_at', 'Updated At:') !!}
-            <p>{!! $candidate->updated_at !!}</p>
+           
+            <p> {!! Form::label('updated_at', 'Updated At:') !!}: {!! $candidate->updated_at !!}</p>
         </div>
     </div>
 </div>
