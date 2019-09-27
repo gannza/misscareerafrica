@@ -9,6 +9,8 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
+use App\Models\Session;
+use Log;
 
 class CandidateController extends AppBaseController
 {
@@ -55,7 +57,7 @@ class CandidateController extends AppBaseController
     public function store(CreateCandidateRequest $request)
     {
         $input = $request->all();
-
+        $request['session_id']=Session::where('is_current_applying',1)->first();
         $candidate = $this->candidateRepository->create($input);
 
         Flash::success('Candidate saved successfully.');
@@ -63,6 +65,18 @@ class CandidateController extends AppBaseController
         return redirect(route('candidates.index'));
     }
 
+
+    public function candidateApplying(CreateCandidateRequest $request)
+    {
+        $input = $request->all();
+
+        $input['session_id']=Session::where('is_current_applying',1)->first()->id;
+        $input['is_selected']=0;
+        $input['votes']=0;
+        $candidate = $this->candidateRepository->create($input);
+
+        return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
+    }
     /**
      * Display the specified Candidate.
      *

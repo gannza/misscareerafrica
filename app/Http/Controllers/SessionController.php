@@ -9,7 +9,7 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
-
+use App\Models\Session;
 class SessionController extends AppBaseController
 {
     /** @var  SessionRepository */
@@ -81,6 +81,16 @@ class SessionController extends AppBaseController
         }
 
         return view('sessions.show')->with('session', $session);
+    }
+
+    public function currentSession(){
+        $session = Session::where('is_current_applying',1)->first();
+        return $this->sendResponse($session->toArray(), 'Session saved successfully');
+    }
+
+    public function listSessions(){
+        $session = Session::where('is_current_applying',0)->orderBy('numbering', 'ASC')->get();
+        return $this->sendResponse($session->toArray(), 'Session saved successfully');
     }
 
     /**

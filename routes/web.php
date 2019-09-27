@@ -31,6 +31,40 @@ Route::post(
     '\InfyOm\GeneratorBuilder\Controllers\GeneratorBuilderController@generateFromFile'
 );
 
+Route::get('/candidate-application', function () {
+    return view('apply');
+});
+
+Route::get('/competition', function () {
+    return view('competition');
+});
+Route::get('/job', function () {
+    return view('job');
+});
+Route::get('/scope', function () {
+    return view('scope');
+});
+Route::get('/mission', function () {
+    return view('mission');
+});
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/sponsor', function () {
+    return view('sponsor');
+});
+
+Route::get('/volunteer', function () {
+    return view('volunteer');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/eligibility', function () {
+    return view('eligibility');
+});
 
 Auth::routes();
 
@@ -39,7 +73,14 @@ Route::get('/home', 'HomeController@index');
 
 
 Route::resource('sessions', 'SessionController');
+//
+Route::get('current_session', 'SessionController@currentSession');
+//listSessions
+Route::get('list_sessions', 'SessionController@listSessions');
 
 Route::resource('sessions', 'SessionController');
 
 Route::resource('candidates', 'CandidateController');
+//
+Route::get('apply', 'CandidateController@candidateApplying');
+
