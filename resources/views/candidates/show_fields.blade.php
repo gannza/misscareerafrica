@@ -1,4 +1,10 @@
 <!-- Id Field -->
+<div class="row">
+<div class="col-md-6">
+<div class="col-md-12">
+										<b>Personal Info</b>
+										<hr />
+									</div>
 <div class="form-group">
   
     <p>  {!! Form::label('id', 'Id:') !!}: {!! $candidate->id !!}</p>
@@ -87,7 +93,15 @@
     {!! Form::label('current_occupation', 'Current Occupation') !!}
     <p>{!! $candidate->current_occupation !!}</p>
 </div>
+</div>
+<div class="col-md-6">
 
+
+<div class="col-md-12">
+											<hr />
+											<b>MISS CAREER AFRICA COMPETITION SECTION</b>
+										<hr />
+									</div>
 <!-- Q1 Field -->
 <div class="form-group">
     {!! Form::label('q1', 'Q1. Tell us about yourself? (500 Max)') !!}
@@ -160,3 +174,5 @@
     <p>{!! $candidate->updated_at !!}</p>
 </div>
 
+</div>
+</div>
