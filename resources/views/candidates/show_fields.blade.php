@@ -151,6 +151,7 @@
 
 
     </div>
+    <hr />
     <div class="col-md-8">
         <!-- Session Id Field -->
         <div class="form-group">
