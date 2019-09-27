@@ -9,6 +9,7 @@ use App\Http\Controllers\AppBaseController;
 use App\Mail\EmailSponsor;
 use Illuminate\Http\Request;
 use Flash;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Response;
@@ -62,9 +63,14 @@ class SponsorController extends AppBaseController
         $sponsor = $this->sponsorRepository->create($input);
 
         Flash::success('Sponsor saved successfully.');
-        
+        // Log::debug($request->all());
         Mail::to($request->email)->send(new EmailSponsor($request->fname));
-        return redirect(route('sponsors.index'));
+        if(Auth::check()){
+            return redirect(route('sponsors.index'));
+        }else {
+            return redirect()->to('/');
+        }
+       
     }
 
     /**

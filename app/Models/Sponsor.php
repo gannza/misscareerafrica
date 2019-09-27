@@ -34,7 +34,8 @@ class Sponsor extends Model
         'city',
         'province',
         'areas',
-        'comment'
+        'comment',
+        'country'
     ];
 
     /**
