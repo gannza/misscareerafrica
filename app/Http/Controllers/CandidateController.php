@@ -6,14 +6,17 @@ use App\Http\Requests\CreateCandidateRequest;
 use App\Http\Requests\UpdateCandidateRequest;
 use App\Repositories\CandidateRepository;
 use App\Http\Controllers\AppBaseController;
+use App\Mail\NotifyCandidadte;
 use Illuminate\Http\Request;
 use Flash;
+use Illuminate\Support\Facades\Mail;
 use Response;
 use App\Models\Session;
 use Log;
 
 class CandidateController extends AppBaseController
 {
+
     /** @var  CandidateRepository */
     private $candidateRepository;
 
@@ -75,7 +78,8 @@ class CandidateController extends AppBaseController
         $input['votes']=0;
       //  Log::info($input);
         $candidate = $this->candidateRepository->create($input);
-
+        //TODO: send email;
+        Mail::to( $request->email)->send(new NotifyCandidadte($request->fname));
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
     }
     /**
