@@ -199,8 +199,10 @@ $(document).ready(function() {
     var data = $(form).serializeArray();
 			$.ajax({
 				url:"/apply",
-				method:'GET',
-				data:data,
+				method:'POST',
+				data:new FormData(form),
+				contentType:false,
+				processData:false,
 				contentType:false,
 				processData:false,
 				success:function(data)

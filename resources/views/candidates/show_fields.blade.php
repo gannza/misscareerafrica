@@ -6,13 +6,13 @@
 
 <!-- Fname Field -->
 <div class="form-group">
-    {!! Form::label('fname', 'Fname:') !!}
+    {!! Form::label('fname', 'First name:') !!}
     <p>{!! $candidate->fname !!}</p>
 </div>
 
 <!-- Lname Field -->
 <div class="form-group">
-    {!! Form::label('lname', 'Lname:') !!}
+    {!! Form::label('lname', 'Last name:') !!}
     <p>{!! $candidate->lname !!}</p>
 </div>
 
@@ -66,7 +66,7 @@
 
 <!-- Level Education Field -->
 <div class="form-group">
-    {!! Form::label('level_education', 'Level Education:') !!}
+    {!! Form::label('level_education', 'Level of education:') !!}
     <p>{!! $candidate->level_education !!}</p>
 </div>
 
@@ -78,55 +78,55 @@
 
 <!-- Education Background Field -->
 <div class="form-group">
-    {!! Form::label('education_background', 'Education Background:') !!}
+    {!! Form::label('education_background', 'Briefly describe your education background (500 Max)') !!}
     <p>{!! $candidate->education_background !!}</p>
 </div>
 
 <!-- Current Occupation Field -->
 <div class="form-group">
-    {!! Form::label('current_occupation', 'Current Occupation:') !!}
+    {!! Form::label('current_occupation', 'Current Occupation') !!}
     <p>{!! $candidate->current_occupation !!}</p>
 </div>
 
 <!-- Q1 Field -->
 <div class="form-group">
-    {!! Form::label('q1', 'Q1:') !!}
+    {!! Form::label('q1', 'Q1. Tell us about yourself? (500 Max)') !!}
     <p>{!! $candidate->q1 !!}</p>
 </div>
 
 <!-- Q2 Field -->
 <div class="form-group">
-    {!! Form::label('q2', 'Q2:') !!}
+    {!! Form::label('q2', 'Q2. What is your next five years career plans? (500 Max)') !!}
     <p>{!! $candidate->q2 !!}</p>
 </div>
 
 <!-- Q3 Field -->
 <div class="form-group">
-    {!! Form::label('q3', 'Q3:') !!}
+    {!! Form::label('q3', 'Q3. What is your project name?') !!}
     <p>{!! $candidate->q3 !!}</p>
 </div>
 
 <!-- Q4 Field -->
 <div class="form-group">
-    {!! Form::label('q4', 'Q4:') !!}
+    {!! Form::label('q4', 'Q4. Describe your project? (500 Max)') !!}
     <p>{!! $candidate->q4 !!}</p>
 </div>
 
 <!-- Q5 Field -->
 <div class="form-group">
-    {!! Form::label('q5', 'Q5:') !!}
+    {!! Form::label('q5', 'Q5. How will you use the title to influence your community and africa at large once crowned Miss Career Africa? (500 Max)') !!}
     <p>{!! $candidate->q5 !!}</p>
 </div>
 
 <!-- Q6 Field -->
 <div class="form-group">
-    {!! Form::label('q6', 'Q6:') !!}
+    {!! Form::label('q6', 'Q6. Tell us why you deserve to be crowned Miss Career Africa? (500 Max)') !!}
     <p>{!! $candidate->q6 !!}</p>
 </div>
 
 <!-- Q7 Field -->
 <div class="form-group">
-    {!! Form::label('q7', 'Q7:') !!}
+    {!! Form::label('q7', 'Q7. Briefly describe your recent career achievements you are proud of? (500 Max)') !!}
     <p>{!! $candidate->q7 !!}</p>
 </div>
 
@@ -144,7 +144,7 @@
 
 <!-- Is Selected Field -->
 <div class="form-group">
-    {!! Form::label('is_selected', 'Is Selected:') !!}
+    {!! Form::label('is_selected', 'Is Candidate Selected:') !!}
     <p>{!! $candidate->is_selected !!}</p>
 </div>
 
