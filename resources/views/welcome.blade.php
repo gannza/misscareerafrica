@@ -16,7 +16,7 @@
 <meta name="author" content="Yegobox Team" />
 <meta name="csrf-token" content="{{ csrf_token() }}" />
 
-<!-- 
+<!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -80,7 +80,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 <body>
 
-	 
+
 <div id="fh5co-wrapper">
 <div id="fh5co-page">
 
@@ -93,7 +93,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: #000;font-weight:bold;font-size:16px">HOME</a></li>
@@ -119,6 +119,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
+                                    <li><a style="color: #000;font-weight:bold;font-size:16px" href="scholarship">SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -188,11 +189,11 @@ Facebook: 		https://www.facebook.com/yegobox
 
 									<hr>
 									<div style="text-align: center;font-size: 10px">
-											<p class="p" >It’s 21st Century and the light is illuminating in the corners of the Continent of Africa and Miss Career Africa wants to hold this flagship. 
+											<p class="p" >It’s 21st Century and the light is illuminating in the corners of the Continent of Africa and Miss Career Africa wants to hold this flagship.
 											The Miss Career Africa competition reflects a broad picture of how the keys of career, power and Future should be handed as well to the girls who are the next generation of mothers, teachers and professionals of all kinds.
 											<a href="history.html">read more...</a>
 											</p>
-											
+
 									</div>
 								</div>
 					</div>
@@ -202,31 +203,31 @@ Facebook: 		https://www.facebook.com/yegobox
 		background-size: cover;
 		background-position: center center;background-image: url(images/arrow_down_input.png);
 		position: relative;margin-left:0px;margin-right:0px; margin-bottom:40px; box-sizing: border-box;">
-			
+
 
 				<div class="col-md-12 mt-5" id="current_session"></div>
-		
+
 		</div>
 
 		<div  class="row mt-5 mb-5"  id="all_session" style="background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center center;background-image: url(images/arrow_down_input.png);
 		position: relative;margin-left:0px;margin-right:0px; margin-bottom:40px; box-sizing: border-box;">
-		
-		
+
+
 		</div>
 
-		
+
 
 		<div  class="row mt-5" style="position: relative; left: 2px; margin-top:10px; margin-bottom:35px; box-sizing: border-box;">
-			
+
 			<div class="col-md-4" style="background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;background-image: url(images/competition.jpg);height:380px">
 					<a class="title_link" href="competition">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">The Competition</h2>
 					</a>
-					
+
 			</div>
 
 			<div class="col-md-4" style="background-repeat: no-repeat;
@@ -235,7 +236,7 @@ Facebook: 		https://www.facebook.com/yegobox
 					<a class="title_link" href="job">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">The Job</h2>
 					</a>
-					
+
 			</div>
 
 
@@ -245,9 +246,9 @@ Facebook: 		https://www.facebook.com/yegobox
 					<a class="title_link" href="mission">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">Our Mission</h2>
 					</a>
-					
+
 			</div>
-		
+
 		</div>
 
 <div id="row mt-5"  style=" background-repeat: no-repeat;
@@ -257,13 +258,13 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 		<p class="text-center mt-3" style="color:white!important"><b style="color:white!important">Meet Our Sponsors and partners</b></h3>
 
 		<div class="row m-5">
-		
+
 			<div class="col-md-12 text-center">
 					<a class="title_link" href="https://www.microlendaustralia.com.au">
 						<img src="images/microland.png" class="img-rounded" style="width: 200px">
 						</a>
 			</div>
-			
+
 		</div>
 		<p class="text-center">
 			<a href="sponsor" class="btn btn-primary btn-lg">Become a Sponsor/Partner</a>
@@ -292,7 +293,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 				</li>
 			</ul>
 		</div>
-        
+
 	</div>
 	<div class="row">
 		<div class="col-12">
@@ -303,7 +304,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 							<li><a style="color: #fff; " href="competition">The Competition</a></li>
 							 <li><a style="color: #fff; " href="job">The Job</a></li>
 							<li><a style="color: #fff; " href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
 				<div class="col-md-3">
@@ -319,7 +320,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 						<li><a style="color: #fff; " href="blog">Our Blog</a></li>
 						<li><a style="color: #fff; " href="scope">Our Scope</a></li>
 						<li><a style="color: #fff; " href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 

@@ -2,12 +2,12 @@
     <body>
     Hello, {{$name}}
     <br>
-    Thank your for applying to become a misscareer.
+    Miss Career Africa is pleased you dared to apply.
     <br>
-    <br>
+    <!-- <br>
         We will notify you once you are selected.
     <br>
-    
+     -->
     <br>
 
     Best regards,<br>

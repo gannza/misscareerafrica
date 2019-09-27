@@ -116,6 +116,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
+									<li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
