@@ -68,7 +68,7 @@ class SponsorController extends AppBaseController
         if(Auth::check()){
             return redirect(route('sponsors.index'));
         }else {
-            return redirect()->to('/');
+            return redirect()->back();
         }
        
     }

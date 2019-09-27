@@ -87,3 +87,5 @@ Route::post('apply', 'CandidateController@candidateApplying');
 
 
 Route::resource('sponsors', 'SponsorController');
+
+Route::resource('volunteers', 'VolunteerController');
