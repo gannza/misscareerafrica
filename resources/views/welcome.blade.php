@@ -266,7 +266,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 			
 		</div>
 		<p class="text-center">
-			<a href="sponsor.html" class="btn btn-primary btn-lg">Become a Sponsor/Partner</a>
+			<a href="sponsor" class="btn btn-primary btn-lg">Become a Sponsor/Partner</a>
 		</p>
 
 </div>
@@ -292,6 +292,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 				</li>
 			</ul>
 		</div>
+        
 	</div>
 	<div class="row">
 		<div class="col-12">
