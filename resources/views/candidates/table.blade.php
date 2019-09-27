@@ -17,13 +17,7 @@
         <th>Former School Attended</th>
         <th>Education Background</th>
         <th>Current Occupation</th>
-        <th>Q1</th>
-        <th>Q2</th>
-        <th>Q3</th>
-        <th>Q4</th>
-        <th>Q5</th>
-        <th>Q6</th>
-        <th>Q7</th>
+    
         <th>Session Id</th>
         <th>Votes</th>
         <th>Is Selected</th>
@@ -48,16 +42,10 @@
             <td>{!! $candidate->former_school_attended !!}</td>
             <td>{!! $candidate->education_background !!}</td>
             <td>{!! $candidate->current_occupation !!}</td>
-            <td>{!! $candidate->q1 !!}</td>
-            <td>{!! $candidate->q2 !!}</td>
-            <td>{!! $candidate->q3 !!}</td>
-            <td>{!! $candidate->q4 !!}</td>
-            <td>{!! $candidate->q5 !!}</td>
-            <td>{!! $candidate->q6 !!}</td>
-            <td>{!! $candidate->q7 !!}</td>
+           
             <td>{!! $candidate->session_id !!}</td>
             <td>{!! $candidate->votes !!}</td>
-            <td>{!! $candidate->is_selected !!}</td>
+            <td>{!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</td>
                 <td>
                     {!! Form::open(['route' => ['candidates.destroy', $candidate->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>
