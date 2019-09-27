@@ -223,7 +223,7 @@ Facebook: 		https://www.facebook.com/yegobox
 			<div class="col-md-4" style="background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;background-image: url(images/competition.jpg);height:380px">
-					<a class="title_link" href="competition.html">
+					<a class="title_link" href="competition">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">The Competition</h2>
 					</a>
 					
@@ -232,7 +232,7 @@ Facebook: 		https://www.facebook.com/yegobox
 			<div class="col-md-4" style="background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;background-image: url(images/job.jpg);height:380px">
-					<a class="title_link" href="job.html">
+					<a class="title_link" href="job">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">The Job</h2>
 					</a>
 					
@@ -242,7 +242,7 @@ Facebook: 		https://www.facebook.com/yegobox
 			<div class="col-md-4" style="background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center center;background-image: url(images/mission.jpg);height:380px">
-					<a class="title_link" href="mission.html">
+					<a class="title_link" href="mission">
 						<h2 class="wpb_heading wpb_singleimage_heading text-center">Our Mission</h2>
 					</a>
 					
