@@ -11,3 +11,7 @@
     <a href="{!! route('sponsors.index') !!}"><i class="fa fa-edit"></i><span>Sponsors</span></a>
 </li>
 
+<li class="{{ Request::is('volunteers*') ? 'active' : '' }}">
+    <a href="{!! route('volunteers.index') !!}"><i class="fa fa-edit"></i><span>Volunteers</span></a>
+</li>
+
