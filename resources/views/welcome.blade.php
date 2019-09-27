@@ -96,24 +96,24 @@ Facebook: 		https://www.facebook.com/yegobox
 										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
-									<li><a href="/" style="color: #000; ;font-size:14px">HOME</a></li>
-									<li><a  style="color: #000; ;font-size:14px" href="#">MISS CAREER</a>
+									<li><a href="/" style="color: #000;font-weight:bold;font-size:16px">HOME</a></li>
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
 											<!-- <li><a href="#">Former Candidates</a></li> -->
 											<li><a href="candidate-application">Become a Candidate</a></li>
 										</ul>
 									</li>
-									<li><a style="color: #000; ;font-size:14px" href="eligibility">ELIGIBILITY</a></li>
+									<li><a style="color: #000;font-weight:bold;font-size:16px" href="eligibility">ELIGIBILITY</a></li>
 
-									<li><a   style="color: #000; ;font-size:14px" href="#">ORGANIZATION</a>
+									<li><a   style="color: #000;font-weight:bold;font-size:16px" href="#">ORGANIZATION</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="blog">Our Blog</a></li>
 											<li><a href="scope">Our scope</a></li>
 											<li><a href="contact">Contact Us</a></li>
 										</ul>
 									</li>
-									<li><a  style="color: #000; ;font-size:14px" href="#">SUPPORT</a>
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="#">SUPPORT</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="volunteer">Become a volunteer</a></li>
 											<li><a href="sponsor">Become a sponsor</a></li>
