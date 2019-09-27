@@ -30,7 +30,7 @@ class NotifyCandidadte extends Mailable
     {
         return $this->from(env('MAIL_FROM', ''))
             ->subject("Miss Career Application notification")
-            ->view('emails.miss.mail')
+            ->view('emails.notify')
             ->with([
                 'name' =>  $this->name
             ]);
