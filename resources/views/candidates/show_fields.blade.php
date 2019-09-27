@@ -1,79 +1,79 @@
 <!-- Id Field -->
 <div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{!! $candidate->id !!}</p>
+  
+    <p>  {!! Form::label('id', 'Id:') !!}: {!! $candidate->id !!}</p>
 </div>
 
 <!-- Fname Field -->
 <div class="form-group">
-    {!! Form::label('fname', 'First name:') !!}
-    <p>{!! $candidate->fname !!}</p>
+   
+    <p> {!! Form::label('fname', 'First name:') !!}: {!! $candidate->fname !!}</p>
 </div>
 
 <!-- Lname Field -->
 <div class="form-group">
-    {!! Form::label('lname', 'Last name:') !!}
-    <p>{!! $candidate->lname !!}</p>
+   
+    <p> {!! Form::label('lname', 'Last name:') !!}: {!! $candidate->lname !!}</p>
 </div>
 
 <!-- Email Field -->
 <div class="form-group">
-    {!! Form::label('email', 'Email:') !!}
-    <p>{!! $candidate->email !!}</p>
+   
+    <p> {!! Form::label('email', 'Email:') !!} : {!! $candidate->email !!}</p>
 </div>
 
 <!-- Dob Field -->
 <div class="form-group">
-    {!! Form::label('dob', 'Dob:') !!}
-    <p>{!! $candidate->dob !!}</p>
+   
+    <p> {!! Form::label('dob', 'Dob:') !!}: {!! $candidate->dob !!}</p>
 </div>
 
 <!-- Phone Code Field -->
 <div class="form-group">
-    {!! Form::label('phone_code', 'Phone Code:') !!}
-    <p>{!! $candidate->phone_code !!}</p>
+   
+    <p> {!! Form::label('phone_code', 'Phone Code:') !!}: {!! $candidate->phone_code !!}</p>
 </div>
 
 <!-- Phone Number Field -->
 <div class="form-group">
-    {!! Form::label('phone_number', 'Phone Number:') !!}
-    <p>{!! $candidate->phone_number !!}</p>
+   
+    <p> {!! Form::label('phone_number', 'Phone Number:') !!}: {!! $candidate->phone_number !!}</p>
 </div>
 
 <!-- Street Field -->
 <div class="form-group">
-    {!! Form::label('street', 'Street:') !!}
-    <p>{!! $candidate->street !!}</p>
+   
+    <p> {!! Form::label('street', 'Street:') !!}: {!! $candidate->street !!}</p>
 </div>
 
 <!-- City Field -->
 <div class="form-group">
-    {!! Form::label('city', 'City:') !!}
-    <p>{!! $candidate->city !!}</p>
+   
+    <p> {!! Form::label('city', 'City:') !!}: {!! $candidate->city !!}</p>
 </div>
 
 <!-- Province Field -->
 <div class="form-group">
-    {!! Form::label('province', 'Province:') !!}
-    <p>{!! $candidate->province !!}</p>
+    
+    <p>{!! Form::label('province', 'Province:') !!}: {!! $candidate->province !!}</p>
 </div>
 
 <!-- Country Field -->
 <div class="form-group">
-    {!! Form::label('country', 'Country:') !!}
-    <p>{!! $candidate->country !!}</p>
+   
+    <p> {!! Form::label('country', 'Country:') !!}: {!! $candidate->country !!}</p>
 </div>
 
 <!-- Level Education Field -->
 <div class="form-group">
-    {!! Form::label('level_education', 'Level of education:') !!}
-    <p>{!! $candidate->level_education !!}</p>
+  
+    <p>  {!! Form::label('level_education', 'Level of education:') !!}: {!! $candidate->level_education !!}</p>
 </div>
 
 <!-- Former School Attended Field -->
 <div class="form-group">
-    {!! Form::label('former_school_attended', 'Former School Attended:') !!}
-    <p>{!! $candidate->former_school_attended !!}</p>
+   
+    <p> {!! Form::label('former_school_attended', 'Former School Attended:') !!}: {!! $candidate->former_school_attended !!}</p>
 </div>
 
 <!-- Education Background Field -->
@@ -145,7 +145,7 @@
 <!-- Is Selected Field -->
 <div class="form-group">
     {!! Form::label('is_selected', 'Is Candidate Selected:') !!}
-    <p>{!! $candidate->is_selected !!}</p>
+    <p>{!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</p>
 </div>
 
 <!-- Created At Field -->
