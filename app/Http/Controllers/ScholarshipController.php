@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Response;
 use App\Mail\NotifyCandidadte;
+use Illuminate\Support\Facades\Mail;
 use Log;
 class ScholarshipController extends AppBaseController
 {
@@ -70,8 +71,8 @@ class ScholarshipController extends AppBaseController
     {
         $input = $request->all();
         $input['i_agree']=$input['i_agree']=='on'?1:0;
-        
-     
+
+
         $scholarship = $this->scholarshipRepository->create($input);
         Mail::to($request->email)->send(new NotifyCandidadte($request->fname));
         return $this->sendResponse($scholarship->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
