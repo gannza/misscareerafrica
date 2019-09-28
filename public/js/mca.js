@@ -223,4 +223,95 @@ $(document).ready(function() {
     }
   });
 
+
+  	$('form[id="scholarship_form"]').validate({
+    rules: {
+      fname: 'required',
+      lname: 'required',
+	  birth_date:'required',
+	  phone_number:'required',
+	  phone_code:'required',
+	  residence:'required',
+	  gender:'required',
+	  nationality:'required',
+	  national_ID_or_Passport_ID:'required',
+	  parents_or_guardian_name:'required',
+	  parents_guardian_contacts:'required',
+	  q1:{
+        required: true,
+		maxlength: 500
+      },  
+	  q2:{
+        required: true,
+        maxlength: 500
+      },
+	   q3:{
+        required: true,
+        maxlength: 500
+      },
+	  q4:{
+        required: true,
+        maxlength: 500
+      },
+          
+      email: {
+        required: true,
+        email: true,
+      }
+      
+    },
+    messages: {
+      fname: 'First name is required',
+      lname: 'Last name is required',
+      email: 'Enter a valid email',
+	  birth_date:'Birth Date is required',
+	  phone_number:'Phone number is required',
+	  phone_code:'Phone area code is required',
+	  residence:'Residence is required',
+	  gender:'Gender is required',
+	  nationality:'Nationality is required',
+	  national_ID_or_Passport_ID:'National ID / Passport ID is required',
+	  parents_or_guardian_name:'Parents / guardian name is required',
+	  parents_guardian_contacts:'Parents / guardian contacts is required',
+	  q1:'Please make sure words do not exceed 500 characters long.',
+	  q2:'Please make sure words do not exceed 500 characters long.',
+	  q3:'Please make sure words do not exceed 500 characters long.',
+      q4:'Please make sure words do not exceed 500 characters long.',
+    },
+    submitHandler: function(form) {
+     
+	$('.loading-overlay').show();
+	$('#submit').hide();
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+        }
+    });
+    var data = $(form).serializeArray();
+			$.ajax({
+				url:"/scholarship",
+				method:'POST',
+				data:new FormData(form),
+				contentType:false,
+				processData:false,
+				contentType:false,
+				processData:false,
+				success:function(data)
+				{
+                    $('.loading-overlay').hide();
+					if(data.success){
+					alert(data.message);
+					window.location.href="./";
+					$('#submit').show();
+					}
+					
+				},error:function(error)
+				{
+					console.log(error);
+				}
+			});
+	  
+    }
+  });
+
 });

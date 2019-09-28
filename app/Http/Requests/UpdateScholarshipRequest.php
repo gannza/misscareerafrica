@@ -3,9 +3,9 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use App\Models\Volunteer;
+use App\Models\Scholarship;
 
-class UpdateVolunteerRequest extends FormRequest
+class UpdateScholarshipRequest extends FormRequest
 {
 
     /**
@@ -25,6 +25,6 @@ class UpdateVolunteerRequest extends FormRequest
      */
     public function rules()
     {
-        return Volunteer::$rules;
+        return Scholarship::$rules;
     }
 }

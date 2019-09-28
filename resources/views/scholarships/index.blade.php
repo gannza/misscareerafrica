@@ -2,9 +2,9 @@
 
 @section('content')
     <section class="content-header">
-        <h1 class="pull-left">Volunteers</h1>
+        <h1 class="pull-left">Scholarships</h1>
         <h1 class="pull-right">
-           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('volunteers.create') !!}">Add New</a>
+           <a class="btn btn-primary pull-right" style="margin-top: -10px;margin-bottom: 5px" href="{!! route('scholarships.create') !!}">Add New</a>
         </h1>
     </section>
     <div class="content">
@@ -12,16 +12,15 @@
 
         @include('flash::message')
 
-        
         <div class="clearfix"></div>
         <div class="box box-primary">
             <div class="box-body">
-                    @include('volunteers.table')
+                    @include('scholarships.table')
             </div>
         </div>
         <div class="text-center">
         
-        @include('adminlte-templates::common.paginate', ['records' => $volunteers])
+        @include('adminlte-templates::common.paginate', ['records' => $scholarships])
 
         </div>
     </div>

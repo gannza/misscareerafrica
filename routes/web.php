@@ -65,7 +65,11 @@ Route::get('/contact', function () {
 Route::get('/eligibility', function () {
     return view('eligibility');
 });
+Route::get('/scholarship', function () {
+    return view('scholarship');
+});
 
+//
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
@@ -84,8 +88,13 @@ Route::resource('candidates', 'CandidateController');
 //
 Route::post('apply', 'CandidateController@candidateApplying');
 
-
+//
 
 Route::resource('sponsors', 'SponsorController');
 
 Route::resource('volunteers', 'VolunteerController');
+
+
+Route::resource('scholarships', 'ScholarshipController');
+
+Route::post('scholarship', 'ScholarshipController@scholarshipApplying');

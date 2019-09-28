@@ -59,7 +59,7 @@ class VolunteerController extends AppBaseController
 
         $volunteer = $this->volunteerRepository->create($input);
 
-        Flash::success('Thank you for applying to become volunteer we will get back to you. .');
+        Flash::success('Miss career is pleased that you are interested to be a part of this program, thank you!. .');
 
         if(Auth::check()){
             return redirect(route('volunteers.index'));

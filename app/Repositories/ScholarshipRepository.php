@@ -2,30 +2,38 @@
 
 namespace App\Repositories;
 
-use App\Models\Sponsor;
+use App\Models\Scholarship;
 use App\Repositories\BaseRepository;
 
 /**
- * Class SponsorRepository
+ * Class ScholarshipRepository
  * @package App\Repositories
- * @version September 27, 2019, 9:17 am UTC
+ * @version September 27, 2019, 1:59 pm UTC
 */
 
-class SponsorRepository extends BaseRepository
+class ScholarshipRepository extends BaseRepository
 {
     /**
      * @var array
      */
     protected $fieldSearchable = [
-        'id',
         'fname',
         'lname',
-        'em ail',
+        'email',
+        'birth_date',
+        'phone_code',
         'phone_number',
-        'street',
-        'city',
-        'province',
-        'areas'
+        'residence',
+        'gender',
+        'nationality',
+        'national_ID_or_Passport_ID',
+        'parents_or_guardian_name',
+        'parents_guardian_contacts',
+        'q1',
+        'q2',
+        'q3',
+        'q4',
+        'i_agree'
     ];
 
     /**
@@ -43,6 +51,6 @@ class SponsorRepository extends BaseRepository
      **/
     public function model()
     {
-        return Sponsor::class;
+        return Scholarship::class;
     }
 }

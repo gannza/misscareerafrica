@@ -9,13 +9,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Apply :: Miss Career Africa</title>
+	<title>Scholarship :: Miss Career Africa</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Miss Career" />
 	<meta name="keywords" content="Miss Career, yegobox, flipper" />
 	<meta name="author" content="Yegobox Team" />
 	<meta name="csrf-token" content="{{ csrf_token() }}" />
-	<!-- 
+	<!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -87,7 +87,7 @@ Facebook: 		https://www.facebook.com/yegobox
 	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 
-			
+
 			<div id="fh5co-header">
 
 				<header id="fh5co-header-section">
@@ -95,7 +95,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
@@ -121,7 +121,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
+                                    <li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -138,34 +138,34 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div
 							class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 							<div class="fh5co-intro fh5co-table-cell">
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			
+
 			<div id="fh5co-blog-section">
 				<div class="container" id="contact">
-					
-				<form id="applay_form" method="post" action="">
-					
-				
+
+				<form id="scholarship_form" method="post" action="">
+
+
 					<div class="row">
 						<div class="col-md-1"></div>
 
 						<div class="col-md-9">
 								<div class="col-md-12">
-										<h1><b>MISS CAREER AFRICA - APPLICATION FORM</b></h1>
-										<h1 class="text-center text-warning"><b>DEADLINE:25,Oct,2019</b></h1>
+										<h1><b>MISS CAREER AFRICA - SCHOLARSHIP FORM</b></h1>
+										<!-- <h1 class="text-center text-warning"><b>DEADLINE:25,Oct,2019</b></h1> -->
 										<hr />
 									</div>
-							
+
 							<div class="col-md-12">
 								<div class="row">
 									<div class="col-md-12">
-										<b>Personal Info</b>
+										<b>PERSONAL INFO</b>
 										<hr />
 									</div>
 									<div class="col-md-6">
@@ -188,8 +188,8 @@ Facebook: 		https://www.facebook.com/yegobox
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-											<label for="dob">Birth Date</label>
-											<input type="date" class="form-control" id="dob" name="dob" placeholder="Birth Date">
+											<label for="birth_date">Birth Date</label>
+											<input type="date" class="form-control" id="birth_date" name="birth_date" placeholder="Birth Date">
 										</div>
 									</div>
 
@@ -475,68 +475,57 @@ Facebook: 		https://www.facebook.com/yegobox
 
 									<input type="hidden" name="_token" id="token" value="{{ csrf_token() }}">
 
-
+                                    <div class="col-md-6">
+										<div class="form-group">
+												<label for="residence">Residence</label>
+											<input type="text" class="form-control" id="residence" name="residence" placeholder="Residence">
+										</div>
+									</div>
+                                    <div class="col-md-6">
+										<div class="form-group">
+												<label for="gender">Gender</label>
+                                                <select class="form-control" id="gender" name="gender" placeholder="Gender">
+                                                <option value="Female">Female</option>
+                                                    <option value="Male">Male</option>
+                                                </select>
+										</div>
+									</div>
 
 									<div class="col-md-6">
 										<div class="form-group">
-												<label for="street">Street Address</label>
-											<input type="text" class="form-control" id="street" name="street" placeholder="Street Address">
+												<label for="nationality">Nationality</label>
+											<input type="text" class="form-control" id="nationality" name="nationality" placeholder="Nationality">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-												<label for="city">City</label>
-											<input type="text" class="form-control"  id="city" name="city" placeholder="City">
+												<label for="national_ID_or_Passport_ID">National ID/ Passport number</label>
+											<input type="text" class="form-control"  id="national_ID_or_Passport_ID" name="national_ID_or_Passport_ID" placeholder="National ID/ Passport number">
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
-												<label for="province">Province</label>
-											<input type="text" class="form-control" id="province" name="province" placeholder="Province">
+												<label for="parents_or_guardian_name">Parents / Guardian’s Name</label>
+											<input type="text" class="form-control" id="parents_or_guardian_name" name="parents_or_guardian_name" placeholder="Parents / Guardian’s Name">
 										</div>
 									</div>
 									<div class="col-md-6">
 											<div class="form-group">
-													<label for="country">Country</label>
-												<input type="text" class="form-control" id="country" name="country" placeholder="Country">
+													<label for="parents_guardian_contacts">Parents / Guardian’s Contacts</label>
+												<input type="text" class="form-control" id="parents_guardian_contacts" name="parents_guardian_contacts" placeholder="Parents / Guardian’s Contacts">
 											</div>
 										</div>
-									<div class="col-md-6">
-											<div class="form-group">
-													<label for="level_education">Level of education</label>
-													<input type="text" class="form-control" id="level_education" name="level_education" placeholder="Level">
-											</div>
-										</div>
-										<div class="col-md-6">
-												<div class="form-group">
-														<label for="former_school_attended">Former School Attended</label>
-														<input type="text" class="form-control" id="former_school_attended" name="former_school_attended" placeholder="Former School Attended">
-												</div>
-											</div>
-											<div class="col-md-12">
-													<div class="form-group">
-															<label for="education_background">Briefly describe your education background (500 Max)</label>
-														<textarea type="text" id="education_background" name="education_background" class="form-control"
-															placeholder=""></textarea>
-													</div>
-												</div>
 
-											<div class="col-md-12">
-													<div class="form-group">
-															<label for="current_occupation">Current Occupation</label>
-															<input type="text" class="form-control" id="current_occupation" name="current_occupation" placeholder="Current Occupation">
-													</div>
-												</div>
 
 									<div class="col-md-12">
 											<hr />
-											<b>MISS CAREER AFRICA COMPETITION SECTION</b>
+											<b>FILL IN THE ESSAY FOR THE FOLLOWING QUESTIONS</b>
 										<hr />
 									</div>
 
 									<div class="col-md-12">
 										<div class="form-group">
-												<label for="q1">Q1. Tell us about yourself? (500 Max)</label>
+												<label for="q1">Q1. Tell us about yourself ? (500 max)</label>
 											<textarea type="text" id="q1"  name="q1" class="form-control"
 												placeholder=""></textarea>
 										</div>
@@ -544,47 +533,38 @@ Facebook: 		https://www.facebook.com/yegobox
 
 									<div class="col-md-12">
 											<div class="form-group">
-													<label for="q2">Q2. What is your next five years career plans? (500 Max)</label>
+													<label for="q2">Q2. Why do you desire to have this Scholarship? (500 Max)</label>
 												<textarea type="text" id="q2"  name="q2" maxlength="501" class="form-control"
 													placeholder=""></textarea>
 											</div>
 										</div>
 
-										<div class="col-md-12">
-												<div class="form-group">
-														<label for="q3">Q3. What is your project name?</label>
-														<input type="text" class="form-control" id="q3" name="q3" placeholder="Your project name">
-												</div>
-											</div>
 											<div class="col-md-12">
 													<div class="form-group">
-															<label for='q4'>Q4. Describe your project? (500 Max)</label>
-														<textarea type="text" id="q4"  name="q4" maxlength="501" class="form-control"
+															<label for='q3'>Q3. Tell us about any challenge or obstacle you have dealt with and overcome in life and how it helped you or your society (500 max)</label>
+														<textarea type="text" id="q3"  name="q3" maxlength="501" class="form-control"
 															placeholder=""></textarea>
 													</div>
 												</div>
 
 												<div class="col-md-12">
 														<div class="form-group">
-																<label for="q5">Q5. How will you use the title to influence your community and africa at large once crowned Miss Career Africa? (500 Max)</label>
-															<textarea type="text" id="q5"  name="q5" maxlength="501" class="form-control"
+																<label for="q4">Q4. If you stand a chance to win for this Scholarship, what are your future plans after its completion? (500 max)</label>
+															<textarea type="text" id="q4"  name="q4" maxlength="501" class="form-control"
 																placeholder=""></textarea>
 														</div>
 													</div>
 
 													<div class="col-md-12">
 															<div class="form-group">
-																	<label for="q6">Q6. Tell us why you deserve to be crowned Miss Career Africa? (500 Max)</label>
-																<textarea type="text" id="q6"  name="q6" maxlength="501" class="form-control"
-																	placeholder=""></textarea>
+                                                            <b>I hereby affirm that the above stated information provided by me is true and correct to the best of my knowledge
+I also consent that if chosen as a scholarship winner, my picture may be taken and used to promote the scholarship program.</b>
 															</div>
 														</div>
 
 														<div class="col-md-12">
 																<div class="form-group">
-																		<label for="q7">Q7. Briefly describe your recent career achievements you are proud of? (500 Max)</label>
-																	<textarea type="text" id="q7"  name="q7" maxlength="501" class="form-control"
-																		placeholder=""></textarea>
+                                                                <input type="checkbox"  id="i_agree" name="i_agree" checked> <b>I agree.</b>
 																</div>
 															</div>
 
@@ -647,7 +627,7 @@ Facebook: 		https://www.facebook.com/yegobox
 							<li><a style="color: white;" href="competition">The Competition</a></li>
 							 <li><a style="color: white;" href="job">The Job</a></li>
 							<li><a style="color: white;" href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
 				<div class="col-md-3">
@@ -663,7 +643,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<li><a style="color: white;" href="blog">Our Blog</a></li>
 						<li><a style="color: white;" href="scope">Our Scope</a></li>
 						<li><a style="color: white;" href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 
@@ -720,7 +700,7 @@ Facebook: 		https://www.facebook.com/yegobox
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Google Map -->
-	
+
 	<script src="js/custom.js"></script>
 	<script src="js/mca.js"></script>
 
