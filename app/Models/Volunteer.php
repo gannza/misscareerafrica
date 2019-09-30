@@ -33,7 +33,8 @@ class Volunteer extends Model
         'street',
         'city',
         'province',
-        'areas_of_help'
+        'areas_of_help',
+        'email'
     ];
 
     /**
@@ -59,7 +60,8 @@ class Volunteer extends Model
      * @var array
      */
     public static $rules = [
-        
+        'email'=>'required',
+        'phone_number'=> 'required'
     ];
 
     

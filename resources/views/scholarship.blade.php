@@ -99,13 +99,14 @@ Facebook: 		https://www.facebook.com/yegobox
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
+									<li><a class="active" href="candidate-application">APPLY NOW</a></li>
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
-											<!-- <li><a href="#">Former Candidates</a></li> -->
 											<li><a href="candidate-application">Become a Candidate</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: white;" href="#">ORGANIZATION</a>
@@ -121,7 +122,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-                                    <li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
+									<li><a  href="scholarship" style="color: #000;font-weight:bold;font-size:16px">MCA Scholarship</a></li>
 								</ul>
 							</nav>
 						</div>
