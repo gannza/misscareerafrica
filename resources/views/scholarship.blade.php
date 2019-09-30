@@ -131,7 +131,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 			</div>
 			<!-- end:fh5co-header -->
-			<div class="fh5co-parallax" style="background-image: url(images/apply.jpg);"
+			<div class="fh5co-parallax" style="background-image: url(images/sholarship.jpeg);"
 				data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
