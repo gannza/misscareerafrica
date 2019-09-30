@@ -307,10 +307,12 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 				<div class="col-md-3">
 						<h3><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
-							<li><a style="color: #fff; " href="#">Book Miss Career Africa</a></li>
-							<li><a style="color: #fff; " href="candidate-application">Become a Candidate</a></li>
+							<li><a style="color: #fff; " href="candidate-application">APPLY NOW</a></li>
+							<li><a style="color: #fff; " href="selected-candidates">CANDIDATES</a></li>
 						</ul>
-					</div>
+				</div>
+
+					
 				<div class="col-md-3">
 					<h3><b>ORGANIZATION</b></h3>
 					<ul class="link">
@@ -326,6 +328,7 @@ background-position: 50% 20%;margin-top: -15px;background-image: url(images/tab_
 						<ul class="link">
 								<li><a style="color: #fff; " href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: #fff; " href="sponsor">Become a sponsor</a></li>
+								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
 						</ul>
 					</div>
 

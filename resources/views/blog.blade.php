@@ -97,12 +97,7 @@ Facebook: 		https://www.facebook.com/yegobox
 									<li><a class="active"  href="candidate-application">APPLY NOW</a></li>
 									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
 									
-									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#">Book Miss Career</a></li>
-											<li><a href="candidate-application">Become a Candidate</a></li>
-										</ul>
-									</li> -->
+								
 									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: white;" href="#">ORGANIZATION</a>
@@ -146,82 +141,6 @@ Facebook: 		https://www.facebook.com/yegobox
 	</div>
 </div>
 
-
-	<!-- <div id="fh5co-blog-section">
-		<div class="container" id="blog">
-			<div class="row">
-					<div class="col-md-6">
-							<img src="images/slider1.jpg" class="img-responsive img-rounded" alt="Image">
-					</div>
-					<div class="col-md-6">
-						<h1 class="heading">Where are Africa and the world in general heading?</h1>
-						<p style="color: #252525!important;">
-								Africa and the world at large being on to the track of development within different sectors seeing leaders in different spheres come together by bring up various Strategies to tackle every possible way to achieve this, the concept has been agreed that this can only be built on inclusivity of women through empowerment and participation to achieve the goal with no debts.
-						</p>
-						<h3>What’s our role in this journey?</h3>
-						<p style="color: #252525!important;">
-								In this context we have to raise a new breed of young women who are exclusive entrepreneurs, stellar CEOs, innovative and transformative leaders, so that many can be open sighted to this booster project of not only the present but also the future generation.
-						</p>
-					
-					
-					</div>
-				</div>
-
-				<hr />
-				<div class="row">
-						<div class="col-md-6">
-								<img src="images/slider3.jpg" class="img-responsive img-rounded" alt="Image">
-							</div>
-							
-						<div class="col-md-6">
-							<h1 class="heading"> What is the buttom line?</h1>
-							<p style="color: #252525!important;">
-									After the 2 years’ experience mostly working with Africa New Life in training their college girls under the program dubbed “Esther College Scholarship”, All Trust Consult in partnership with decide X group launched a program we called “Miss Career Africa”. Miss Career Africa has been established as a stepping stone to uplift the dreams of young girls to be able to engage in boosting developmental sectors.<br />
-									The young women who were involved in the trainings have made a significant difference in people’s lives through their academics, charitable and community service endeavors, therefore there was a need of using platform as Miss Career Africa for thousands to be reached out to not only to educate but also find innovative and creative solutions in all sectors of development millions of Africans on issues facing our respective nation countries.
-							</p>
-						
-							
-						</div>
-						
-					</div>
-					<hr />
-				<div class="row">
-						<div class="col-md-6">
-								<img src="images/MISS CAREER AFRICA-01-01.png" class="img-responsive img-rounded" alt="Image">
-						</div>
-						<div class="col-md-6">
-							<h1 class="heading">Why Miss Career Africa for this cause?</h1>
-							<p style="color: #252525!important;">
-									The Miss Career Africa is more than a crown given or a title earned; it’s a movement that goes beyond empowering young women everywhere to dream big, to insist that they shouldn’t hold their voices to be heard, creativity and innovation  to inspire change in the world around them. 
-									Referring to the training young women of Esther College Scholarship, the impact is expected more to other African regions in technology, infrastructure, medicine, engineering and governmental position of interest mention other career spheres Miss Career Africa is the bridge to link these dreams with the lady dreamers. <br />
-									And this is how the ideal of start come up to open doors to the generation bears of Africa to venture into their dreams
-							</p>
-						
-							
-						</div>
-					</div>
-
-					<hr />
-				<div class="row">
-						<div class="col-md-6">
-								<img src="images/valunteer.jpg" class="img-responsive img-rounded" alt="Image">
-						</div>
-						<div class="col-md-6">
-							<h1 class="heading">What’s the way forward?</h1>
-							<p style="color: #252525!important;">
-									Miss Career Africa has the vision to recognize the best performing girls in their respective careers across Africa. But more so, it exists to engage more girls in in deep technology, science, innovation and climb the corporate ladders and take senior leadership positions in the 21st century.
-
-Therefore, as Miss Career Africa will be a three month ongoing event in different Countries and in different regions of Africa with career contest & campaign exclusively for girls from Secondary Schools, fresh graduates and High learning Institutions all aging from 17-23 years, we recommend to play a role in this movement to make the Africa we want with the difference we have to make for the sake of inclusivity development.
-							</p>
-						
-							
-						</div>
-					</div>
-					<br />
-					
-		</div>
-	</div> -->
-
 		
 <footer id="footer" class="fh5co-bg-color">
 <div class="container">
@@ -257,10 +176,10 @@ Therefore, as Miss Career Africa will be a three month ongoing event in differen
 				<div class="col-md-3">
 						<h3><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
-							<li><a style="color: white;" href="#">Book Miss Career Africa</a></li>
-							<li><a style="color: white;" href="candidate-application">Become a Candidate</a></li>
+							<li><a style="color: #fff; " href="candidate-application">APPLY NOW</a></li>
+							<li><a style="color: #fff; " href="selected-candidates">CANDIDATES</a></li>
 						</ul>
-					</div>
+				</div>
 				<div class="col-md-3">
 					<h3><b>ORGANIZATION</b></h3>
 					<ul class="link">
@@ -276,6 +195,7 @@ Therefore, as Miss Career Africa will be a three month ongoing event in differen
 						<ul class="link">
 								<li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
+								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
 						</ul>
 					</div>
 
