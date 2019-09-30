@@ -22,7 +22,7 @@ function loadCurrentSession(){
             if(response.success){
 
                 const data=response.data;
-                if(data){
+                if(data.is_current_applying){
                     var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">CANDIDATE</a>':'';
                     row=` <div class="card">
                     <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
@@ -52,6 +52,7 @@ function loadCurrentSession(){
                     }
 
                 }else{
+                    $('.can-voting').hide();
                     $('.apply').hide();
                 }
 

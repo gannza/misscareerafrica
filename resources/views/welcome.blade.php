@@ -93,30 +93,30 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span>
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
-									<li><a href="/" style="color: #000;font-weight:bold;font-size:16px">HOME</a></li>
-									<li><a class="active"  style="color: #000;font-weight:bold;font-size:16px" href="candidate-application">APPLY NOW</a></li>
+									<li><a href="/" style="color: #000;font-weight:bold;">HOME</a></li>
+									<li><a class="active apply"  style="color: #000;font-weight:bold;" href="candidate-application">APPLY NOW</a></li>
 
-									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+									<li><a class="can-voting" style="color: #000;font-weight:bold;" href="selected-candidates">CANDIDATES</a></li>
 
-									<li><a style="color: #000;font-weight:bold;font-size:16px" href="eligibility">ELIGIBILITY</a></li>
+									<li><a style="color: #000;font-weight:bold;" href="eligibility">ELIGIBILITY</a></li>
 
-									<li><a   style="color: #000;font-weight:bold;font-size:16px" href="#">ORGANIZATION</a>
+									<li><a   style="color: #000;font-weight:bold;" href="#">ORGANIZATION</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="blog">Our Blog</a></li>
 											<li><a href="scope">Our scope</a></li>
 											<li><a href="contact">Contact Us</a></li>
 										</ul>
 									</li>
-									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="#">SUPPORT</a>
+									<li><a  style="color: #000;font-weight:bold;" href="#">SUPPORT</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="volunteer">Become a volunteer</a></li>
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-                                    <li><a  href="scholarship" style="color: #000;font-weight:bold;font-size:16px">MCA Scholarship</a></li>
+                                    <li><a  href="scholarship" style="color: #000;font-weight:bold;">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>

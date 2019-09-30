@@ -38,48 +38,41 @@ Facebook: 		https://www.facebook.com/yegobox
     <meta name="twitter:card" content="" />
 
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
 
-    <!-- Stylesheets -->
-    <!-- Dropdown Menu -->
-    <link rel="stylesheet" href="css/superfish.css">
-    <!-- Owl Slider -->
-    <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
-    <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
-    <!-- Date Picker -->
-    <!-- Style -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-    <!-- CS Select -->
-    <link rel="stylesheet" href="css/cs-select.css">
-    <link rel="stylesheet" href="css/cs-skin-border.css">
+<!-- Stylesheets -->
+<!-- Dropdown Menu -->
+<link rel="stylesheet" href="css/superfish.css">
+<!-- Owl Slider -->
+<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+<!-- Date Picker -->
+<!-- Style -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+<!-- CS Select -->
+<link rel="stylesheet" href="css/cs-select.css">
+<link rel="stylesheet" href="css/cs-skin-border.css">
 
+<!-- Themify Icons -->
+<link rel="stylesheet" href="css/themify-icons.css">
+<!-- Flat Icon -->
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- Icomoon -->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Flexslider  -->
+<link rel="stylesheet" href="css/flexslider.css">
 
-    <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- Flat Icon -->
-    <link rel="stylesheet" href="css/flaticon.css">
-    <!-- Icomoon -->
-    <link rel="stylesheet" href="css/icomoon.css">
-    <!-- Flexslider  -->
-    <link rel="stylesheet" href="css/flexslider.css">
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css">
 
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <style>
-        ul>li>a {
-            color: white;
-        }
-
-    </style>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+<script src="js/respond.min.js"></script>
 <![endif]-->
 
 </head>
@@ -96,12 +89,12 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span>
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a  class="active"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
 									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
@@ -123,7 +116,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
+									<li><a  style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>

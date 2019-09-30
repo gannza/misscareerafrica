@@ -15,7 +15,7 @@
 <meta name="keywords" content="Miss Career, yegobox, flipper" />
 <meta name="author" content="Yegobox Team" />
 
-<!-- 
+<!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -90,12 +90,12 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a class="active"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
 									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
@@ -117,7 +117,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a  href="scholarship" style="color: #000;font-weight:bold;font-size:16px">MCA Scholarship</a></li>
+									<li><a  style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -135,8 +135,8 @@ Facebook: 		https://www.facebook.com/yegobox
 				class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 				<div class="fh5co-intro fh5co-table-cell">
 					<br /><br /><br /><br />
-					
-					
+
+
 				</div>
 			</div>
 		</div>
@@ -154,12 +154,12 @@ Facebook: 		https://www.facebook.com/yegobox
 							</p>
 
 							<p style="color: #252525!important;">
-									The Miss Career Africa   is inspired to partnering with like-minded organizations that exist to place power in the hands of young women. 
+									The Miss Career Africa   is inspired to partnering with like-minded organizations that exist to place power in the hands of young women.
 									For more information, please call 0784872667 or email info@missacareerafrica.com
 							</p>
 
-							
-							
+
+
 						</div>
 					<div class="col-md-5">
 							<div class="col-md-12">
@@ -181,16 +181,16 @@ Facebook: 		https://www.facebook.com/yegobox
 								</div>
 							</div>
 						</div>
-							
+
 						</div>
 					</div>
 				</div>
-		
-					
+
+
 		</div>
 	</div>
 
-	
+
 <footer id="footer" class="fh5co-bg-color">
 <div class="container">
 
@@ -219,7 +219,7 @@ Facebook: 		https://www.facebook.com/yegobox
 							<li><a style="color: white;" href="competition">The Competition</a></li>
 							 <li><a style="color: white;" href="job">The Job</a></li>
 							<li><a style="color: white;" href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
 				<div class="col-md-3">
@@ -235,7 +235,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<li><a style="color: white;" href="blog">Our Blog</a></li>
 						<li><a style="color: white;" href="scope">Our Scope</a></li>
 						<li><a style="color: white;" href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 

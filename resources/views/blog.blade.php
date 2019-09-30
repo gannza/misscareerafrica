@@ -15,7 +15,7 @@
 <meta name="keywords" content="Miss Career, yegobox, flipper" />
 <meta name="author" content="Yegobox Team" />
 
-<!-- 
+<!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -90,13 +90,13 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a class="active"  href="candidate-application">APPLY NOW</a></li>
-									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
-									
+                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+
 									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
@@ -118,7 +118,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a  href="scholarship" style="color: #000;font-weight:bold;font-size:16px">MCA Scholarship</a></li>
+									<li><a style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -138,7 +138,7 @@ Facebook: 		https://www.facebook.com/yegobox
 					<br /><br /><br /><br />
 					<h1 class="text-center h1">OUR BLOG</h1>
 					<!-- <h1 class="text-center h1">YOUNG WOMEN AT THE LEAD</h1> -->
-					
+
 					<h1 class="text-center h1">Coming soon ....</h1>
 				</div>
 			</div>
@@ -162,8 +162,8 @@ Facebook: 		https://www.facebook.com/yegobox
 						<p style="color: #252525!important;">
 								In this context we have to raise a new breed of young women who are exclusive entrepreneurs, stellar CEOs, innovative and transformative leaders, so that many can be open sighted to this booster project of not only the present but also the future generation.
 						</p>
-					
-					
+
+
 					</div>
 				</div>
 
@@ -172,17 +172,17 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="col-md-6">
 								<img src="images/slider3.jpg" class="img-responsive img-rounded" alt="Image">
 							</div>
-							
+
 						<div class="col-md-6">
 							<h1 class="heading"> What is the buttom line?</h1>
 							<p style="color: #252525!important;">
 									After the 2 years’ experience mostly working with Africa New Life in training their college girls under the program dubbed “Esther College Scholarship”, All Trust Consult in partnership with decide X group launched a program we called “Miss Career Africa”. Miss Career Africa has been established as a stepping stone to uplift the dreams of young girls to be able to engage in boosting developmental sectors.<br />
 									The young women who were involved in the trainings have made a significant difference in people’s lives through their academics, charitable and community service endeavors, therefore there was a need of using platform as Miss Career Africa for thousands to be reached out to not only to educate but also find innovative and creative solutions in all sectors of development millions of Africans on issues facing our respective nation countries.
 							</p>
-						
-							
+
+
 						</div>
-						
+
 					</div>
 					<hr />
 				<div class="row">
@@ -192,12 +192,12 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="col-md-6">
 							<h1 class="heading">Why Miss Career Africa for this cause?</h1>
 							<p style="color: #252525!important;">
-									The Miss Career Africa is more than a crown given or a title earned; it’s a movement that goes beyond empowering young women everywhere to dream big, to insist that they shouldn’t hold their voices to be heard, creativity and innovation  to inspire change in the world around them. 
+									The Miss Career Africa is more than a crown given or a title earned; it’s a movement that goes beyond empowering young women everywhere to dream big, to insist that they shouldn’t hold their voices to be heard, creativity and innovation  to inspire change in the world around them.
 									Referring to the training young women of Esther College Scholarship, the impact is expected more to other African regions in technology, infrastructure, medicine, engineering and governmental position of interest mention other career spheres Miss Career Africa is the bridge to link these dreams with the lady dreamers. <br />
 									And this is how the ideal of start come up to open doors to the generation bears of Africa to venture into their dreams
 							</p>
-						
-							
+
+
 						</div>
 					</div>
 
@@ -213,16 +213,16 @@ Facebook: 		https://www.facebook.com/yegobox
 
 Therefore, as Miss Career Africa will be a three month ongoing event in different Countries and in different regions of Africa with career contest & campaign exclusively for girls from Secondary Schools, fresh graduates and High learning Institutions all aging from 17-23 years, we recommend to play a role in this movement to make the Africa we want with the difference we have to make for the sake of inclusivity development.
 							</p>
-						
-							
+
+
 						</div>
 					</div>
 					<br />
-					
+
 		</div>
 	</div> -->
 
-		
+
 <footer id="footer" class="fh5co-bg-color">
 <div class="container">
 
@@ -251,7 +251,7 @@ Therefore, as Miss Career Africa will be a three month ongoing event in differen
 							<li><a style="color: white;" href="competition">The Competition</a></li>
 							 <li><a style="color: white;" href="job">The Job</a></li>
 							<li><a style="color: white;" href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
 				<div class="col-md-3">
@@ -267,7 +267,7 @@ Therefore, as Miss Career Africa will be a three month ongoing event in differen
 						<li><a style="color: white;" href="blog">Our Blog</a></li>
 						<li><a style="color: white;" href="scope">Our Scope</a></li>
 						<li><a style="color: white;" href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 
