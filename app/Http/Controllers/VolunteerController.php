@@ -64,7 +64,7 @@ class VolunteerController extends AppBaseController
         Flash::success('Miss career is pleased that you are interested to be a part of this program, thank you!. .');
 
         //send email
-        Log::debug($request->all());
+        //Log::debug($request->all());
         Mail::to($request->email)->send(new NotifyVolunteer($request->fname));
         if(Auth::check()){
             return redirect(route('volunteers.index'));
