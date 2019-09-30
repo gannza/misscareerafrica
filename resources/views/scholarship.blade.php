@@ -154,9 +154,16 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
 					<div class="row">
-						<div class="col-md-1"></div>
+						<div class="col-md-6">
+							<p   style="color: #252525!important;">The mission of the Miss Career Africa Scholarship Program is to create a movement of over 250,000 African professional women in the next 100 years through ongoing and transformational locally organized trainings and career guidance and life skills around: Access to the global education touch, advanced leadership, high end corporate communication skills, Business perspectives and entrepreneurship, Spiritual Growth and Mental health education. A package they will feed on a regular basis through workshops, cohorts, conferences, competitions like Miss Career Africa, fellowships and Online courses that will be developed in the nearest future. This program will provide minimum of 5000 scholarships to the Africa’s girls for further education abroad and in their regions across Africa where education is decent. This program aims at transforming these Africa’s female beacons into grounded souls, globally-educated young female leaders in Africa with the tenacity, sagacity and seniority to run the next Africa’s biggest corporations, organizations, churches, ministries, countries and more so, run their homes successfully and so, Gloom and Nurture the next generations of Africa.  
+The Miss Career Scholars will be challenged to take up leadership positions in their respective communities, establish startup companies, run social programs, and run for political positions, hold the keys to the power rooms and run the shows. They are expected to transform their communities and accelerate growth in their countries. The Miss Career Africa Scholarship program selects the most gifted high school and university drop outs and is encouraged to run as Candidates of Miss Career Africa Contest. Another portion of these amazing young female professionals are directly Recommended girls by their respective schools and few others recommended by the local leaderships, and organizations, and Churches. Their education results, extracurricular achievements, leadership traits and level of their character and personal values determine their chance to win this most competitive Africa’s scholarships exclusively for young women leaders in their respective communities. Those various items put together help them earn scholarships to study abroad and in other various regional universities, and equips them to kick start their careers back in their respective African communities. 
+Since 2019-2020, Miss Career Africa Scholarship Program will help provide over 30 scholarships to most deserving- talented girls from the Eastern Africa region (Rwanda, Burundi, Uganda, Kenya, Tanzania, Democratic Republic of Congo and South Sudan equivalent of over $5 million in scholarships to top notch 15 universities abroad and in Africa. 
+For the first 12 months of the program, Scholars immerse themselves in Miss Career Africa’s rigorous Career Guidance cohort offered by All Trust Consult, Business Modeling Program offered by Australian Partner organization dubbed Microlend Australian and leadership courses all offered at the Entrepreneurship Incubation Center located at the HomeX  Garden  on the campus of the DecideX Group & All Trust Consult offices. Scholars are required to make a full-time commitment to the Career Guidance and Entrepreneurship Academy without any guarantee they will be awarded a university scholarship. In addition, they sign a written commitment that if they are awarded an international or regional scholarship they will return to work in their respective countries after their university graduation. In addition to academic performance and English language skills, the selection process considers leadership potential, Entrepreneurial capabilities, people skills, spiritual depth/Character and the student’s desire to make a difference in her country.  
+Those who fail to win scholarships in the end, 
+They have access to…</p>
+						</div>
 
-						<div class="col-md-9">
+						<div class="col-md-6">
 								<div class="col-md-12">
 										<h1><b>MISS CAREER AFRICA - SCHOLARSHIP FORM</b></h1>
 										<!-- <h1 class="text-center text-warning"><b>DEADLINE:25,Oct,2019</b></h1> -->
@@ -589,7 +596,7 @@ I also consent that if chosen as a scholarship winner, my picture may be taken a
 
 							</div>
 						</div>
-						<div class="col-md-1"></div>
+					
 					</div>
 					</form>
 				</div>
