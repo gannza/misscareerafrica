@@ -93,14 +93,9 @@ Facebook: 		https://www.facebook.com/yegobox
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
-									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#">Book Miss Career</a></li>
-											<li><a href="candidate-application">Become a Candidate</a></li>
-										</ul>
-									</li> -->
+									<li><a  class="active"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+
 									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: white;" href="#">ORGANIZATION</a>
@@ -645,13 +640,13 @@ Facebook: 		https://www.facebook.com/yegobox
 
 						</ul>
 				</div>
-				<div class="col-md-3">
-						<h3><b>MISS CARRER CANDIDATE</b></h3>
+                <div class="col-md-3">
+						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
-							<li><a style="color: white;" href="#">Book Miss Career Africa</a></li>
-							<li><a style="color: white;" href="candidate-application">Become a Candidate</a></li>
+							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
+							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
 						</ul>
-					</div>
+				</div>
 				<div class="col-md-3">
 					<h3><b>ORGANIZATION</b></h3>
 					<ul class="link">
@@ -667,6 +662,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<ul class="link">
 								<li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
+								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
 						</ul>
 					</div>
 
