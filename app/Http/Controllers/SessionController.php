@@ -90,7 +90,7 @@ class SessionController extends AppBaseController
 
     public function listSessions(){
         $session = Session::where('is_current_applying',0)->orderBy('numbering', 'ASC')->get();
-       
+
         return $this->sendResponse(count($session) > 0?$session->toArray():[], 'Session saved successfully');
     }
 
@@ -108,7 +108,7 @@ class SessionController extends AppBaseController
         if (empty($session)) {
             Flash::error('Session not found');
 
-            return redirect(route('sessions.index'));
+             return redirect(route('sessions.index'));
         }
 
         return view('sessions.edit')->with('session', $session);

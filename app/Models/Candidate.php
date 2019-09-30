@@ -37,7 +37,7 @@ class Candidate extends Model
 {
 
     public $table = 'candidates';
-    
+
 
 
     public $fillable = [
@@ -63,7 +63,8 @@ class Candidate extends Model
         'q6',
         'q7',
         'session_id',
-        'is_selected'
+        'is_selected',
+        'votes'
     ];
 
     /**
@@ -98,8 +99,8 @@ class Candidate extends Model
      * @var array
      */
     public static $rules = [
-        
+
     ];
 
-    
+
 }
