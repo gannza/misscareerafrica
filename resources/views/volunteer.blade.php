@@ -94,8 +94,8 @@ Facebook: 		https://www.facebook.com/yegobox
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  class="can-voting"  href="selected-candidates">CANDIDATES</a></li>
 									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>

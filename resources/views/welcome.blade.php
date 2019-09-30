@@ -97,7 +97,7 @@ Facebook: 		https://www.facebook.com/yegobox
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: #000;font-weight:bold;">HOME</a></li>
-									<li><a class="active apply"  style="color: #000;font-weight:bold;" href="candidate-application">APPLY NOW</a></li>
+									<li><a class="apply"  style="color: #000;font-weight:bold;" href="candidate-application">APPLY NOW</a></li>
 
 									<li><a class="can-voting" style="color: #000;font-weight:bold;" href="selected-candidates">CANDIDATES</a></li>
 
