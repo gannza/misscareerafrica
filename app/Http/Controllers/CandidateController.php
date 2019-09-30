@@ -120,7 +120,7 @@ class CandidateController extends AppBaseController
 
     public function listSelectedCandidates(){
 
-        $candidates = Candidate::where('is_selected',0)->orderBy('votes', 'DESC')->get();
+        $candidates = Candidate::where('is_selected',1)->orderBy('votes', 'DESC')->get();
 
         return $this->sendResponse(count($candidates) > 0?$candidates->toArray():[], 'List Selected Candidates');
     }
