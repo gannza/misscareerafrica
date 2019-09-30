@@ -98,7 +98,9 @@ Facebook: 		https://www.facebook.com/yegobox
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: #000;font-weight:bold;font-size:16px">HOME</a></li>
 									<li><a class="active"  style="color: #000;font-weight:bold;font-size:16px" href="candidate-application">APPLY NOW</a></li>
-									
+
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+
 									<li><a style="color: #000;font-weight:bold;font-size:16px" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: #000;font-weight:bold;font-size:16px" href="#">ORGANIZATION</a>
@@ -114,7 +116,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-                                    <li><a style="color: #000;font-weight:bold;font-size:16px" href="scholarship">Miss Career Africa-Scholarship</a></li>
+                                    <li><a  href="scholarship" style="color: #000;font-weight:bold;font-size:16px">MCA Scholarship</a></li>
 								</ul>
 							</nav>
 						</div>
