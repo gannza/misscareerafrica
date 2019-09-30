@@ -140,7 +140,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
-                    <div class="row" id="selected_candidates">
+                    <div class="row" id="selected_candidates can-voting">
 
                     </div>
                 </div>

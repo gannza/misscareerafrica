@@ -152,7 +152,7 @@ Facebook: 		https://www.facebook.com/yegobox
 										<hr />
 									</div>
 
-							<div class="col-md-12">
+							<div class="col-md-12 apply">
 								<div class="row">
 									<div class="col-md-12">
 										<b>Personal Info</b>
