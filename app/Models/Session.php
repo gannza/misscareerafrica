@@ -21,7 +21,7 @@ class Session extends Model
 {
 
     public $table = 'sessions';
-    
+
 
 
     public $fillable = [
@@ -31,7 +31,8 @@ class Session extends Model
         'date',
         'image',
         'numbering',
-        'is_current_applying'
+        'is_current_applying',
+        'is_voting_open'
     ];
 
     /**
@@ -47,7 +48,8 @@ class Session extends Model
         'date' => 'string',
         'image' => 'string',
         'numbering' => 'integer',
-        'is_current_applying' => 'boolean'
+        'is_current_applying' => 'boolean',
+        'is_voting_open'=>'boolean'
     ];
 
     /**
@@ -56,8 +58,8 @@ class Session extends Model
      * @var array
      */
     public static $rules = [
-        
+
     ];
 
-    
+
 }

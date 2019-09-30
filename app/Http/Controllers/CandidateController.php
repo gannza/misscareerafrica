@@ -12,6 +12,8 @@ use Flash;
 use Illuminate\Support\Facades\Mail;
 use Response;
 use App\Models\Session;
+use App\Models\Candidate;
+//Candidate
 use Log;
 
 class CandidateController extends AppBaseController
@@ -82,6 +84,19 @@ class CandidateController extends AppBaseController
         Mail::to( $request->email)->send(new NotifyCandidadte($request->fname));
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
     }
+
+    public function votes(Request $request)
+    {
+        $candidate = $this->candidateRepository->find($request['id']);
+
+        if (empty($candidate)) {
+            return $this->sendResponse([],'No candidates found!');
+        }
+
+        $candidate = $this->candidateRepository->update(['votes'=>$request['votes']], $request['id']);
+        return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
+    }
+    //votes
     /**
      * Display the specified Candidate.
      *
@@ -101,7 +116,14 @@ class CandidateController extends AppBaseController
 
         return view('candidates.show')->with('candidate', $candidate);
     }
+//
 
+    public function listSelectedCandidates(){
+
+        $candidates = Candidate::where('is_selected',0)->orderBy('votes', 'DESC')->get();
+
+        return $this->sendResponse(count($candidates) > 0?$candidates->toArray():[], 'List Selected Candidates');
+    }
     /**
      * Show the form for editing the specified Candidate.
      *

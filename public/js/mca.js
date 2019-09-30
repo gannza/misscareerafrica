@@ -1,9 +1,11 @@
 //current_session
 loadCurrentSession();
 loadAllSession();
+loadSelectedCandidates();
 
 function loadCurrentSession(){
     $('.loading-overlay').show();
+
     var htmls= $('#current_session');
     var row;
     $.ajaxSetup({
@@ -18,34 +20,46 @@ function loadCurrentSession(){
         success: function (response) {
             $('.loading-overlay').hide();
             if(response.success){
-                
+
                 const data=response.data;
-                row=` <div class="card">
-							<img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
-							<div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-							  <h3 class="wpb_heading wpb_singleimage_heading1 card-title text-center">${data.title}</h3>
-		
-							  <span class="card-subtitle mb-2" style="color:#fff!important;font-size:40px"><b class="text-white" style="color:#fff!important">${data.country}</b></span>
-							
-		
-							<a class="title_link" href="j#">
-								<h2 class="wpb_heading wpb_singleimage_heading2 text-center">
-		
-									<hr />
-									<div class="float-left"><h4 href="#" class="ml-5 mt-4 card-link text-info">${data.date}</h4></div>
-									<div class="float-right"><a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a></div>
-									
-								</h2>
-							</a>
-							  
-							</div>
-						</div>
-                            `;
-                
-            
-            htmls.html(row);	
-           
+                if(data.is_current_applying){
+                    var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">CANDIDATE</a>':'';
+                    row=` <div class="card">
+                    <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
+                    <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
+                      <h3 class="wpb_heading wpb_singleimage_heading1 card-title text-center">${data.title}</h3>
+
+                      <span class="card-subtitle mb-2" style="color:#fff!important;font-size:40px"><b class="text-white" style="color:#fff!important">${data.country}</b></span>
+
+                    <a class="title_link" href="j#">
+                        <h2 class="wpb_heading wpb_singleimage_heading2 text-center">
+
+                            <hr />
+                            <div class="float-left"><h4 href="#" class="ml-5 mt-4 card-link text-info">${data.date}</h4></div>
+                            <div class="float-right">${candidate} <a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a></div>
+
+                        </h2>
+                    </a>
+
+                    </div>
+                </div>
+                    `;
+
+                    if(data.is_voting_open){
+                        $('.can-voting').show();
+                    }else{
+                        $('.can-voting').hide();
+                    }
+
+                }else{
+                    $('.can-voting').hide();
+                    $('.apply').hide();
+                }
+
+                htmls.html(row);
+
             }
+
         },error:function(err){
            // console.log(err);
         }
@@ -53,6 +67,97 @@ function loadCurrentSession(){
     );
 }
 
+function loadSelectedCandidates(){
+    $('.loading-overlay').show();
+    var htmlss= $('#selected_candidates');
+    var rows='';
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+        }
+    });
+    $.ajax({
+        url: "/list-selected-candidates",
+        method: "GET",
+        dataType: "json",
+        success: function (response) {
+            $('.loading-overlay').hide();
+          //  console.log(response);
+            if(response.success && response.data.length > 0){
+            const datas=response.data;
+            datas.forEach(element => {
+                if(element){
+                    rows+=`
+                    <div class="col-md-4">
+                            <div class="card border-success mb-3" style="max-width: 100%">
+                            <div class="card-header bg-transparent border-success">Names:${element.fname} ${element.lname}</div>
+                            <div class="card-body text-success">
+                            <h5 class="card-title">Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</h5>
+                            <p class="card-text">
+                            </p>
+                            </div>
+                            <div class="card-footer bg-transparent border-success">
+                                    <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
+                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">${element.votes==null?0:element.votes}</span>
+                                </button>
+
+                            </div>
+                        </div>
+                  </div>
+                    `;
+
+                }
+
+            });
+
+        htmlss.html(rows);
+
+        }
+
+        },error:function(err){
+           // console.log(err);
+        }
+    }
+    );
+}
+
+
+function votes(id,votes){
+
+if(!localStorage.getItem('xosdw9433423zasie')){
+
+    var v=votes==null?1:votes+1;
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="_token"]').attr('content')
+        }
+    });
+
+    $.ajax({
+        url:"/votes?votes="+v+"&id="+id,
+        method:'GET',
+        contentType:false,
+        processData:false,
+        contentType:false,
+        processData:false,
+        success:function(response)
+        {
+            if(response.success){
+
+                loadSelectedCandidates();
+                localStorage.setItem('xosdw9433423zasie','xosdw9433423zasie');
+            }
+
+            },error:function(error)
+        {
+            console.log(error);
+        }
+    });
+}else{
+    alert('you have been voted!');
+}
+
+}
 
 function loadAllSession(){
     $('.loading-overlay').show();
@@ -70,39 +175,37 @@ function loadAllSession(){
         success: function (response) {
             $('.loading-overlay').hide();
                 if(response.success && response.data.length > 0){
-            
                     const data=response.data;
                 data.forEach(element => {
-                
                 row+=`
                 <div class="col-md-6 mt-5">
                         <div class="card">
                                     <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${element.image}" alt="${element.title}">
                                     <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
                                     <h3 class="wpb_heading wpb_singleimage_heading1 card-title text-center">${element.title}</h3>
-                
+
                                     <span class="card-subtitle mb-2" style="color:#fff!important;font-size:40px"><b class="text-white" style="color:#fff!important">${element.country}</b></span>
-                                    
-                
+
+
                                     <a class="title_link" href="j#">
                                         <h2 class="wpb_heading wpb_singleimage_heading2 text-center">
-                
+
                                             <hr />
                                             <div class="float-left"><h4 href="#" class="ml-5 mt-4 card-link text-info">${element.date}</h4></div>
-                                            
+
 
                                         </h2>
                                     </a>
-                                    
+
                                     </div>
                                 </div>
                         </div>
                             `;
-                
+
                 });
 
-            htmls.html(row);	
-           
+            htmls.html(row);
+
             }
         },error:function(err){
            // console.log(err);
@@ -133,11 +236,11 @@ $(document).ready(function() {
 	  education_background:{
         required: true,
 		maxlength: 500
-      },  
+      },
 	  q1:{
         required: true,
 		maxlength: 500
-      },  
+      },
 	  q2:{
         required: true,
         maxlength: 500
@@ -163,7 +266,7 @@ $(document).ready(function() {
         required: true,
         email: true,
       }
-      
+
     },
     messages: {
       fname: 'First name is required',
@@ -188,7 +291,7 @@ $(document).ready(function() {
 	  q7:'Please make sure words do not exceed 500 characters long.'
     },
     submitHandler: function(form) {
-     
+
 	$('.loading-overlay').show();
 	$('#submit').hide();
     $.ajaxSetup({
@@ -213,13 +316,13 @@ $(document).ready(function() {
 					window.location.href="./";
 					$('#submit').show();
 					}
-					
+
 				},error:function(error)
 				{
 					console.log(error);
 				}
 			});
-	  
+
     }
   });
 
@@ -240,7 +343,7 @@ $(document).ready(function() {
 	  q1:{
         required: true,
 		maxlength: 500
-      },  
+      },
 	  q2:{
         required: true,
         maxlength: 500
@@ -253,12 +356,12 @@ $(document).ready(function() {
         required: true,
         maxlength: 500
       },
-          
+
       email: {
         required: true,
         email: true,
       }
-      
+
     },
     messages: {
       fname: 'First name is required',
@@ -279,7 +382,7 @@ $(document).ready(function() {
       q4:'Please make sure words do not exceed 500 characters long.',
     },
     submitHandler: function(form) {
-     
+
 	$('.loading-overlay').show();
 	$('#submit').hide();
     $.ajaxSetup({
@@ -304,13 +407,13 @@ $(document).ready(function() {
 					window.location.href="./";
 					$('#submit').show();
 					}
-					
+
 				},error:function(error)
 				{
 					console.log(error);
 				}
 			});
-	  
+
     }
   });
 

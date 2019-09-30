@@ -9,21 +9,24 @@
         <th>Date</th>
         <th>Image</th>
         <th>Numbering</th>
-        <th>Is Current Applying</th>
+        <th>Can Candidate Apply?</th>
+        <th>Can Candidate Voting?</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>
         <tbody>
         @foreach($sessions as $session)
             <tr>
-                <td>{!! $session->id !!}</td>
+            <td>{!! $session->id !!}</td>
             <td>{!! $session->title !!}</td>
             <td>{!! $session->session !!}</td>
             <td>{!! $session->country !!}</td>
             <td>{!! $session->date !!}</td>
             <td>{!! $session->image !!}</td>
             <td>{!! $session->numbering !!}</td>
-            <td>{!! $session->is_current_applying !!}</td>
+            <td>{!! $session->is_current_applying?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</td>
+            <td>{!! $session->is_voting_open?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</td>
+
                 <td>
                     {!! Form::open(['route' => ['sessions.destroy', $session->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

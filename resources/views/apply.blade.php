@@ -7,15 +7,15 @@
 <!--<![endif]-->
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Apply :: Miss Career Africa</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Miss Career" />
-	<meta name="keywords" content="Miss Career, yegobox, flipper" />
-	<meta name="author" content="Yegobox Team" />
-	<meta name="csrf-token" content="{{ csrf_token() }}" />
-	<!-- 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Apply :: Miss Career Africa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Miss Career" />
+    <meta name="keywords" content="Miss Career, yegobox, flipper" />
+    <meta name="author" content="Yegobox Team" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -26,58 +26,52 @@ Facebook: 		https://www.facebook.com/yegobox
 //////////////////////////////////////////////////////
 -->
 
-	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:url" content="" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
 
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
 
-	<!-- Stylesheets -->
-	<!-- Dropdown Menu -->
-	<link rel="stylesheet" href="css/superfish.css">
-	<!-- Owl Slider -->
-	<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
-	<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
-	<!-- Date Picker -->
-	<!-- Style -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-	<!-- CS Select -->
-	<link rel="stylesheet" href="css/cs-select.css">
-	<link rel="stylesheet" href="css/cs-skin-border.css">
+<!-- Stylesheets -->
+<!-- Dropdown Menu -->
+<link rel="stylesheet" href="css/superfish.css">
+<!-- Owl Slider -->
+<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+<!-- Date Picker -->
+<!-- Style -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+<!-- CS Select -->
+<link rel="stylesheet" href="css/cs-select.css">
+<link rel="stylesheet" href="css/cs-skin-border.css">
 
+<!-- Themify Icons -->
+<link rel="stylesheet" href="css/themify-icons.css">
+<!-- Flat Icon -->
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- Icomoon -->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Flexslider  -->
+<link rel="stylesheet" href="css/flexslider.css">
 
-	<!-- Themify Icons -->
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Flat Icon -->
-	<link rel="stylesheet" href="css/flaticon.css">
-	<!-- Icomoon -->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css">
 
-	<!-- Style -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<style>
-		ul>li> a{
-			color: white;
-		}
-	</style>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
 <![endif]-->
 
@@ -87,7 +81,7 @@ Facebook: 		https://www.facebook.com/yegobox
 	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 
-			
+
 			<div id="fh5co-header">
 
 				<header id="fh5co-header-section">
@@ -95,17 +89,13 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#">Book Miss Career</a></li>
-											<!-- <li><a href="#">Former Candidates</a></li> -->
-											<li><a href="candidate-application">Become a Candidate</a></li>
-										</ul>
-									</li>
+									<li><a  class="active"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+
 									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: white;" href="#">ORGANIZATION</a>
@@ -121,7 +111,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
+									<li><a  style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -138,20 +128,20 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div
 							class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 							<div class="fh5co-intro fh5co-table-cell">
-								
+
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			
+
 			<div id="fh5co-blog-section">
 				<div class="container" id="contact">
-					
+
 				<form id="applay_form" method="post" action="">
-					
-				
+
+
 					<div class="row">
 						<div class="col-md-1"></div>
 
@@ -161,7 +151,7 @@ Facebook: 		https://www.facebook.com/yegobox
 										<h1 class="text-center text-warning"><b>DEADLINE:25,Oct,2019</b></h1>
 										<hr />
 									</div>
-							
+
 							<div class="col-md-12">
 								<div class="row">
 									<div class="col-md-12">
@@ -647,23 +637,23 @@ Facebook: 		https://www.facebook.com/yegobox
 							<li><a style="color: white;" href="competition">The Competition</a></li>
 							 <li><a style="color: white;" href="job">The Job</a></li>
 							<li><a style="color: white;" href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
-				<div class="col-md-3">
-						<h3><b>MISS CARRER CANDIDATE</b></h3>
+                <div class="col-md-3">
+						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
-							<li><a style="color: white;" href="#">Book Miss Career Africa</a></li>
-							<li><a style="color: white;" href="candidate-application">Become a Candidate</a></li>
+							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
+							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
 						</ul>
-					</div>
+				</div>
 				<div class="col-md-3">
 					<h3><b>ORGANIZATION</b></h3>
 					<ul class="link">
 						<li><a style="color: white;" href="blog">Our Blog</a></li>
 						<li><a style="color: white;" href="scope">Our Scope</a></li>
 						<li><a style="color: white;" href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 
@@ -672,6 +662,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<ul class="link">
 								<li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
+								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
 						</ul>
 					</div>
 
@@ -720,7 +711,7 @@ Facebook: 		https://www.facebook.com/yegobox
 	<!-- Flexslider -->
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Google Map -->
-	
+
 	<script src="js/custom.js"></script>
 	<script src="js/mca.js"></script>
 

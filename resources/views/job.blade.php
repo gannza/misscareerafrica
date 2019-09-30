@@ -15,7 +15,7 @@
 <meta name="keywords" content="Miss Career, yegobox, flipper" />
 <meta name="author" content="Yegobox Team" />
 
-<!-- 
+<!--
 //////////////////////////////////////////////////////
 
 Website: 		http://yegobox.com/
@@ -90,17 +90,18 @@ Facebook: 		https://www.facebook.com/yegobox
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:10px"></a></span> 
+										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
 							<nav id="fh5co-menu-wrap" role="navigation">
 								<ul class="sf-menu" id="fh5co-primary-menu">
 									<li><a href="/" style="color: white;">HOME</a></li>
-									<li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
+                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
+									<li><a  class="can-voting" style="color: #000;font-weight:bold;font-size:16px" href="selected-candidates">CANDIDATES</a></li>
+									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
 										<ul class="fh5co-sub-menu">
 											<li><a href="#">Book Miss Career</a></li>
-											<!-- <li><a href="#">Former Candidates</a></li> -->
 											<li><a href="candidate-application">Become a Candidate</a></li>
 										</ul>
-									</li>
+									</li> -->
 									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
 									<li><a   style="color: white;" href="#">ORGANIZATION</a>
@@ -116,7 +117,7 @@ Facebook: 		https://www.facebook.com/yegobox
 											<li><a href="sponsor">Become a sponsor</a></li>
 										</ul>
 									</li>
-									<li><a style="color: white;" href="scholarship">SCHOLARSHIP</a></li>
+									<li><a style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -135,7 +136,7 @@ Facebook: 		https://www.facebook.com/yegobox
 				<div class="fh5co-intro fh5co-table-cell">
 					<br /><br /><br /><br />
 					<!-- <h1 class="text-center">The Job</h1> -->
-					
+
 				</div>
 			</div>
 		</div>
@@ -146,16 +147,16 @@ Facebook: 		https://www.facebook.com/yegobox
 	<div id="fh5co-blog-section">
 		<div class="container" id="blog">
 			<div class="row">
-					
+
 					<div class="col-md-6">
 						<h3 class="heading">The Job of Miss Career Africa</h3>
 						<p style="color: #252525!important;">
-								Miss Career Africa is probably most visible brand and representation of the mission of the Miss Career Africa program to the public. As a member of the MCA team, she is responsible for positively advancing the goals and objectives of MCA as well as her own Social Impact Initiative. 
+								Miss Career Africa is probably most visible brand and representation of the mission of the Miss Career Africa program to the public. As a member of the MCA team, she is responsible for positively advancing the goals and objectives of MCA as well as her own Social Impact Initiative.
 								Miss Career Africa is full-time, paid contractual employee of MCA.
-								<br />The job is an exciting, fun, challenging Year of Service that requires energy, positivity, 
+								<br />The job is an exciting, fun, challenging Year of Service that requires energy, positivity,
 						</p>
-					
-						
+
+
 					</div>
 					<div class="col-md-6">
 							<img src="images/job.jpg" class="img-responsive img-rounded" alt="Image">
@@ -163,25 +164,25 @@ Facebook: 		https://www.facebook.com/yegobox
 					<div class="col-md-12">
 							<p style="color: #252525!important;">
 									professionalism and courtesy while engaging in extensive travel, often going to over 10 countries  a month and at times changing locations every day, throughout the Africa and overseas and, at times, to other countries.
-									
+
 									Working with the MCA staff that schedules and provides logistical, support and guidance, she uses her term to promote and market the program to her peers and the next generation of young women.
 
-									Miss Career Africa will work with the MCA team to develop goals and execute on tactics to advance her chosen Social Impact Initiative, setting metrics and developing partnerships which will show positive results at the end of her year. In addition, she also serves as the Africa’s Ambassador for All Trust Consult; rising funds for the Africa’s poorest communities and young talents to start their own businesses in partnership with Microlend Australia who otherwise would not be able to afford capital funds. The Miss Career Africa will as well run a campaign of raising international and regional university scholarships for girls from vulnerable families who cannot afford university tuition even in their local universities. 
+									Miss Career Africa will work with the MCA team to develop goals and execute on tactics to advance her chosen Social Impact Initiative, setting metrics and developing partnerships which will show positive results at the end of her year. In addition, she also serves as the Africa’s Ambassador for All Trust Consult; rising funds for the Africa’s poorest communities and young talents to start their own businesses in partnership with Microlend Australia who otherwise would not be able to afford capital funds. The Miss Career Africa will as well run a campaign of raising international and regional university scholarships for girls from vulnerable families who cannot afford university tuition even in their local universities.
 
 									As such, public speaking is an essential role of Miss America. She researches and prepares speeches to deliver to audiences of all sizes. She speaks with the media and is a representative of MCA with sponsors and partners, students and corporate executives.
 									A first step to continuing her education and career, the job of Miss Career is a once-in-a-lifetime experience that carries with it service above self.
 							</p>
-						
-							
+
+
 						</div>
 				</div>
 
-				
-					
+
+
 		</div>
 	</div>
 
-	
+
 <footer id="footer" class="fh5co-bg-color">
 <div class="container">
 
@@ -210,23 +211,23 @@ Facebook: 		https://www.facebook.com/yegobox
 							<li><a style="color: white;" href="competition">The Competition</a></li>
 							 <li><a style="color: white;" href="job">The Job</a></li>
 							<li><a style="color: white;" href="mission">Our Mission</a></li>
-							
+
 						</ul>
 				</div>
-				<div class="col-md-3">
-						<h3><b>MISS CARRER CANDIDATE</b></h3>
+                <div class="col-md-3">
+						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
-							<li><a style="color: white;" href="#">Book Miss Career Africa</a></li>
-							<li><a style="color: white;" href="candidate-application">Become a Candidate</a></li>
+							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
+							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
 						</ul>
-					</div>
+				</div>
 				<div class="col-md-3">
 					<h3><b>ORGANIZATION</b></h3>
 					<ul class="link">
 						<li><a style="color: white;" href="blog">Our Blog</a></li>
 						<li><a style="color: white;" href="scope">Our Scope</a></li>
 						<li><a style="color: white;" href="contact">Contact Us</a></li>
-						
+
 					</ul>
 				</div>
 
@@ -235,6 +236,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						<ul class="link">
 								<li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
+								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
 						</ul>
 					</div>
 
@@ -257,34 +259,35 @@ Facebook: 		https://www.facebook.com/yegobox
 
 </div>
 <!-- END fh5co-wrapper -->
+	<!-- Javascripts -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<!-- Dropdown Menu -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Owl Slider -->
+	<!-- // <script src="js/owl.carousel.min.js"></script> -->
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Google Map -->
 
-<!-- Javascripts -->
-<script src="js/jquery-2.1.4.min.js"></script>
-<!-- Dropdown Menu -->
-<script src="js/hoverIntent.js"></script>
-<script src="js/superfish.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Counters -->
-<script src="js/jquery.countTo.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Owl Slider -->
-<!-- // <script src="js/owl.carousel.min.js"></script> -->
-<!-- Date Picker -->
-<script src="js/bootstrap-datepicker.min.js"></script>
-<!-- CS Select -->
-<script src="js/classie.js"></script>
-<script src="js/selectFx.js"></script>
-<!-- Flexslider -->
-<script src="js/jquery.flexslider-min.js"></script>
-
-<script src="js/custom.js"></script>
-<script src="js/mca.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/mca.js"></script>
 
 </body>
-
 
 </html>

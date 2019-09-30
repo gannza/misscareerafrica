@@ -42,8 +42,13 @@
 
 <!-- Is Current Applying Field -->
 <div class="form-group">
-    {!! Form::label('is_current_applying', 'Is Current Applying:') !!}
-    <p>{!! $session->is_current_applying !!}</p>
+    {!! Form::label('is_current_applying', 'Can Candidate Apply?') !!}
+    <p>{!! $session->is_current_applying?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</p>
+</div>
+
+<div class="form-group">
+    {!! Form::label('is_voting_open', 'Can Candidate Voting?') !!}
+    <p>{!! $session->is_voting_open?'<label class="badge badge-success">YES</label>':'<label class="badge badge-danger">NO</label>' !!}</p>
 </div>
 
 <!-- Created At Field -->
