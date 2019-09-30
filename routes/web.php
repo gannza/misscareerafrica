@@ -68,6 +68,9 @@ Route::get('/eligibility', function () {
 Route::get('/scholarship', function () {
     return view('scholarship');
 });
+Route::get('/selected-candidates', function () {
+    return view('selectedcandidates');
+});
 
 //
 Auth::routes();
@@ -81,6 +84,9 @@ Route::resource('sessions', 'SessionController');
 Route::get('current_session', 'SessionController@currentSession');
 //listSessions
 Route::get('list_sessions', 'SessionController@listSessions');
+
+//
+Route::get('list-selected-candidates', 'CandidateController@listSelectedCandidates');
 
 Route::resource('sessions', 'SessionController');
 
@@ -98,3 +104,5 @@ Route::resource('volunteers', 'VolunteerController');
 Route::resource('scholarships', 'ScholarshipController');
 
 Route::post('scholarship', 'ScholarshipController@scholarshipApplying');
+//votes
+Route::get('votes', 'CandidateController@votes');
