@@ -156,28 +156,23 @@ Facebook: 		https://www.facebook.com/yegobox
 								</ul>
 							</div>
 							<div class="col-md-12">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea name="" class="form-control" id="" cols="30" rows="7" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<input type="submit" value="Send Message" class="btn btn-primary">
-										</div>
+
+							
+							<div  class="col-md-12">
+								<div class="col-md-12">
+									@include('flash::message')
+								</div>
+								<div class="box-body">
+									<div class="row">
+										{!! Form::open(['route' => 'mails.store']) !!}
+
+											@include('contactus.fields')
+
+										{!! Form::close() !!}
 									</div>
 								</div>
+								</div>
+								
 							</div>
 						</div>
 					</div>

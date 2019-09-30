@@ -98,3 +98,5 @@ Route::resource('volunteers', 'VolunteerController');
 Route::resource('scholarships', 'ScholarshipController');
 
 Route::post('scholarship', 'ScholarshipController@scholarshipApplying');
+
+Route::resource('mails','ContactUsController');
