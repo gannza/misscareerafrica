@@ -15,6 +15,7 @@ use App\Models\Session;
 use App\Models\Candidate;
 //Candidate
 use Log;
+use Illuminate\Support\Facades\Auth;
 
 class CandidateController extends AppBaseController
 {
@@ -67,7 +68,12 @@ class CandidateController extends AppBaseController
 
         Flash::success('Candidate saved successfully.');
 
-        return redirect(route('candidates.index'));
+        
+        if(Auth::check()){
+            return redirect(route('candidates.index'));
+        }else {
+            return redirect()->to('/');
+        }
     }
 
 

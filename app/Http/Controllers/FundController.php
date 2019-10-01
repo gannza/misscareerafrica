@@ -9,6 +9,7 @@ use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
+use Illuminate\Support\Facades\Auth;
 
 class FundController extends AppBaseController
 {
@@ -67,7 +68,7 @@ class FundController extends AppBaseController
         if(Auth::check()){
             return redirect(route('funds.index'));
         }else {
-            return redirect()->back();
+            return redirect()->to('/');
         }
     }
 

@@ -69,7 +69,7 @@ class VolunteerController extends AppBaseController
         if(Auth::check()){
             return redirect(route('volunteers.index'));
         }
-        return redirect()->back();
+        return redirect()->to('/');return redirect()->to('/');return redirect()->to('/');
         
     }
 

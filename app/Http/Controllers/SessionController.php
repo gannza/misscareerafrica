@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Response;
 use App\Models\Session;
+use Illuminate\Support\Facades\Auth;
 class SessionController extends AppBaseController
 {
     /** @var  SessionRepository */
@@ -60,7 +61,12 @@ class SessionController extends AppBaseController
 
         Flash::success('Session saved successfully.');
 
-        return redirect(route('sessions.index'));
+        if(Auth::check){
+            return redirect(route('sessions.index'));
+        }else {
+            return redirect()->to('/');
+        }
+       
     }
 
     /**
