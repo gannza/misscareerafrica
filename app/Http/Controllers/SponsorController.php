@@ -62,6 +62,7 @@ class SponsorController extends AppBaseController
 
         $sponsor = $this->sponsorRepository->create($input);
 
+        
         Flash::success('Sponsor saved successfully.');
         // Log::debug($request->all());
         Mail::to($request->email)->send(new EmailSponsor($request->fname));
