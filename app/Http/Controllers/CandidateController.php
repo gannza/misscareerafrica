@@ -68,7 +68,7 @@ class CandidateController extends AppBaseController
 
         Flash::success('Candidate saved successfully.');
 
-        
+
         if(Auth::check()){
             return redirect(route('candidates.index'));
         }else {
@@ -93,7 +93,7 @@ class CandidateController extends AppBaseController
 
         $candidate = $this->candidateRepository->create($input);
         //TODO: send email;
-       // Mail::to( $request->email)->send(new NotifyCandidadte($request->fname));
+        Mail::to( $request->email)->send(new NotifyCandidadte($request->fname));
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
     }
 

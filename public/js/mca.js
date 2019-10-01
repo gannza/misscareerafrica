@@ -155,7 +155,7 @@ if(!localStorage.getItem('xosdw9433423zasie')){
         }
     });
 }else{
-    alert('you have been voted!');
+    alert('you have successfully voted the candidate. Thank you!');
 }
 
 }

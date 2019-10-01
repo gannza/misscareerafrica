@@ -153,25 +153,26 @@ Facebook: 		https://www.facebook.com/yegobox
 			<div id="fh5co-blog-section">
 				<div class="container" id="contact" style="background:black;">
                     <p style="color: black;">
-                             <br><a href="apply.html">APPLY HERE</a><br>
-                            Eligibility
-                            Open to young female professionals, Entrepreneurs and Students.
-                            Eastern African  Countries
-                            18-24 Years Old
+                             <br><a href="/candidate-application">APPLY HERE</a><br>
+                            <b style="font-size:20px">Eligible candidate(s):</b><br />
+                            -Young female professionals<br />
+                            -Entrepreneurs High School graduates, University Students and working class(Under 24 years).<br />
+                            -Eastern African and<br />
+                            -In a range of 18-24 Years
                     </p>
                     <p>
                             <a href="#">Application Requirements:</a><br>
-                            Complete Online Application,
-                            Career project and
-                            Incomplete Applications will not be accepted.<br>
+                            Complete Online Application as required!<br />
+                            Ps: Incomplete Applications will not be accepted.<br>
                             <a href="#">What else is required?</a><br>
-                            If invited, your  availability for the Boot Camp orientation for all the Miss Career Africa sessions, taking place  November , 6th  2019 If you cannot make it on that day , call contact before the meeting date 2019.
-                            Attend the Information Session
-                            The Boot Camp information session will be held in Kigali. For Further Information, Emails will be sent to you.
+                            If you are lucky to be nominated for the boot camp, Its an eye-Opener program you do not want to miss.  your  availability for the Boot Camp orientation for all the Miss Career Africa sessions, taking place  November , 6th  2019 is required. <br />
+                            Note: If you cannot make it on that day , call +250784872667 before the meeting date.
+                            <br />Attend the Information Session:<br />
+                            The Boot Camp information session will be held in Kigali. <br />For Further Information, Emails will be sent to you.
                             <br>
                             <a href="#">Application timeline:</a><br>
-                            Application open September, 25th 2019<br>
-                            Deadline is October 25th 11:59 PM.
+                            Application open-September, 25th 2019<br>
+                            Deadline- October 25th 11:59 PM.
                     </p>
 				</div>
 			</div>

@@ -705,7 +705,10 @@ Facebook: 		https://www.facebook.com/yegobox
                                         <div class="col-md-12">
                                             <div class="form-group row">
                                                 <div class="col-md-6">
-                                                    <label>fjdfijd</label><br />
+                                                    <label>
+                                                    Kindly consider selecting a picture of your best choice ever,  professional one and make sure it’s high definition. If the picture is not of that type,
+It may turn your chances off.
+                                                    </label><br />
                                                     <label for="profile"></label>
                                                     <input type="file" accept="image/*" id="profile" name="profile"
                                                         onchange="preview_image(event)">
