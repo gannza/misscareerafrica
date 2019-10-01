@@ -85,7 +85,7 @@ Facebook: 		https://www.facebook.com/yegobox
             <div id="fh5co-header">
 
                 <header id="fh5co-header-section">
-                    <div class="ml-3 mr-3">
+                    <div class="container">
                         <div class="nav-header">
                             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
                             <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
@@ -93,10 +93,10 @@ Facebook: 		https://www.facebook.com/yegobox
                             <nav id="fh5co-menu-wrap" role="navigation">
                                 <ul class="sf-menu" id="fh5co-primary-menu">
                                     <li><a href="/" style="color: white;">HOME</a></li>
-                                    <li><a class="apply" href="candidate-application">APPLY NOW</a></li>
-                                    <li><a class="can-voting" href="selected-candidates">CANDIDATES</a></li>
+                                    <li><a class="apply" style="color: white;" href="candidate-application">APPLY NOW</a></li>
+                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">CANDIDATES</a></li>
 
-                                    <li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
+
 
                                     <li><a style="color: white;" href="#">ORGANIZATION</a>
                                         <ul class="fh5co-sub-menu">
@@ -111,9 +111,16 @@ Facebook: 		https://www.facebook.com/yegobox
                                             <li><a href="sponsor">Become a sponsor</a></li>
                                         </ul>
                                     </li>
-                                    <li><a style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
-                                    <li><a href="fund" style="color: white;">MCA FUND</a></li>
-                                    <li><a href="book-mca" style="color: white;">Book MCA</a></li>
+                                    <li><a style="color: white;" href="#">MORE....</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="scholarship">MCA SCHOLARSHIP</a></li>
+                                            <li><a href="fund">MCA FUND</a></li>
+                                            <li><a href="book-mca">Book MCA</a></li>
+                                            <li><a  href="eligibility">ELIGIBILITY</a></li>
+                                        </ul>
+                                    </li>
+
+
                                 </ul>
                             </nav>
                         </div>
@@ -808,6 +815,8 @@ It may turn your chances off.
                                 <li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
                                 <li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
                                 <li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
+                                <li><a style="color: white;" href="fund">MCA Fund</a></li>
+                                <li><a style="color: white;" href="book-mca">Book MCA</a></li>
                             </ul>
                         </div>
 
