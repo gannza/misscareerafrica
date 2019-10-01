@@ -166,7 +166,6 @@ We pray and wish you all the best in this journey of funding your business idea.
 Enjoy the life time opportunity!
 							</p>
 
-
 						</div>
 					<div class="col-md-6">
 							<div class="col-md-12">
