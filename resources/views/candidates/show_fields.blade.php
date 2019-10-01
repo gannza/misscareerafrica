@@ -156,19 +156,19 @@
         <hr />
         <!-- Session Id Field -->
         <div class="form-group">
-           
+
             <p> {!! Form::label('session_id', 'Session Id:') !!}: {!! $candidate->session_id !!}</p>
         </div>
 
         <!-- Votes Field -->
         <div class="form-group">
-           
+
             <p> {!! Form::label('votes', 'Votes:') !!}: {!! $candidate->votes !!}</p>
         </div>
 
         <!-- Is Selected Field -->
         <div class="form-group">
-           
+
             <p> {!! Form::label('is_selected', 'Is Candidate Selected:') !!}: {!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label
                     class="badge badge-danger">NO</label>' !!}</p>
         </div>
@@ -177,13 +177,15 @@
         <hr />
         <!-- Created At Field -->
         <div class="form-group">
-           
+
             <p> {!! Form::label('created_at', 'Created At:') !!}:{!! $candidate->created_at !!}</p>
         </div>
-
+        <div class="form-group">
+        <img src="{!! $candidate->profile !!}" class="img-fluid" style="width:100%;max-height:200px">
+        </div>
         <!-- Updated At Field -->
         <div class="form-group">
-           
+
             <p> {!! Form::label('updated_at', 'Updated At:') !!}: {!! $candidate->updated_at !!}</p>
         </div>
     </div>
