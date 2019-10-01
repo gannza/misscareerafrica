@@ -12,6 +12,7 @@ use Response;
 use App\Mail\NotifyCandidadte;
 use Illuminate\Support\Facades\Mail;
 use Log;
+use Illuminate\Support\Facades\Auth;
 class ScholarshipController extends AppBaseController
 {
     /** @var  ScholarshipRepository */
@@ -62,11 +63,11 @@ class ScholarshipController extends AppBaseController
 
         Flash::success('Scholarship saved successfully.');
 
-        
+
         if(Auth::check()){
             return redirect(route('scholarships.index'));
         }else {
-            return redirect()->back();
+            return redirect()->to('/');
         }
     }
 
