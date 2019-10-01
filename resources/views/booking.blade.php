@@ -9,7 +9,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Job :: Miss Career Africa</title>
+<title>Book MCA :: Miss Career</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Miss Career" />
 <meta name="keywords" content="Miss Career, yegobox, flipper" />
@@ -128,7 +128,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 </div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(images/sld2.jpg);"
+	<div class="fh5co-parallax" style="background-image: url(images/valunteer.jpg);"
 	data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
@@ -137,7 +137,7 @@ Facebook: 		https://www.facebook.com/yegobox
 				class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
 				<div class="fh5co-intro fh5co-table-cell">
 					<br /><br /><br /><br />
-					<!-- <h1 class="text-center">The Job</h1> -->
+					<!-- <h1 class="text-center">Become a volunteer</h1> -->
 
 				</div>
 			</div>
@@ -147,45 +147,39 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
 	<div id="fh5co-blog-section">
-		<div class="container" id="blog">
+		<div class="container" id="contact">
 			<div class="row">
 
-					<div class="col-md-6">
-						<h3 class="heading">The Job of Miss Career Africa</h3>
-						<p style="color: #252525!important;">
-								Miss Career Africa is probably most visible brand and representation of the mission of the Miss Career Africa program to the public. As a member of the MCA team, she is responsible for positively advancing the goals and objectives of MCA as well as her own Social Impact Initiative.
-								Miss Career Africa is full-time, paid contractual employee of MCA.
-								<br />The job is an exciting, fun, challenging Year of Service that requires energy, positivity,
-						</p>
-
-
-					</div>
-					<div class="col-md-6">
-							<img src="images/job.jpg" class="img-responsive img-rounded" alt="Image">
-					</div>
 					<div class="col-md-12">
-							<p style="color: #252525!important;">
-									professionalism and courtesy while engaging in extensive travel, often going to over 10 countries  a month and at times changing locations every day, throughout the Africa and overseas and, at times, to other countries.
+							<div class="col-md-12">
+								@include('flash::message')
+								<h1 class="h1 text-center">BOOK MISS CAREER AFRICA</h1>
+							</div>
+							<div class="content">
+							@include('adminlte-templates::common.errors')
+							<div  class="col-md-12">
 
-									Working with the MCA staff that schedules and provides logistical, support and guidance, she uses her term to promote and market the program to her peers and the next generation of young women.
+								<div class="box-body">
+									<div class="row">
+										{!! Form::open(['route' => 'bookings.store']) !!}
 
-									Miss Career Africa will work with the MCA team to develop goals and execute on tactics to advance her chosen Social Impact Initiative, setting metrics and developing partnerships which will show positive results at the end of her year. In addition, she also serves as the Africa’s Ambassador for All Trust Consult; rising funds for the Africa’s poorest communities and young talents to start their own businesses in partnership with Microlend Australia who otherwise would not be able to afford capital funds. The Miss Career Africa will as well run a campaign of raising international and regional university scholarships for girls from vulnerable families who cannot afford university tuition even in their local universities.
+											@include('bookings.fields')
 
-									As such, public speaking is an essential role of Miss America. She researches and prepares speeches to deliver to audiences of all sizes. She speaks with the media and is a representative of MCA with sponsors and partners, students and corporate executives.
-									A first step to continuing her education and career, the job of Miss Career is a once-in-a-lifetime experience that carries with it service above self.
-							</p>
-
+										{!! Form::close() !!}
+									</div>
+								</div>
+							</div>
+						</div>
 
 						</div>
+					</div>
 				</div>
-
 
 
 		</div>
 	</div>
 
-
-<footer id="footer" class="fh5co-bg-color">
+	<footer id="footer" class="fh5co-bg-color">
 <div class="container">
 
 	<div class="row">
@@ -217,7 +211,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						</ul>
 				</div>
                 <div class="col-md-3">
-						<h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
+						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
 						<ul class="link">
 							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
 							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>

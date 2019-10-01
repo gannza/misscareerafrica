@@ -86,7 +86,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
 <header id="fh5co-header-section">
-					<div class="container">
+					<div class="ml-3 mr-3">
 						<div class="nav-header">
 							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
@@ -118,6 +118,8 @@ Facebook: 		https://www.facebook.com/yegobox
 										</ul>
 									</li>
 									<li><a style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
+                                    <li><a  href="fund" style="color: white;">MCA FUND</a></li>
+                                    <li><a  href="book-mca" style="color: white;">Book MCA</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -148,23 +150,23 @@ Facebook: 		https://www.facebook.com/yegobox
 		<div class="container" id="contact">
 			<div class="row">
 					<div class="col-md-6">
-							<h1 class="h1">Fund</h1>
-							<p style="color: #252525!important;">
-									Volunteering in the Miss Career Africa is an eye-Opener gateway and life changing experience for a brighter future and life of fulfillment. But more so, it is a gift of giving back to community while empowering the Africa’s next generation of female corporate and influential leaders.
+							<h1 class="h1 text-center">Welcome to the most exclusive africa's largest young women's fund community!</h1>
+
+
+<span style="color:green!important; font-size:20px">"You have made the most rewarding choice for your idea".</span><br />
+<p style="color: #252525!important;">
+Dear Miss Career Fund-Candidate,
+See if you qualify  for a loan by entering  your background details, financial status, career background, business plan (pdf) , why the loan, a message of hope that tells us how this will help you  and answering other few related quick questions that will help us select the most deserving candidates  from  thousands of other  candidates across  Africa. Whereas this is a life time opportunity  that aspires to transform the  life of  Africa’s young women financially.
+Please note that there is no guarantee you will qualify for the  Miss Career loan  amount you requested. The loan amount you qualify for will be determined by the  Miss Career Africa Fund review process.
+</p>
+<h1 class="h1">Our Plan B:</h1>
+<p style="color: #252525!important;">
+At the heart of Miss Career Fund Team,
+We pray and wish you all the best in this journey of funding your business idea. Its our plan A that you get funds you dream to have for your  business and We are here available and committed to  back you up. Even when you  miss the fund, Our plan B is that you remain in the  Miss Career Fund Network. Here you will have  access and privilege to be a part of other funding opportunities and more so, Training programs  that intend to develop thousands of Africa’s women entrepreneurs.
+Enjoy the life time opportunity!
 							</p>
 
-							<p style="color: #252525!important;">
-									Each year, Close to 15000 of young women across five regions of Africa compete at the local, national, regional and continental levels. Each regional competition is hosted in particular member country and finally, Before the Continental grand finale, five cities in five countries have hosted regional grand finale(s). Our local and regional teams full of volunteers from universities, working class youth and other strategic partners with influence in their respective careers across the Africa together with our headquarters team, contribute almost hundreds of hours every day to ensure our participants have a life changing experience, Proofreading their career and business projects, placing them to the right internships, getting them scholarships, creating a mentorship network for them to  learn new skills and making new strategic networks.
-							</p>
 
-							<p style="color: #252525!important;">
-									Hundreds of volunteers across the continent invest in our Miss Career Africa candidates, event participants by helping us in doing application portal management, pre-selection support, boot camps, grand finale preparation and fundraising. They are so generous enough to even remain available after the competition to keep mentoring, providing technical support to the former candidates, new ones and more related work from our regional offices but mostly at the head quarter in Rwanda. These acts of services   increase the girl’s confidence and achieve their dreams through our platform.
-							</p>
-
-							<p style="color: #252525!important;">
-									MCA believes in a movement and that is why team work, gala dinner parties, fellowships and Retreats for our volunteers is one of the pillars of the Miss Career Africa and our volunteers are fundamental to the program’s continued success.
-									<br />To get involved, contact your regional organization.
-							</p>
 						</div>
 					<div class="col-md-6">
 							<div class="col-md-12">
@@ -227,7 +229,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						</ul>
 				</div>
                 <div class="col-md-3">
-						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
+						<h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
 						<ul class="link">
 							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
 							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>

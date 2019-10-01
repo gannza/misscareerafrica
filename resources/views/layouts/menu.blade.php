@@ -23,3 +23,7 @@
     <a href="{!! route('funds.index') !!}"><i class="fa fa-edit"></i><span>Funds</span></a>
 </li>
 
+<li class="{{ Request::is('bookings*') ? 'active' : '' }}">
+    <a href="{!! route('bookings.index') !!}"><i class="fa fa-edit"></i><span>Bookings</span></a>
+</li>
+
