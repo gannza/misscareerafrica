@@ -121,7 +121,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                         <ul class="fh5co-sub-menu">
                                             <li><a href="scholarship">MCA SCHOLARSHIP</a></li>
                                             <li><a href="fund">MCA FUND</a></li>
-                                            <li><a href="book-mca">Book MCA</a></li>
+                                            <li><a href="book-mca">BOOK MCA</a></li>
                                             <li><a  href="eligibility">ELIGIBILITY</a></li>
                                         </ul>
                                     </li>
