@@ -113,3 +113,7 @@ Route::get('votes', 'CandidateController@votes');
 Route::resource('funds', 'FundController');
 
 Route::get('fund', 'FundController@fund');
+
+
+Route::resource('bookings', 'BookingController');
+Route::get('book-mca', 'BookingController@booking');
