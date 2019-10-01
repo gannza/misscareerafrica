@@ -9,7 +9,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Become a volunteer :: Miss Career</title>
+<title>Book MCA :: Miss Career</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Miss Career" />
 <meta name="keywords" content="Miss Career, yegobox, flipper" />
@@ -149,31 +149,11 @@ Facebook: 		https://www.facebook.com/yegobox
 	<div id="fh5co-blog-section">
 		<div class="container" id="contact">
 			<div class="row">
-					<div class="col-md-6">
-							<h1 class="h1">HOW TO BECOME A VOLUNTEER</h1>
-							<p style="color: #252525!important;">
-									Volunteering in the Miss Career Africa is an eye-Opener gateway and life changing experience for a brighter future and life of fulfillment. But more so, it is a gift of giving back to community while empowering the Africa’s next generation of female corporate and influential leaders.
-							</p>
 
-							<p style="color: #252525!important;">
-									Each year, Close to 15000 of young women across five regions of Africa compete at the local, national, regional and continental levels. Each regional competition is hosted in particular member country and finally, Before the Continental grand finale, five cities in five countries have hosted regional grand finale(s). Our local and regional teams full of volunteers from universities, working class youth and other strategic partners with influence in their respective careers across the Africa together with our headquarters team, contribute almost hundreds of hours every day to ensure our participants have a life changing experience, Proofreading their career and business projects, placing them to the right internships, getting them scholarships, creating a mentorship network for them to  learn new skills and making new strategic networks.
-							</p>
-
-							<p style="color: #252525!important;">
-									Hundreds of volunteers across the continent invest in our Miss Career Africa candidates, event participants by helping us in doing application portal management, pre-selection support, boot camps, grand finale preparation and fundraising. They are so generous enough to even remain available after the competition to keep mentoring, providing technical support to the former candidates, new ones and more related work from our regional offices but mostly at the head quarter in Rwanda. These acts of services   increase the girl’s confidence and achieve their dreams through our platform.
-							</p>
-
-							<p style="color: #252525!important;">
-									MCA believes in a movement and that is why team work, gala dinner parties, fellowships and Retreats for our volunteers is one of the pillars of the Miss Career Africa and our volunteers are fundamental to the program’s continued success.
-									<br />To get involved, contact your regional organization.
-							</p>
-
-
-						</div>
-					<div class="col-md-6">
+					<div class="col-md-12">
 							<div class="col-md-12">
 								@include('flash::message')
-								<h1 class="h1">VOLUNTEER FORM</h1>
+								<h1 class="h1 text-center">BOOK MISS CAREER AFRICA</h1>
 							</div>
 							<div class="content">
 							@include('adminlte-templates::common.errors')
@@ -181,9 +161,9 @@ Facebook: 		https://www.facebook.com/yegobox
 
 								<div class="box-body">
 									<div class="row">
-										{!! Form::open(['route' => 'volunteers.store']) !!}
+										{!! Form::open(['route' => 'bookings.store']) !!}
 
-											@include('volunteers.fields')
+											@include('bookings.fields')
 
 										{!! Form::close() !!}
 									</div>
