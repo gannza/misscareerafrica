@@ -19,38 +19,39 @@
 
 <!-- Background Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('background', 'Background:') !!}
+    {!! Form::label('background', 'Tell us your Background:') !!}
     {!! Form::textarea('background', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Financial Status Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('financial_status', 'Financial Status:') !!}
+    {!! Form::label('financial_status', 'Tell us your Financial Status/Family status:') !!}
     {!! Form::textarea('financial_status', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Career Background Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('career_background', 'Career Background:') !!}
+    {!! Form::label('career_background', 'Tell us your Career Background:') !!}
     {!! Form::textarea('career_background', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Attachement Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('attachement', 'Attachement:') !!}
+    {!! Form::label('attachement', 'Attach your business plan (PDF):') !!}
     {!! Form::file('attachement') !!}
+
 </div>
 <div class="clearfix"></div>
 
 <!-- Why Give Capital Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('why_give_capital', 'Why Should we give Capital Fund:') !!}
+    {!! Form::label('why_give_capital', 'Why Should we give you Capital Fund:') !!}
     {!! Form::textarea('why_give_capital', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- How Capital Transform Life Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('how_capital_transform_life', 'How Capital Transform Life:') !!}
+    {!! Form::label('how_capital_transform_life', 'How will this fund transform your life:') !!}
     {!! Form::textarea('how_capital_transform_life', null, ['class' => 'form-control']) !!}
 </div>
 
@@ -62,7 +63,7 @@
 
 <!-- Comptentitive Advantage Field -->
 <div class="form-group col-sm-12 col-lg-12">
-    {!! Form::label('comptentitive_advantage', 'Comptentitive Advantage:') !!}
+    {!! Form::label('comptentitive_advantage', 'Competitive Advantage:') !!}
     {!! Form::textarea('comptentitive_advantage', null, ['class' => 'form-control']) !!}
 </div>
 

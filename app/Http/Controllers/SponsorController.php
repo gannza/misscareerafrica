@@ -9,10 +9,10 @@ use App\Http\Controllers\AppBaseController;
 use App\Mail\EmailSponsor;
 use Illuminate\Http\Request;
 use Flash;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Response;
+use Illuminate\Support\Facades\Auth;
 
 class SponsorController extends AppBaseController
 {
@@ -69,7 +69,7 @@ class SponsorController extends AppBaseController
         if(Auth::check()){
             return redirect(route('sponsors.index'));
         }else {
-            return redirect()->back();
+            return redirect()->to('/');
         }
        
     }
