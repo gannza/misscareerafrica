@@ -64,7 +64,8 @@ class Candidate extends Model
         'q7',
         'session_id',
         'is_selected',
-        'votes'
+        'votes',
+        'profile'
     ];
 
     /**

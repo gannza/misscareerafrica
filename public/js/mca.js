@@ -91,6 +91,7 @@ function loadSelectedCandidates(){
                     <div class="col-md-4">
                             <div class="card border-success mb-3" style="max-width: 100%">
                             <div class="card-header bg-transparent border-success">Names:${element.fname} ${element.lname}</div>
+                            <img src="${element.profile}" class="img-fluid" style="width:100%;max-height:200px">
                             <div class="card-body text-success">
                             <h5 class="card-title">Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</h5>
                             <p class="card-text">
@@ -154,7 +155,7 @@ if(!localStorage.getItem('xosdw9433423zasie')){
         }
     });
 }else{
-    alert('you have been voted!');
+    alert('you have successfully voted the candidate. Thank you!');
 }
 
 }
@@ -232,7 +233,8 @@ $(document).ready(function() {
 	  level_education:'required',
 	  former_school_attended:'required',
 	  current_occupation:'required',
-	  country:'required',
+      country:'required',
+      profile:'required',
 	  education_background:{
         required: true,
 		maxlength: 500
@@ -277,7 +279,8 @@ $(document).ready(function() {
 	  phone_code:'Phone area code is required',
 	  street:'Street is required',
 	  city:'City is required',
-	  province:'Province is required',
+      province:'Province is required',
+      profile:'Profile Picture',
 	  level_education:'This is field is required',
 	  former_school_attended:'This is field is required',
 	  education_background:'Please make sure words do not exceed 500 characters long.',
@@ -300,6 +303,7 @@ $(document).ready(function() {
         }
     });
     var data = $(form).serializeArray();
+
 			$.ajax({
 				url:"/apply",
 				method:'POST',
@@ -418,3 +422,15 @@ $(document).ready(function() {
   });
 
 });
+
+
+function preview_image(event)
+{
+ var reader = new FileReader();
+ reader.onload = function()
+ {
+  var output = document.getElementById('output_image');
+  output.src = reader.result;
+ }
+ reader.readAsDataURL(event.target.files[0]);
+}

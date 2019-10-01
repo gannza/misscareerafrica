@@ -128,7 +128,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 </div>
 	<!-- end:fh5co-header -->
-	<div class="fh5co-parallax" style="background-image: url(images/valunteer.jpg);"
+	<div class="fh5co-parallax" style="background-image: url(images/sld2.jpg);"
 	data-stellar-background-ratio="0.5">
 	<div class="overlay"></div>
 	<div class="container">
@@ -211,7 +211,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						</ul>
 				</div>
                 <div class="col-md-3">
-						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
+						<h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
 						<ul class="link">
 							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
 							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
