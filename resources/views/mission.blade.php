@@ -207,7 +207,7 @@ Facebook: 		https://www.facebook.com/yegobox
 						</ul>
 				</div>
                 <div class="col-md-3">
-						<h3 class="apply"><b>MISS CARRER CANDIDATE</b></h3>
+						<h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
 						<ul class="link">
 							<li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
 							<li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
