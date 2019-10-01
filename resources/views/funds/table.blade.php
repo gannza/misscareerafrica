@@ -6,14 +6,15 @@
         <th>Full Name</th>
         <th>Email</th>
         <th>Phone Number</th>
-        <th>Background</th>
-        <th>Financial Status</th>
-        <th>Career Background</th>
-        <th>Attachement</th>
-        <th>Why Give Capital</th>
-        <th>How Capital Transform Life</th>
+        <th>Tell us your Background</th>
+        <th>Tell us your Financial Status/Family status</th>
+        <th>Tell us your Career Background</th>
+        <th>Attach your business plan (PDF)</th>
+
+        <th>Why Should we give you Capital Fund</th>
+        <th>How will this fund transform your life</th>
         <th>How Will You Make Profit</th>
-        <th>Comptentitive Advantage</th>
+        <th>Competitive Advantage</th>
                 <th colspan="3">Action</th>
             </tr>
         </thead>
