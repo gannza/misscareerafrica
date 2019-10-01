@@ -62,6 +62,7 @@ class ScholarshipController extends AppBaseController
 
         Flash::success('Scholarship saved successfully.');
 
+        
         if(Auth::check()){
             return redirect(route('scholarships.index'));
         }else {

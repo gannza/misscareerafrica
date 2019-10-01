@@ -61,7 +61,10 @@ class Fund extends Model
      * @var array
      */
     public static $rules = [
-        
+        'attachement'=> 'required',
+        'email'=> 'required',
+        'full_name'=> 'required',
+        'phone_number'=> 'required'
     ];
 
     
