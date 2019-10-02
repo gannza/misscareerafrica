@@ -2,7 +2,7 @@
     <body>
     Hello, {{$name}}
     <br>
-    Thank your forbooking.
+    Thank your for booking.
     <br>
     <br>
         We will notify you further details.
