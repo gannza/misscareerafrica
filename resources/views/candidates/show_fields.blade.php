@@ -188,7 +188,7 @@
         </div>
 
     </div>
-    <div class="col-md-4">
+    <div class="col-md-12">
     <div class="form-group">
         <img src="{!! $candidate->profile !!}" class="img-fluid" style="width:100%;max-height:600px">
         </div>
