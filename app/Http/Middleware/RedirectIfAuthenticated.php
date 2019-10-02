@@ -21,6 +21,11 @@ class RedirectIfAuthenticated
             return redirect('/home');
         }
 
+
+        if ($request->route()->named('register')) {
+            return redirect('/');
+        }
+
         return $next($request);
     }
 }
