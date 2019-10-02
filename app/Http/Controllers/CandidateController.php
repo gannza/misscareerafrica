@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Mail;
 use Response;
 use App\Models\Session;
 use App\Models\Candidate;
-//Candidate
+use Illuminate\Support\Facades\Storage;
 use Log;
 use Illuminate\Support\Facades\Auth;
 
@@ -68,7 +68,7 @@ class CandidateController extends AppBaseController
 
         Flash::success('Candidate saved successfully.');
 
-        
+
         if(Auth::check()){
             return redirect(route('candidates.index'));
         }else {
@@ -84,7 +84,13 @@ class CandidateController extends AppBaseController
         $input['session_id']=Session::where('is_current_applying',1)->first()->id;
         $input['is_selected']=0;
         $input['votes']=0;
-      //  Log::info($input);
+
+        if ($request->file('profile')) {
+            $path = $request->file('profile')->storePublicly('public');
+            $profile = env('APP_URL') . Storage::url($path);
+            $input['profile']=$profile;
+          }
+
         $candidate = $this->candidateRepository->create($input);
         //TODO: send email;
         Mail::to( $request->email)->send(new NotifyCandidadte($request->fname));
@@ -125,8 +131,12 @@ class CandidateController extends AppBaseController
 //
 
     public function listSelectedCandidates(){
+        $candidates =[];
         $session =    Session::where('is_current_applying',1)->first();
-        $candidates = Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get();
+        if($session){
+            $candidates = Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get();
+        }
+
 
         return $this->sendResponse(count($candidates) > 0?$candidates->toArray():[], 'List Selected Candidates');
     }
@@ -168,7 +178,7 @@ class CandidateController extends AppBaseController
             return redirect(route('candidates.index'));
         }
 
-        $candidate = $this->candidateRepository->update($request->all(), $id);
+        $candidate = $this->candidateRepository->update(['is_selected'=>$request['is_selected']], $id);
 
         Flash::success('Candidate updated successfully.');
 

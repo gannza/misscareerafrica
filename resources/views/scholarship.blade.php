@@ -90,50 +90,52 @@ Facebook: 		https://www.facebook.com/yegobox
 
 			<div id="fh5co-header">
 
-				<header id="fh5co-header-section">
-					<div class="ml-3 mr-3">
-						<div class="nav-header">
-							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
-							<nav id="fh5co-menu-wrap" role="navigation">
-								<ul class="sf-menu" id="fh5co-primary-menu">
-									<li><a href="/" style="color: white;">HOME</a></li>
-                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  class="can-voting"  href="selected-candidates">CANDIDATES</a></li>
-									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#">Book Miss Career</a></li>
-											<li><a href="candidate-application">Become a Candidate</a></li>
-										</ul>
-									</li> -->
-									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
+            <header id="fh5co-header-section">
+                    <div class="container">
+                        <div class="nav-header">
+                            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                            <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
+                                        style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
+                            <nav id="fh5co-menu-wrap" role="navigation">
+                                <ul class="sf-menu" id="fh5co-primary-menu">
+                                    <li><a href="/" style="color: white;">HOME</a></li>
+                                    <li><a class="apply" style="color: white;" href="candidate-application">APPLY NOW</a></li>
+                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">CANDIDATES</a></li>
 
-									<li><a   style="color: white;" href="#">ORGANIZATION</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="blog">Our Blog</a></li>
-											<li><a href="scope">Our scope</a></li>
-											<li><a href="contact">Contact Us</a></li>
-										</ul>
-									</li>
-									<li><a  style="color: white;" href="#">SUPPORT</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="volunteer">Become a volunteer</a></li>
-											<li><a href="sponsor">Become a sponsor</a></li>
-										</ul>
-									</li>
-									<li><a style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
-                                    <li><a  href="fund" style="color: white;">MCA FUND</a></li>
-                                    <li><a  href="book-mca" style="color: white;">Book MCA</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</header>
+
+
+                                    <li><a style="color: white;" href="#">ORGANIZATION</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="blog">Our Blog</a></li>
+                                            <li><a href="scope">Our scope</a></li>
+                                            <li><a href="contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a style="color: white;" href="#">SUPPORT</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="volunteer">Become a volunteer</a></li>
+                                            <li><a href="sponsor">Become a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a style="color: white;" href="#">MORE....</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="scholarship">MCA SCHOLARSHIP</a></li>
+                                            <li><a href="fund">MCA FUND</a></li>
+                                            <li><a href="book-mca">BOOK MCA</a></li>
+                                            <li><a  href="eligibility">ELIGIBILITY</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
 
 			</div>
 			<!-- end:fh5co-header -->
-			<div class="fh5co-parallax" style="background-image: url(images/sholarship.jpeg);"
+			<div class="fh5co-parallax" style="background-image: url(images/scholarship.jpg);"
 				data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
@@ -163,8 +165,8 @@ Since 2019-2020, Miss Career Africa Scholarship Program will help provide over 3
 For the first 12 months of the program, Scholars immerse themselves in Miss Career Africa’s rigorous Career Guidance cohort offered by All Trust Consult, Business Modeling Program offered by Australian Partner organization dubbed Microlend Australian and leadership courses all offered at the Entrepreneurship Incubation Center located at the HomeX  Garden  on the campus of the DecideX Group & All Trust Consult offices. Scholars are required to make a full-time commitment to the Career Guidance and Entrepreneurship Academy without any guarantee they will be awarded a university scholarship. In addition, they sign a written commitment that if they are awarded an international or regional scholarship they will return to work in their respective countries after their university graduation. In addition to academic performance and English language skills, the selection process considers leadership potential, Entrepreneurial capabilities, people skills, spiritual depth/Character and the student’s desire to make a difference in her country.
 Those who fail to win scholarships in the end,
 They have access to…</p>
-<p>
-the Miss Career Fund which funds their business projects to be able start their own businesses as they try other possibilities of sponsoring themselves in their local countries. Actually our scholarship encourages this offer most. And there are higher chances of winning this one over the international one.
+<p style="color: #252525!important;">
+The Miss Career Fund which funds their business projects to be able start their own businesses as they try other possibilities of sponsoring themselves in their local countries. Actually our scholarship encourages this offer most. And there are higher chances of winning this one over the international one.
 </p>
 						</div>
 

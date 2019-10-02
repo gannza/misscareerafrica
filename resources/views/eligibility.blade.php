@@ -90,51 +90,52 @@ Facebook: 		https://www.facebook.com/yegobox
 
 			<div id="fh5co-header">
 
+            <header id="fh5co-header-section">
+                    <div class="container">
+                        <div class="nav-header">
+                            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                            <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
+                                        style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
+                            <nav id="fh5co-menu-wrap" role="navigation">
+                                <ul class="sf-menu" id="fh5co-primary-menu">
+                                    <li><a href="/" style="color: white;">HOME</a></li>
+                                    <li><a class="apply" style="color: white;" href="candidate-application">APPLY NOW</a></li>
+                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">CANDIDATES</a></li>
 
-			<header id="fh5co-header-section">
-					<div class="ml-3 mr-3">
-						<div class="nav-header">
-							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-							 <span id="fh5co-logo"><a href="/"><img src="images/logo.png" class="img-rounded"
-										style="width: 200px;height:80px;position: relative;bottom:25px"></a></span>
-							<nav id="fh5co-menu-wrap" role="navigation">
-								<ul class="sf-menu" id="fh5co-primary-menu">
-									<li><a href="/" style="color: white;">HOME</a></li>
-                                    <li><a class="apply"   href="candidate-application">APPLY NOW</a></li>
-									<li><a  class="can-voting"  href="selected-candidates">CANDIDATES</a></li>
-									<!-- <li><a  class="active" style="color: white;" href="#">MISS CAREER</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="#">Book Miss Career</a></li>
-											<li><a href="candidate-application">Become a Candidate</a></li>
-										</ul>
-									</li> -->
-									<li><a style="color: white;" href="eligibility">ELIGIBILITY</a></li>
 
-									<li><a   style="color: white;" href="#">ORGANIZATION</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="blog">Our Blog</a></li>
-											<li><a href="scope">Our scope</a></li>
-											<li><a href="contact">Contact Us</a></li>
-										</ul>
-									</li>
-									<li><a  style="color: white;" href="#">SUPPORT</a>
-										<ul class="fh5co-sub-menu">
-											<li><a href="volunteer">Become a volunteer</a></li>
-											<li><a href="sponsor">Become a sponsor</a></li>
-										</ul>
-									</li>
-									<li><a  style="color: white;" href="scholarship">MCA SCHOLARSHIP</a></li>
-                                    <li><a  href="fund" style="color: white;">MCA FUND</a></li>
-                                    <li><a  href="book-mca" style="color: white;">Book MCA</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</header>
+
+                                    <li><a style="color: white;" href="#">ORGANIZATION</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="blog">Our Blog</a></li>
+                                            <li><a href="scope">Our scope</a></li>
+                                            <li><a href="contact">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a style="color: white;" href="#">SUPPORT</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="volunteer">Become a volunteer</a></li>
+                                            <li><a href="sponsor">Become a sponsor</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a style="color: white;" href="#">MORE....</a>
+                                        <ul class="fh5co-sub-menu">
+                                            <li><a href="scholarship">MCA SCHOLARSHIP</a></li>
+                                            <li><a href="fund">MCA FUND</a></li>
+                                            <li><a href="book-mca">BOOK MCA</a></li>
+                                            <li><a  href="eligibility">ELIGIBILITY</a></li>
+                                        </ul>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
 
 			</div>
 			<!-- end:fh5co-header -->
-			<div class="fh5co-parallax" style="background-image: url(images/apply.jpeg);"
+			<div class="fh5co-parallax" style="background-image: url(images/apply.jpg);"
 				data-stellar-background-ratio="0.5">
 				<div class="overlay"></div>
 				<div class="container">
@@ -153,25 +154,26 @@ Facebook: 		https://www.facebook.com/yegobox
 			<div id="fh5co-blog-section">
 				<div class="container" id="contact" style="background:black;">
                     <p style="color: black;">
-                             <br><a href="apply.html">APPLY HERE</a><br>
-                            Eligibility
-                            Open to young female professionals, Entrepreneurs and Students.
-                            Eastern African  Countries
-                            18-24 Years Old
+                             <br><a href="/candidate-application">APPLY HERE</a><br>
+                            <b style="font-size:20px">Eligible candidate(s):</b><br />
+                            -Young female professionals<br />
+                            -Entrepreneurs High School graduates, University Students and working class(Under 24 years).<br />
+                            -Eastern African and<br />
+                            -In a range of 18-24 Years
                     </p>
                     <p>
                             <a href="#">Application Requirements:</a><br>
-                            Complete Online Application,
-                            Career project and
-                            Incomplete Applications will not be accepted.<br>
+                            Complete Online Application as required!<br />
+                            Ps: Incomplete Applications will not be accepted.<br>
                             <a href="#">What else is required?</a><br>
-                            If invited, your  availability for the Boot Camp orientation for all the Miss Career Africa sessions, taking place  November , 6th  2019 If you cannot make it on that day , call contact before the meeting date 2019.
-                            Attend the Information Session
-                            The Boot Camp information session will be held in Kigali. For Further Information, Emails will be sent to you.
+                            If you are lucky to be nominated for the boot camp, Its an eye-Opener program you do not want to miss.  your  availability for the Boot Camp orientation for all the Miss Career Africa sessions, taking place  November , 6th  2019 is required. <br />
+                            Note: If you cannot make it on that day , call +250784872667 before the meeting date.
+                            <br />Attend the Information Session:<br />
+                            The Boot Camp information session will be held in Kigali. <br />For Further Information, Emails will be sent to you.
                             <br>
                             <a href="#">Application timeline:</a><br>
-                            Application open September, 25th 2019<br>
-                            Deadline is October 25th 11:59 PM.
+                            Application open-September, 25th 2019<br>
+                            Deadline- October 25th 11:59 PM.
                     </p>
 				</div>
 			</div>
@@ -235,6 +237,8 @@ Facebook: 		https://www.facebook.com/yegobox
 								<li><a style="color: white;" href="volunteer">Become a volunteer</a></li>
 								<li><a style="color: white;" href="sponsor">Become a sponsor</a></li>
 								<li><a style="color: white;" href="scholarship">MCA Scholarship</a></li>
+                                <li><a style="color: white;" href="fund">MCA Fund</a></li>
+                                <li><a style="color: white;" href="book-mca">Book MCA</a></li>
 						</ul>
 					</div>
 
