@@ -180,13 +180,17 @@
 
             <p> {!! Form::label('created_at', 'Created At:') !!}:{!! $candidate->created_at !!}</p>
         </div>
-        <div class="form-group">
-        <img src="{!! $candidate->profile !!}" class="img-fluid" style="width:100%;max-height:200px">
-        </div>
+
         <!-- Updated At Field -->
         <div class="form-group">
 
             <p> {!! Form::label('updated_at', 'Updated At:') !!}: {!! $candidate->updated_at !!}</p>
         </div>
+
     </div>
+    <div class="col-md-4">
+    <div class="form-group">
+        <img src="{!! $candidate->profile !!}" class="img-fluid" style="width:100%;max-height:600px">
+        </div>
+     </div>
 </div>
