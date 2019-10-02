@@ -169,6 +169,7 @@ Facebook: 		https://www.facebook.com/yegobox
 							@include('flash::message')
 							<h1 class="h1">SPONSORSHIP FORM</h1>
 							</div>
+
 							<div class="content">
 							@include('adminlte-templates::common.errors')
 							<div  class="col-md-12">

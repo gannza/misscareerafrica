@@ -165,8 +165,8 @@ Since 2019-2020, Miss Career Africa Scholarship Program will help provide over 3
 For the first 12 months of the program, Scholars immerse themselves in Miss Career Africa’s rigorous Career Guidance cohort offered by All Trust Consult, Business Modeling Program offered by Australian Partner organization dubbed Microlend Australian and leadership courses all offered at the Entrepreneurship Incubation Center located at the HomeX  Garden  on the campus of the DecideX Group & All Trust Consult offices. Scholars are required to make a full-time commitment to the Career Guidance and Entrepreneurship Academy without any guarantee they will be awarded a university scholarship. In addition, they sign a written commitment that if they are awarded an international or regional scholarship they will return to work in their respective countries after their university graduation. In addition to academic performance and English language skills, the selection process considers leadership potential, Entrepreneurial capabilities, people skills, spiritual depth/Character and the student’s desire to make a difference in her country.
 Those who fail to win scholarships in the end,
 They have access to…</p>
-<p>
-the Miss Career Fund which funds their business projects to be able start their own businesses as they try other possibilities of sponsoring themselves in their local countries. Actually our scholarship encourages this offer most. And there are higher chances of winning this one over the international one.
+<p style="color: #252525!important;">
+The Miss Career Fund which funds their business projects to be able start their own businesses as they try other possibilities of sponsoring themselves in their local countries. Actually our scholarship encourages this offer most. And there are higher chances of winning this one over the international one.
 </p>
 						</div>
 
