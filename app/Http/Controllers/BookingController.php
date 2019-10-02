@@ -73,7 +73,7 @@ class BookingController extends AppBaseController
         if(Auth::check()){
             return redirect(route('bookings.index'));
         }else {
-            return redirect()->back();
+            return redirect()->to('/');
         }
     }
 
