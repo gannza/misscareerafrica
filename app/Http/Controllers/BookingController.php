@@ -10,6 +10,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Flash;
 use Response;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Booking;
 
 class BookingController extends AppBaseController
 {
@@ -20,7 +22,6 @@ class BookingController extends AppBaseController
     public function booking(){
         return view('booking');
     }
-
 
     public function __construct(BookingRepository $bookingRepo)
     {
@@ -63,8 +64,9 @@ class BookingController extends AppBaseController
     {
         $input = $request->all();
 
+        // email
         $booking = $this->bookingRepository->create($input);
-
+        Mail::to($request->email)->send(new Booking($request->name));
         Flash::success('Booking saved successfully.');
 
 
