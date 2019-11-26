@@ -31,7 +31,7 @@ function loadCurrentSession(){
 
                       <span class="card-subtitle mb-2" style="color:#fff!important;font-size:40px"><b class="text-white" style="color:#fff!important">${data.country}</b></span>
 
-                    <a class="title_link" href="j#">
+                    <a class="title_link" href="/candidate-application">
                         <h2 class="wpb_heading wpb_singleimage_heading2 text-center">
 
                             <hr />
@@ -188,7 +188,7 @@ function loadAllSession(){
                                     <span class="card-subtitle mb-2" style="color:#fff!important;font-size:40px"><b class="text-white" style="color:#fff!important">${element.country}</b></span>
 
 
-                                    <a class="title_link" href="j#">
+                                    <a class="title_link" href="#">
                                         <h2 class="wpb_heading wpb_singleimage_heading2 text-center">
 
                                             <hr />

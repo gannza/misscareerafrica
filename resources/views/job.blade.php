@@ -173,7 +173,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
 									Miss Career Africa will work with the MCA team to develop goals and execute on tactics to advance her chosen Social Impact Initiative, setting metrics and developing partnerships which will show positive results at the end of her year. In addition, she also serves as the Africa’s Ambassador for All Trust Consult; rising funds for the Africa’s poorest communities and young talents to start their own businesses in partnership with Microlend Australia who otherwise would not be able to afford capital funds. The Miss Career Africa will as well run a campaign of raising international and regional university scholarships for girls from vulnerable families who cannot afford university tuition even in their local universities.
 
-									As such, public speaking is an essential role of Miss America. She researches and prepares speeches to deliver to audiences of all sizes. She speaks with the media and is a representative of MCA with sponsors and partners, students and corporate executives.
+									As such, public speaking is an essential role of Miss Career Africa. She researches and prepares speeches to deliver to audiences of all sizes. She speaks with the media and is a representative of MCA with sponsors and partners, students and corporate executives.
 									A first step to continuing her education and career, the job of Miss Career is a once-in-a-lifetime experience that carries with it service above self.
 							</p>
 

@@ -157,7 +157,7 @@ Facebook: 		https://www.facebook.com/yegobox
                             <div class="col-md-9">
                                 <div class="col-md-12">
                                     <h1><b>MISS CAREER AFRICA - APPLICATION FORM</b></h1>
-                                    <h1 class="text-center text-warning"><b>DEADLINE:25,Oct,2019</b></h1>
+                                    <h1 class="text-center text-warning"><b>DEADLINE:25,Nov 2019</b></h1>
                                     <hr />
                                 </div>
 

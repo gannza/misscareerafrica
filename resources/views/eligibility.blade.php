@@ -172,8 +172,8 @@ Facebook: 		https://www.facebook.com/yegobox
                             The Boot Camp information session will be held in Kigali. <br />For Further Information, Emails will be sent to you.
                             <br>
                             <a href="#">Application timeline:</a><br>
-                            Application open-September, 25th 2019<br>
-                            Deadline- October 25th 11:59 PM.
+                            Application open: September, 25th 2019<br>
+                            Deadline: November 25th 11:59 PM.
                     </p>
 				</div>
 			</div>

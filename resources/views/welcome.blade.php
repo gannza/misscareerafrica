@@ -195,7 +195,7 @@ Facebook: 		https://www.facebook.com/yegobox
 									<div style="text-align: center;font-size: 10px">
 											<p class="p" >It’s 21st Century and the light is illuminating in the corners of the Continent of Africa and Miss Career Africa wants to hold this flagship.
 											The Miss Career Africa competition reflects a broad picture of how the keys of career, power and Future should be handed as well to the girls who are the next generation of mothers, teachers and professionals of all kinds.
-											<a href="history.html">read more...</a>
+											<a href="/scope">read more...</a>
 											</p>
 
 									</div>

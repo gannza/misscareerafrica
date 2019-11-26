@@ -88,8 +88,10 @@ class CandidateController extends AppBaseController
         if ($request->file('profile')) {
             $path = $request->file('profile')->storePublicly('public');
             $profile = env('APP_URL') . Storage::url($path);
-            $input['profile']=$profile;
-          }
+            $input['profile']=$profile?$profile:'-';
+          }else{
+ $input['profile']='-';
+}
 
         $candidate = $this->candidateRepository->create($input);
         //TODO: send email;
