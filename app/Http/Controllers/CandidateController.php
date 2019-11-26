@@ -134,13 +134,13 @@ class CandidateController extends AppBaseController
 
     public function listSelectedCandidates(){
         $candidates =[];
-        $session =    Session::where('is_current_applying',1)->first();
+        $session =    Session::where('is_voting_open',1)->first();
         if($session){
             $candidates = Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get();
         }
 
 
-        return $this->sendResponse(count($candidates) > 0?$candidates->toArray():[], 'List Selected Candidates');
+        return $this->sendResponse(count($candidates) > 0?$candidates:[], 'List Selected Candidates');
     }
     /**
      * Show the form for editing the specified Candidate.
@@ -180,7 +180,7 @@ class CandidateController extends AppBaseController
             return redirect(route('candidates.index'));
         }
 
-        $candidate = $this->candidateRepository->update(['is_selected'=>$request['is_selected']], $id);
+        $candidate = $this->candidateRepository->update(['is_selected'=>$request['is_selected'],'bio'=>$request['bio']], $id);
 
         Flash::success('Candidate updated successfully.');
 

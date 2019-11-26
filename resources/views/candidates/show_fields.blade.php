@@ -172,6 +172,11 @@
             <p> {!! Form::label('is_selected', 'Is Candidate Selected:') !!}: {!! $candidate->is_selected?'<label class="badge badge-success">YES</label>':'<label
                     class="badge badge-danger">NO</label>' !!}</p>
         </div>
+        <div class="form-group">
+
+            <p> {!! Form::label('bio', 'Bio:') !!}: {!!$candidate->bio!!}</p>
+            </div>
+        
     </div>
     <div class="col-md-4">
         <hr />

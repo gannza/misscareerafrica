@@ -4,6 +4,8 @@ loadAllSession();
 loadSelectedCandidates();
 
 function loadCurrentSession(){
+    $('.apply').hide();
+    $('.can-voting').hide(); 
     $('.loading-overlay').show();
 
     var htmls= $('#current_session');
@@ -22,8 +24,9 @@ function loadCurrentSession(){
             if(response.success){
 
                 const data=response.data;
-                if(data.is_current_applying){
-                    var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">CANDIDATE</a>':'';
+                if(data.is_current_applying || data.is_voting_open){
+                    var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">SELECTED CANDIDATE</a>':'';
+                    var apply=!data.is_voting_open?'<a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a>':'';
                     row=` <div class="card">
                     <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
                     <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
@@ -36,7 +39,7 @@ function loadCurrentSession(){
 
                             <hr />
                             <div class="float-left"><h4 href="#" class="ml-5 mt-4 card-link text-info">${data.date}</h4></div>
-                            <div class="float-right">${candidate} <a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a></div>
+                            <div class="float-right">${candidate} ${apply}</div>
 
                         </h2>
                     </a>
@@ -44,12 +47,13 @@ function loadCurrentSession(){
                     </div>
                 </div>
                     `;
-
                     if(data.is_voting_open){
-                        $('.can-voting').show();
-                    }else{
-                        $('.can-voting').hide();
+                        $('.can-voting').show(); 
                     }
+                    if(!data.is_voting_open){
+                        $('.apply').show();
+                    }
+                   
 
                 }else{
                     $('.can-voting').hide();
@@ -65,6 +69,11 @@ function loadCurrentSession(){
         }
     }
     );
+}
+function readMore(name,src,bio){
+    $('.names').html(name);
+    $('.bio').html(bio);
+    $(".profile").attr("src", src);
 }
 
 function loadSelectedCandidates(){
@@ -88,14 +97,18 @@ function loadSelectedCandidates(){
             datas.forEach(element => {
                 if(element){
                     rows+=`
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
                             <div class="card border-success mb-3" style="max-width: 100%">
-                            <div class="card-header bg-transparent border-success">Names:${element.fname} ${element.lname}</div>
-                            <img src="${element.profile}" class="img-fluid" style="width:100%;max-height:200px">
+                            <div class="card-header bg-transparent border-success"><b>Full name:${element.fname} ${element.lname}</b></div>
+                            <div class="img-fluid" style=" background-image: url('${element.profile}');
+                            background-repeat: no-repeat;width:100%;min-height:300px;
+                            background-size: cover; background-size: center center"></div>
                             <div class="card-body text-success">
-                            <h5 class="card-title">Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</h5>
-                            <p class="card-text">
-                            </p>
+                            <h5 class="card-title"><b>Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</b></h5>
+                            <b class="card-text">
+                            <hr />
+                            Bio: ${element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio}
+                            </b>
                             </div>
                             <div class="card-footer bg-transparent border-success">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
@@ -105,6 +118,24 @@ function loadSelectedCandidates(){
                             </div>
                         </div>
                   </div>
+
+                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle"><b class="names"></b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    <img src="" class="img-fluid profile" style="width:100%">
+                    <hr />
+                    <b class="bio"></b>
+                    </div>
+                    </div>
+                </div>
+                </div>
                     `;
 
                 }

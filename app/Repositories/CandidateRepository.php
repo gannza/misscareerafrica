@@ -40,7 +40,8 @@ class CandidateRepository extends BaseRepository
         'q7',
         'session_id',
         'votes',
-        'is_selected'
+        'is_selected',
+        'bio'
     ];
 
     /**

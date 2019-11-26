@@ -65,7 +65,8 @@ class Candidate extends Model
         'session_id',
         'is_selected',
         'votes',
-        'profile'
+        'profile',
+        'bio'
     ];
 
     /**
@@ -91,7 +92,7 @@ class Candidate extends Model
         'current_occupation' => 'string',
         'session_id' => 'integer',
         'votes' => 'integer',
-        'is_selected' => 'integer'
+        'is_selected' => 'integer','bio'=>'string'
     ];
 
     /**
