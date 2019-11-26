@@ -71,8 +71,8 @@ function loadCurrentSession(){
     );
 }
 function readMore(name,src,bio){
-    $('.names').html(name);
-    $('.bio').html(bio);
+    $('.names').html(name?name:'');
+    $('.bio').html(bio?bio:'');
     $(".profile").attr("src", src);
 }
 
