@@ -105,7 +105,7 @@ function loadSelectedCandidates(){
                             background-size: cover; background-size: center center"></div>
                             <div class="card-body text-success">
                             <h5 class="card-title"><b>Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</b></h5>
-                            <b class="card-text" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
+                            <b class="card-text" data-toggle="modal" data-target="#exampleModalLongPic" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
                             <hr />
                             Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio:''}
                             </b>
@@ -129,9 +129,24 @@ function loadSelectedCandidates(){
                         </button>
                     </div>
                     <div class="modal-body">
-                    <img src="" class="img-fluid profile" style="width:100%">
-                    <hr />
+    
                     <b class="bio"></b>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="modal fade" id="exampleModalLongPic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle"><b class="names"></b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                    <img src="" class="img-fluid profile" style="width:100%">
                     </div>
                     </div>
                 </div>
