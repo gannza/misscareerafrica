@@ -97,15 +97,15 @@ function loadSelectedCandidates(){
             datas.forEach(element => {
                 if(element){
                     rows+=`
-                    <div class="col-md-4" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
+                    <div class="col-md-4">
                             <div class="card border-success mb-3" style="max-width: 100%">
                             <div class="card-header bg-transparent border-success"><b>Full name:${element.fname} ${element.lname}</b></div>
-                            <div class="img-fluid" style=" background-image: url('${element.profile}');
+                            <div class="img-fluid" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')" style=" background-image: url('${element.profile}');
                             background-repeat: no-repeat;width:100%;min-height:300px;
                             background-size: cover; background-size: center center"></div>
                             <div class="card-body text-success">
                             <h5 class="card-title"><b>Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</b></h5>
-                            <b class="card-text">
+                            <b class="card-text" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
                             <hr />
                             Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio:''}
                             </b>
