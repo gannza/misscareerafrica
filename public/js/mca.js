@@ -107,7 +107,7 @@ function loadSelectedCandidates(){
                             <h5 class="card-title"><b>Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</b></h5>
                             <b class="card-text">
                             <hr />
-                            Bio: ${element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio}
+                            Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio:''}
                             </b>
                             </div>
                             <div class="card-footer bg-transparent border-success">
