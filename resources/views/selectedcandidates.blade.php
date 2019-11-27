@@ -9,9 +9,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Selected Candidates :: Miss Career</title>
+    <title>Preselected Candidates-2019 :: Miss Career</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Miss Career" />
+    <meta name="description" content="Preselected Candidates-2019" />
     <meta name="keywords" content="Miss Career, yegobox, flipper" />
     <meta name="author" content="Yegobox Team" />
 
@@ -130,7 +130,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             </div>
             <!-- end:fh5co-header -->
-            <div class="fh5co-parallax" style="background-image: url(images/competition.jpg);"
+            <div class="fh5co-parallax-1" style="background-image: url(images/vots.jpeg);"
                 data-stellar-background-ratio="0.5">
                 <div class="overlay"></div>
                 <div class="container">

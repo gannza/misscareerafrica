@@ -16,6 +16,7 @@ use App\Models\Candidate;
 use Illuminate\Support\Facades\Storage;
 use Log;
 use Illuminate\Support\Facades\Auth;
+use DataTables;
 
 class CandidateController extends AppBaseController
 {
@@ -38,6 +39,7 @@ class CandidateController extends AppBaseController
     public function index(Request $request)
     {
         $candidates = $this->candidateRepository->paginate(10);
+        
 
         return view('candidates.index')
             ->with('candidates', $candidates);

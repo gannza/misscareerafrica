@@ -129,7 +129,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             </div>
             <!-- end:fh5co-header -->
-            <div class="fh5co-parallax" style="background-image: url(images/apply.jpg);"
+            <div class="fh5co-parallax" style="background-image: url(images/RW.jpg);"
                 data-stellar-background-ratio="0.5">
                 <div class="overlay"></div>
                 <div class="container">
@@ -157,8 +157,9 @@ Facebook: 		https://www.facebook.com/yegobox
                             <div class="col-md-9">
                                 <div class="col-md-12">
                                     <h1><b>MISS CAREER AFRICA - APPLICATION FORM</b></h1>
-                                    <h1 class="text-center text-warning"><b>DEADLINE:25,Nov 2019</b></h1>
+                                    <h1 class="text-center text-warning"><b>APPLICATION CLOSED</b></h1>
                                     <hr />
+                                    <img src="images/apply.jpeg">
                                 </div>
 
                                 <div class="col-md-12 apply">
