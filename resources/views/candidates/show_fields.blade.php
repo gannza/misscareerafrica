@@ -1,5 +1,10 @@
 <!-- Id Field -->
 <div class="row">
+<div class="ml-4 mx-auto col-6">
+                <img src="{!! $candidate->profile !!}" class="ml-4 img-fluid" style="">
+                
+        </div>
+
     <div class="col-md-6">
         <div class="col-md-12">
             <hr />
@@ -193,9 +198,4 @@
         </div>
 
     </div>
-    <div class="col-md-12">
-    <div class="form-group">
-        <img src="{!! $candidate->profile !!}" class="img-fluid" style="width:100%;max-height:600px">
-        </div>
-     </div>
 </div>

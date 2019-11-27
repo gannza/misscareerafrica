@@ -3,7 +3,10 @@
     {!! Form::label('fname', 'Fname:') !!}
     {!! Form::text('fname', null, ['class' => 'form-control']) !!}
 </div>
-
+<div class="form-group col-sm-6">
+    {!! Form::label('Profile pic', 'profile:') !!}
+    {!! Form::file('profile') !!}
+</div>
 <!-- Lname Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('lname', 'Lname:') !!}

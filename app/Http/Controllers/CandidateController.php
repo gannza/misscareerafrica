@@ -179,8 +179,18 @@ class CandidateController extends AppBaseController
 
             return redirect(route('candidates.index'));
         }
+        $input = $request->all();
 
-        $candidate = $this->candidateRepository->update(['is_selected'=>$request['is_selected'],'bio'=>$request['bio']], $id);
+        if ($request->file('profile')) {
+            $path = $request->file('profile')->storePublicly('public');
+            $profile = env('APP_URL') . Storage::url($path);
+            $input['profile']=$profile?$profile:$candidate->profile;
+          }else{
+            $input['profile']=$candidate->profile;
+            }
+         
+
+        $candidate = $this->candidateRepository->update($input, $id);
 
         Flash::success('Candidate updated successfully.');
 
