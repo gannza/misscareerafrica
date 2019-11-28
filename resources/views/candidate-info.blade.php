@@ -96,7 +96,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                     <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
                                         <b class="card-text">
                                         <hr />
-                                        Bio: {{$candidate->bio}}
+                                        {{$candidate->bio}}
                                         </b>
                                     </div>
                            
