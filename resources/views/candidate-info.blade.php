@@ -9,9 +9,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{$candidate->fname}} {{$candidate->lname}} :: Miss Career</title>
+    <title>Vote For {{$candidate->fname}} {{$candidate->lname}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Preselected Candidate Details" />
+    <meta name="description" content="Miss Career Africa Preselected Candidate Details" />
     <meta name="keywords" content="Miss Career, yegobox, flipper" />
     <meta name="author" content="Yegobox Team" />
 
