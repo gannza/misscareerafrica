@@ -163,6 +163,7 @@ if(!localStorage.getItem('xosdw9433423zasie')){
 
                 loadSelectedCandidates();
                 localStorage.setItem('xosdw9433423zasie','xosdw9433423zasie');
+                window.location.reload();
             }
 
             },error:function(error)
