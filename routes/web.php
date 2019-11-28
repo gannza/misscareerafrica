@@ -35,6 +35,8 @@ Route::get('/candidate-application', function () {
     return view('apply');
 });
 
+Route::get('candidate-page/{id}', 'CandidateController@showCandidate');
+
 Route::get('/competition', function () {
     return view('competition');
 });
@@ -87,6 +89,7 @@ Route::get('list_sessions', 'SessionController@listSessions');
 
 //
 Route::get('list-selected-candidates', 'CandidateController@listSelectedCandidates');
+
 
 Route::resource('sessions', 'SessionController');
 

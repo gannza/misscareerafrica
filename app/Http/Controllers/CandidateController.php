@@ -36,6 +36,15 @@ class CandidateController extends AppBaseController
      *
      * @return Response
      */
+    public function showCandidate($id){
+        $candidate = $this->candidateRepository->find($id);
+
+        if (empty($candidate)) {
+           
+            return redirect('selected-candidates');
+        }
+        return view('candidate-info')->with('candidate', $candidate);
+    }
     public function index(Request $request)
     {
         $candidates = $this->candidateRepository->paginate(10);

@@ -100,16 +100,18 @@ function loadSelectedCandidates(){
                     <div class="col-md-4">
                             <div class="card border-success mb-3" style="max-width: 100%">
                             <div class="card-header bg-transparent border-success"><b>${element.fname} ${element.lname}</b></div>
-                            <div class="img-fluid" data-toggle="modal" data-target="#exampleModalLongPic" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')" style=" background-image: url('${element.profile}');
-                            background-repeat: no-repeat;width:100%;min-height:300px;
-                            background-size: cover; background-size: center center"></div>
-                            <div class="card-body text-success">
-                            <h5 class="card-title"><b>${element.city} - ${element.country}</b></h5>
-                            <b class="card-text" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
-                            <hr />
-                            Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio:''}
-                            </b>
-                            </div>
+                            <a href="candidate-page/${element.id}">
+                                    <div class="img-fluid" style=" background-image: url('${element.profile}');
+                                    background-repeat: no-repeat;width:100%;min-height:300px;
+                                    background-size: cover; background-size: center center"></div>
+                                    <div class="card-body text-success">
+                                    <h5 class="card-title"><b>${element.city} - ${element.country}</b></h5>
+                                        <b class="card-text">
+                                        <hr />
+                                        Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="candidate-page/'+element.id+'">read more ....</a>':element.bio:''}
+                                        </b>
+                                    </div>
+                            </a>
                             <div class="card-footer bg-transparent border-success">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
                                     Vote Now! &nbsp;&nbsp;<span class="badge badge-light">${element.votes==null?0:element.votes}</span>
@@ -119,38 +121,6 @@ function loadSelectedCandidates(){
                         </div>
                   </div>
 
-                  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle"><b class="names"></b></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-    
-                    <b class="bio"></b>
-                    </div>
-                    </div>
-                </div>
-                </div>
-
-                <div class="modal fade" id="exampleModalLongPic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle"><b class="names"></b></h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                    <img src="" class="img-fluid profile" style="width:100%">
-                    </div>
-                    </div>
-                </div>
-                </div>
                     `;
 
                 }
@@ -201,7 +171,7 @@ if(!localStorage.getItem('xosdw9433423zasie')){
         }
     });
 }else{
-    alert('you have successfully voted the candidate. Thank you!');
+    alert('you have already voted. Thank you!');
 }
 
 }
