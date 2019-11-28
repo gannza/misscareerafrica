@@ -9,12 +9,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Preselected Candidates-2019 :: Miss Career</title>
+    <title>Vote Preselected Candidates</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Preselected Candidates-2019" />
+    <meta name="description" content="Miss Career Africa Preselected Candidate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Miss Career, yegobox, flipper" />
     <meta name="author" content="Yegobox Team" />
-
+    <link rel="shortcut icon" href="/images/logo.png">
     <!--
 //////////////////////////////////////////////////////
 
@@ -39,7 +40,6 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="favicon.ico">
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
 
     <!-- Stylesheets -->
