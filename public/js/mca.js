@@ -25,7 +25,7 @@ function loadCurrentSession(){
 
                 const data=response.data;
                 if(data.is_current_applying || data.is_voting_open){
-                    var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">SELECTED CANDIDATES</a>':'';
+                    var candidate=data.is_voting_open?'<a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-5 text-white can-voting">VOTE PRESELECTED CANDIDATES</a>':'';
                     var apply=!data.is_voting_open?'<a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a>':'';
                     row=` <div class="card">
                     <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
@@ -104,7 +104,7 @@ function loadSelectedCandidates(){
                             background-repeat: no-repeat;width:100%;min-height:300px;
                             background-size: cover; background-size: center center"></div>
                             <div class="card-body text-success">
-                            <h5 class="card-title"><b>Address:${element.street}, ${element.city}, ${element.province}, ${element.country}</b></h5>
+                            <h5 class="card-title"><b>Address:${element.city} - ${element.country}</b></h5>
                             <b class="card-text" data-toggle="modal" data-target="#exampleModalLong" onClick="readMore('${element.fname} ${element.lname}','${element.profile}','${element.bio}')">
                             <hr />
                             Bio: ${element.bio?element.bio.length > 115?element.bio.substring(0,100)+' <a href="#">read more ....</a>':element.bio:''}
