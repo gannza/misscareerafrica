@@ -89,9 +89,7 @@ Facebook: 		https://www.facebook.com/yegobox
                     <div class="col-md-12">
                             <div class="card border-success mb-3" style="max-width: 100%">
                             <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}} {{$candidate->lname}}</b></div>
-                                    <div class="img-fluid" style=" background-image: url('{{$candidate->profile}}');
-                                    background-repeat: no-repeat;width:100%;height:1200px;
-                                    background-size: cover; background-size: center center"></div>
+                                    <img class="img-fluid" src="{{$candidate->profile}}" style="width:100%;height:100vh;"></div>
                                     <div class="card-body text-success">
                                     <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
                                         <b class="card-text">
