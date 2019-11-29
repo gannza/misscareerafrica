@@ -117,8 +117,9 @@ class CandidateController extends AppBaseController
         if (empty($candidate)) {
             return $this->sendResponse([],'No candidates found!');
         }
-        $candidate->vote=$candidate->vote+1;
-        $candidate = $this->candidateRepository->update(['votes'=>$candidate->vote], $request['id']);
+        
+        $votes=$candidate->vote+1;
+        $candidate = $this->candidateRepository->update(['votes'=> $votes], $request['id']);
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
     }
     //votes
