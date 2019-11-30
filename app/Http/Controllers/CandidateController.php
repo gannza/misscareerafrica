@@ -13,10 +13,15 @@ use Illuminate\Support\Facades\Mail;
 use Response;
 use App\Models\Session;
 use App\Models\Candidate;
+use App\Models\Device;
 use Illuminate\Support\Facades\Storage;
 use Log;
 use Illuminate\Support\Facades\Auth;
 use DataTables;
+use GeoIP;
+use Location;
+use Jenssegers\Agent\Agent;
+use Carbon\Carbon;
 
 class CandidateController extends AppBaseController
 {
@@ -88,6 +93,34 @@ class CandidateController extends AppBaseController
     }
 
 
+    
+    private function saveNewDevice($candidate_id)
+    {
+       // Chrome, IE, Safari, Firefox, ...
+       $agent = new Agent();
+       $browser = $agent->browser();
+       // Ubuntu, Windows, OS X, ...
+        $platform = $agent->platform();
+        $dvs = $agent->device();
+       // Log::info(json_encode(GeoIP::getLocation(request()->ip())->toArray()));
+       $data=[
+        'last_signin' => Carbon::now()->toDateTimeString(),
+        'ip_address' => request()->ip(),
+        'browser_login' => $agent->browser(),
+        'browser_version' => $agent->version($browser),
+        'device_login' => $agent->platform(),
+        'device_version' => $agent->version($platform),
+        'device' => $dvs,
+        'current_location' => json_encode(GeoIP::getLocation(request()->ip())->toArray()),
+        'language' =>  null,
+        'root' => $agent->robot(),
+        'https' =>request()->server('HTTP_USER_AGENT'),
+        'candidate_id'=>$candidate_id
+       ];
+       Log::info($data);
+       return Device::create($data);
+    }
+
     public function candidateApplying(CreateCandidateRequest $request)
     {
         $input = $request->all();
@@ -118,6 +151,12 @@ class CandidateController extends AppBaseController
             return $this->sendResponse([],'No candidates found!');
         }
        
+        $device = new Device();
+        $location = GeoIP::getLocation(request()->ip());
+        if(isset($location)){
+        $this->saveNewDevice($request['id']);
+        }
+
         $votes=$candidate->votes+1;
         $candidate = $this->candidateRepository->update(['votes'=> $votes], $request['id']);
         return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
@@ -146,6 +185,8 @@ class CandidateController extends AppBaseController
 
     public function listSelectedCandidates(){
         $candidates =[];
+        
+
         $session =    Session::where('is_voting_open',1)->first();
         if($session){
             $candidates = Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get();
