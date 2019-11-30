@@ -75,7 +75,7 @@ Route::get('/selected-candidates', function () {
 });
 
 //
-Auth::routes();
+Auth::routes([ 'register' => false ]);
 
 Route::get('/home', 'HomeController@index');
 
