@@ -154,9 +154,9 @@ class CandidateController extends AppBaseController
         $location = GeoIP::getLocation(request()->ip());
         if(isset($location)){
         $device=Device::where('ip_address',request()->ip())->first();
-            if($device){
-                return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
-            }
+            // if($device){
+            //     return $this->sendResponse($candidate->toArray(), 'Miss Career Africa is pleased you dared to apply,Thank you!');
+            // }
         $this->saveNewDevice($request['id']);
         }
         
