@@ -100,7 +100,7 @@ Facebook: 		https://www.facebook.com/yegobox
                            
                             <div class="card-footer bg-transparent border-success">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
+                                    Ticket & Vote! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
                                 </button>
 
                             </div>

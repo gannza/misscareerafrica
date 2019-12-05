@@ -114,7 +114,7 @@ function loadSelectedCandidates(){
                             </a>
                             <div class="card-footer bg-transparent border-success">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
-                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">${element.votes==null?0:element.votes}</span>
+                                    Ticket & Vote! &nbsp;&nbsp;<span class="badge badge-light">${element.votes==null?0:element.votes}</span>
                                 </button>
 
                             </div>
@@ -163,7 +163,7 @@ if(!localStorage.getItem('xosdw9433423zasie')){
 
                 loadSelectedCandidates();
                 localStorage.setItem('xosdw9433423zasie','xosdw9433423zasie');
-                window.location.reload();
+                window.location.href="https://theeventx.com/view-event/30";
             }
 
             },error:function(error)
