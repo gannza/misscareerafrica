@@ -53,6 +53,10 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/buy-ticket', function () {
+    return view('buy-ticket');
+});
+
 Route::get('/sponsor', function () {
     return view('sponsor');
 });

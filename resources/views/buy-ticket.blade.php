@@ -9,9 +9,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Vote For {{$candidate->fname}} {{$candidate->lname}}</title>
+    <title>Buy Ticket :: Miss Career Africa </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Miss Career Africa Preselected Candidate Details" />
+    <meta name="description" content="Get your tickets now!" />
     <meta name="keywords" content="Miss Career, yegobox, flipper" />
     <meta name="author" content="Yegobox Team" />
 
@@ -88,29 +88,14 @@ Facebook: 		https://www.facebook.com/yegobox
                     <div class="row can-voting">
                     <div class="col-md-12">
                             <div class="card border-success mb-3" style="max-width: 100%">
-                            <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}} {{$candidate->lname}}</b></div>
-                                    <img class="img-fluid" src="{{$candidate->profile}}" style="width:100%;">
-                                    <div class="card-body text-success">
-                                    <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
-                                        <b class="card-text">
-                                        <hr />
-                                        {{$candidate->bio}}
-                                        </b>
-                                    </div>
+                                    <img class="img-fluid" src="/images/buy-ticket.jpeg" style="width:100%;">
+                                   
                            
                             <div class="card-footer bg-transparent border-success">
-                            <div class="row">
-                            <div class="col-6">
-                                    <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                    Ticket & Vote! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
-                                </button>
-                                </div>
-                                <div class="col-6">
-                                <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
+                                    <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
                                     Buy Ticket
                                 </a>
-                                </div>
-                            </div>
+
                             </div>
                         </div>
                   </div>
