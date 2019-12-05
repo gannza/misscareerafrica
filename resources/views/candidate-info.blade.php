@@ -102,12 +102,12 @@ Facebook: 		https://www.facebook.com/yegobox
                             <div class="row">
                             <div class="col-6">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                    Ticket & Vote! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
+                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
                                 </button>
                                 </div>
                                 <div class="col-6">
                                 <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
-                                    Buy Ticket
+                                    Get Ticket
                                 </a>
                                 </div>
                             </div>
