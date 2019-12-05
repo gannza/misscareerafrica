@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Buy Ticket :: Miss Career Africa </title>
+    <title>Get Ticket :: Miss Career Africa </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Get your tickets now!" />
     <meta name="keywords" content="Miss Career, yegobox, flipper" />
@@ -93,7 +93,7 @@ Facebook: 		https://www.facebook.com/yegobox
                            
                             <div class="card-footer bg-transparent border-success">
                                     <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
-                                    Buy Ticket
+                                    Get Ticket
                                 </a>
 
                             </div>
