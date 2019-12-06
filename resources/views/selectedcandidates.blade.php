@@ -95,6 +95,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                 <ul class="sf-menu" id="fh5co-primary-menu">
                                     <li><a href="/" style="color: white;">HOME</a></li>
                                     <li><a class="apply" style="color: white;" href="candidate-application">APPLY NOW</a></li>
+                                    <li><a class="buy-ticket" style="color: #000;font-weight:bold" href="buy-ticket">GET TICKET</a></li>
                                     <li><a class="can-voting" style="color: white;" href="selected-candidates">VOTE PRESELECTED CANDIDATES</a></li>
 
 
