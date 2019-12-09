@@ -102,7 +102,7 @@ Facebook: 		https://www.facebook.com/yegobox
                             <div class="row">
                             <div class="col-6">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span>
+                                    Vote Now! &nbsp;&nbsp;
                                 </button>
                                 </div>
                                 <div class="col-6">
@@ -116,7 +116,7 @@ Facebook: 		https://www.facebook.com/yegobox
                   </div>
                     </div>
                 </div>
-
+                <!-- <span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span> -->
 
             </div>
         </div>

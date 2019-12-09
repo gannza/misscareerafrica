@@ -115,7 +115,7 @@ function loadSelectedCandidates(){
                             <div class="card-footer bg-transparent border-success">
                                 <div class="col-12">
                                     <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
-                                    Vote Now! &nbsp;&nbsp;<span class="badge badge-light">${element.votes==null?0:element.votes}</span>
+                                    Vote Now! &nbsp;&nbsp;
                                 </button>
                                 </div>
                                 <div class="col-12">
@@ -129,7 +129,7 @@ function loadSelectedCandidates(){
                   </div>
 
                     `;
-
+{/* <span class="badge badge-light">${element.votes==null?0:element.votes}</span> */}
                 }
 
             });
