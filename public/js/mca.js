@@ -129,12 +129,13 @@ function loadSelectedCandidates(){
                   </div>
 
                     `;
-{/* <span class="badge badge-light">${element.votes==null?0:element.votes}</span> */}
+
                 }
 
             });
 
         htmlss.html(rows);
+
 
         }
 
@@ -147,7 +148,7 @@ function loadSelectedCandidates(){
 
 
 function votes(id,votes){
-
+return window.location.href="candiateVoters/"+id;
 if(!localStorage.getItem('xosdw9433423zasie')){
 
     var v=votes==null?1:votes+1;

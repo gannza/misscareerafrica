@@ -78,6 +78,7 @@ Route::get('/selected-candidates', function () {
     return view('selectedcandidates');
 });
 
+
 //
 Auth::routes([ 'register' => false ]);
 
@@ -124,3 +125,6 @@ Route::get('fund', 'FundController@fund');
 
 Route::resource('bookings', 'BookingController');
 Route::get('book-mca', 'BookingController@booking');
+
+
+Route::resource('candiateVoters', 'candiateVoterController');

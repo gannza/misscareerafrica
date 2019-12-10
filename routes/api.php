@@ -21,3 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('sessions', 'SessionAPIController');
 
 Route::resource('sessions', 'SessionAPIController');
+
+Route::resource('candiate_voters', 'candiateVoterAPIController');
+
+Route::resource('candiate_voters', 'candiateVoterAPIController');
