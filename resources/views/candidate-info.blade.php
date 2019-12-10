@@ -85,7 +85,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
-                <div class="card border-success mb-3" style="max-width: 100%">
+                <!-- <div class="card border-success mb-3" style="max-width: 100%">
                         <h1 class="text-center"><b>VOTES CLOSED</b></h1>
                         <div class="card-footer bg-transparent border-success">
                             <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
@@ -97,9 +97,9 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
 
-                    </div>
+                    </div> -->
                     <div class="row can-voting">
-                        <!-- <div class="col-md-12">
+                        <div class="col-md-12">
                             <div class="card border-success mb-3" style="max-width: 100%">
                                 <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}}
                                         {{$candidate->lname}}</b></div>
@@ -115,11 +115,16 @@ Facebook: 		https://www.facebook.com/yegobox
                                 <div class="card-footer bg-transparent border-success">
                                     <div class="row">
                                         <div class="col-6">
-                                            <button type="button" class="btn btn-primary btn-block btn-sm"
+                                            <!-- <button type="button" class="btn btn-primary btn-block btn-sm"
                                                 onclick="votes({{$candidate->id}},{{$candidate->votes}})">
                                                 Vote Now! &nbsp;&nbsp;
-                                            </button>
+                                            </button> -->
+                                            <a href="https://theeventx.com/view-event/30"
+                                            class="btn btn-primary btn-block btn-sm">
+                                            Vote Now! &nbsp;&nbsp;
+                                            </a>
                                         </div>
+                                        
                                         <div class="col-6">
                                             <a href="https://theeventx.com/view-event/30"
                                                 class="btn btn-success btn-block btn-sm">
@@ -129,7 +134,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <!-- <span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span> -->
