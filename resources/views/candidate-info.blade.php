@@ -78,42 +78,58 @@ Facebook: 		https://www.facebook.com/yegobox
 </head>
 
 <body>
-    <div id="fh5co-wrapper"  style=" background-image: url('/images/image-2.jpg');
+    <div id="fh5co-wrapper" style=" background-image: url('/images/image-2.jpg');
                                     background-repeat: no-repeat;width:100%;
                                     background-size: cover; background-size: center center">
         <div id="fh5co-page">
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
+                <div class="card border-success mb-3" style="max-width: 100%">
+                        <h1 class="text-center"><b>VOTES CLOSED</b></h1>
+                        <div class="card-footer bg-transparent border-success">
+                            <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
+                                Get Ticket
+                            </a>
+
+                        </div>
+                        <img class="img-fluid" src="/images/buy-ticket.jpeg" style="width:100%;">
+
+
+
+                    </div>
                     <div class="row can-voting">
-                    <div class="col-md-12">
+                        <!-- <div class="col-md-12">
                             <div class="card border-success mb-3" style="max-width: 100%">
-                            <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}} {{$candidate->lname}}</b></div>
-                                    <img class="img-fluid" src="{{$candidate->profile}}" style="width:100%;">
-                                    <div class="card-body text-success">
+                                <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}}
+                                        {{$candidate->lname}}</b></div>
+                                <img class="img-fluid" src="{{$candidate->profile}}" style="width:100%;">
+                                <div class="card-body text-success">
                                     <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
-                                        <b class="card-text">
+                                    <b class="card-text">
                                         <hr />
                                         {{$candidate->bio}}
-                                        </b>
+                                    </b>
+                                </div>
+
+                                <div class="card-footer bg-transparent border-success">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-primary btn-block btn-sm"
+                                                onclick="votes({{$candidate->id}},{{$candidate->votes}})">
+                                                Vote Now! &nbsp;&nbsp;
+                                            </button>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="https://theeventx.com/view-event/30"
+                                                class="btn btn-success btn-block btn-sm">
+                                                Get Ticket
+                                            </a>
+                                        </div>
                                     </div>
-                           
-                            <div class="card-footer bg-transparent border-success">
-                            <div class="row">
-                            <div class="col-6">
-                                    <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                    Vote Now! &nbsp;&nbsp;
-                                </button>
-                                </div>
-                                <div class="col-6">
-                                <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
-                                    Get Ticket
-                                </a>
                                 </div>
                             </div>
-                            </div>
-                        </div>
-                  </div>
+                        </div> -->
                     </div>
                 </div>
                 <!-- <span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span> -->
@@ -142,7 +158,7 @@ Facebook: 		https://www.facebook.com/yegobox
                         </ul>
                     </div>
                 </div>
-               
+
             </div>
         </footer>
 
@@ -151,10 +167,10 @@ Facebook: 		https://www.facebook.com/yegobox
 
     </div>
     <!-- END fh5co-wrapper -->
-	<!-- Javascripts -->
-	<script src="{{ asset('js/jquery-2.1.4.min.js') }}" ></script>
-	
-	<script src="{{ asset('js/mca.js') }}"></script>
+    <!-- Javascripts -->
+    <script src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
+
+    <script src="{{ asset('js/mca.js') }}"></script>
 
 </body>
 

@@ -85,7 +85,7 @@ Facebook: 		https://www.facebook.com/yegobox
             <div id="fh5co-header">
 
 
-            <header id="fh5co-header-section">
+                <header id="fh5co-header-section">
                     <div class="container">
                         <div class="nav-header">
                             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
@@ -94,9 +94,12 @@ Facebook: 		https://www.facebook.com/yegobox
                             <nav id="fh5co-menu-wrap" role="navigation">
                                 <ul class="sf-menu" id="fh5co-primary-menu">
                                     <li><a href="/" style="color: white;">HOME</a></li>
-                                    <li><a class="apply" style="color: white;" href="candidate-application">APPLY NOW</a></li>
-                                    <li><a class="buy-ticket" style="color: white;" href="buy-ticket">GET TICKET</a></li>
-                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">VOTE PRESELECTED CANDIDATES</a></li>
+                                    <li><a class="apply" style="color: white;" href="candidate-application">APPLY
+                                            NOW</a></li>
+                                    <li><a class="buy-ticket" style="color: white;" href="buy-ticket">GET TICKET</a>
+                                    </li>
+                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">VOTE
+                                            PRESELECTED CANDIDATES</a></li>
 
 
 
@@ -118,7 +121,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                             <li><a href="scholarship">MCA SCHOLARSHIP</a></li>
                                             <li><a href="fund">MCA FUND</a></li>
                                             <li><a href="book-mca">BOOK MCA</a></li>
-                                            <li><a  href="eligibility">ELIGIBILITY</a></li>
+                                            <li><a href="eligibility">ELIGIBILITY</a></li>
                                         </ul>
                                     </li>
 
@@ -151,7 +154,20 @@ Facebook: 		https://www.facebook.com/yegobox
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
-                    <div class="row can-voting" id="selected_candidates">
+                    <!-- <div class="row can-voting" id="selected_candidates">
+
+                    </div> -->
+                    <div class="card border-success mb-3" style="max-width: 100%">
+                        <h1 class="text-center"><b>VOTES CLOSED</b></h1>
+                        <div class="card-footer bg-transparent border-success">
+                            <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
+                                Get Ticket
+                            </a>
+
+                        </div>
+                        <img class="img-fluid" src="/images/buy-ticket.jpeg" style="width:100%;">
+
+
 
                     </div>
                 </div>
@@ -194,13 +210,15 @@ Facebook: 		https://www.facebook.com/yegobox
                                 </ul>
                             </div>
                             <div class="col-md-3">
-                                        <h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
-                                        <ul class="link">
-                                            <li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a></li>
-                                            <li><a style="color: #fff;" class="can-voting" href="selected-candidates">CANDIDATES</a></li>
-                                        </ul>
-                                </div>
-                                <div class="col-md-3">
+                                <h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
+                                <ul class="link">
+                                    <li><a style="color: #fff;" class="apply" href="candidate-application">APPLY NOW</a>
+                                    </li>
+                                    <li><a style="color: #fff;" class="can-voting"
+                                            href="selected-candidates">CANDIDATES</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
                                 <h3><b>ORGANIZATION</b></h3>
                                 <ul class="link">
                                     <li><a style="color: white;" href="blog">Our Blog</a></li>
@@ -237,34 +255,34 @@ Facebook: 		https://www.facebook.com/yegobox
 
     </div>
     <!-- END fh5co-wrapper -->
-	<!-- Javascripts -->
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
-	<!-- Dropdown Menu -->
-	<script src="js/hoverIntent.js"></script>
-	<script src="js/superfish.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Owl Slider -->
-	<!-- // <script src="js/owl.carousel.min.js"></script> -->
-	<!-- Date Picker -->
-	<script src="js/bootstrap-datepicker.min.js"></script>
-	<!-- CS Select -->
-	<script src="js/classie.js"></script>
-	<script src="js/selectFx.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Google Map -->
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <!-- Dropdown Menu -->
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Counters -->
+    <script src="js/jquery.countTo.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="js/jquery.stellar.min.js"></script>
+    <!-- Owl Slider -->
+    <!-- // <script src="js/owl.carousel.min.js"></script> -->
+    <!-- Date Picker -->
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <!-- CS Select -->
+    <script src="js/classie.js"></script>
+    <script src="js/selectFx.js"></script>
+    <!-- Flexslider -->
+    <script src="js/jquery.flexslider-min.js"></script>
+    <!-- Google Map -->
 
-	<script src="js/custom.js"></script>
-	<script src="js/mca.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/mca.js"></script>
 
 </body>
 
