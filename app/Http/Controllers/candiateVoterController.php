@@ -67,7 +67,7 @@ class candiateVoterController extends AppBaseController
         }
         $candiateVoter = $this->candiateVoterRepository->create($input);
 
-        Flash::success('Candiate Voter saved successfully.');
+        Flash::success('Thank you for voting this candidate.');
 
         return redirect()->back();
     }
