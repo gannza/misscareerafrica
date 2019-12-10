@@ -6,11 +6,11 @@
 
 <!-- Candiateid Field -->
 <div class="form-group col-sm-6">
-    {!! Form::hidden('canidate_id', $id, ['class' => 'form-control']) !!}
+    {!! Form::hidden('candidate_id', $id, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
-    {!! Form::submit('Vote now', ['class' => 'btn btn-primary']) !!}
+    {!! Form::submit('Vote now', ['class' => 'btn btn-success']) !!}
     <a href="/selected-candidates" class="btn btn-default">Cancel</a>
 </div>

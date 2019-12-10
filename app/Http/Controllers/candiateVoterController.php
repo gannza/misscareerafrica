@@ -6,6 +6,7 @@ use App\Http\Requests\CreatecandiateVoterRequest;
 use App\Http\Requests\UpdatecandiateVoterRequest;
 use App\Repositories\candiateVoterRepository;
 use App\Http\Controllers\AppBaseController;
+use App\Models\candiateVoter;
 use Illuminate\Http\Request;
 use Flash;
 use Response;
@@ -57,11 +58,18 @@ class candiateVoterController extends AppBaseController
        
         $input = $request->all();
         
+       $candidate= candiateVoter::where('phone_number',$input['phone_number'])
+        ->where('candidate_id',$input['candidate_id'])->first();
+        
+        if($candidate){
+            Flash::error('You have voted this candidate');
+            return redirect()->back();
+        }
         $candiateVoter = $this->candiateVoterRepository->create($input);
 
         Flash::success('Candiate Voter saved successfully.');
 
-        return redirect(route('candiateVoters.index'));
+        return redirect()->back();
     }
 
     /**

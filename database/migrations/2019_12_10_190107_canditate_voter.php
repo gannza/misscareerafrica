@@ -16,7 +16,7 @@ class CanditateVoter extends Migration
         Schema::create('candidate_votes', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('phone_number');
-            $table->integer('canidate_id');
+            $table->integer('candidate_id');
             $table->timestamps();
         });
     }

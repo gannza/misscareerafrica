@@ -39,7 +39,7 @@ class candiateVoter extends Model
      * @var array
      */
     public static $rules = [
-        
+        'phone_number'=>'required'
     ];
 
     
