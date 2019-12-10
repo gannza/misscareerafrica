@@ -119,12 +119,12 @@ Facebook: 		https://www.facebook.com/yegobox
                                                 onclick="votes({{$candidate->id}},{{$candidate->votes}})">
                                                 Vote Now! &nbsp;&nbsp;
                                             </button> -->
-                                            <a href="https://theeventx.com/view-event/30"
+                                            <a href="candiateVoters/{{$candidate->id}}"
                                             class="btn btn-primary btn-block btn-sm">
                                             Vote Now! &nbsp;&nbsp;
                                             </a>
                                         </div>
-                                        
+
                                         <div class="col-6">
                                             <a href="https://theeventx.com/view-event/30"
                                                 class="btn btn-success btn-block btn-sm">
