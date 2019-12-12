@@ -121,7 +121,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                             </button> -->
                                             <a href="/candiateVoters/{{$candidate->id}}"
                                             class="btn btn-primary btn-block btn-sm">
-                                            Vote Now! &nbsp;&nbsp;
+                                            Vote Now! &nbsp;&nbsp;{{$candidate->votes}}
                                             </a>
                                         </div>
 

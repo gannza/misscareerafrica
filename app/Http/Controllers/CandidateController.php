@@ -22,6 +22,7 @@ use GeoIP;
 use Location;
 use Jenssegers\Agent\Agent;
 use Carbon\Carbon;
+use App\Models\candiateVoter;
 
 class CandidateController extends AppBaseController
 {
@@ -48,6 +49,8 @@ class CandidateController extends AppBaseController
            
             return redirect('selected-candidates');
         }
+        $v=candiateVoter::where('candidate_id', $candidate->id)->count();
+        $candidate->votes=$candidate->votes+$v;
         return view('candidate-info')->with('candidate', $candidate);
     }
     public function index(Request $request)
@@ -193,7 +196,11 @@ class CandidateController extends AppBaseController
 
         $session =    Session::where('is_voting_open',1)->first();
         if($session){
-            $candidates = Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get();
+            foreach(Candidate::where('is_selected',1)->where('session_id',$session->id)->orderBy('votes', 'DESC')->get() as $cand){
+           $v=candiateVoter::where('candidate_id', $cand->id)->count();
+            $cand->votes=$cand->votes+$v;
+            $candidates[]=$cand;
+            }
         }
 
 
