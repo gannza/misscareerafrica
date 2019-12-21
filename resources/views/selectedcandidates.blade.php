@@ -1,4 +1,4 @@
-@include('shared.styles',['title' => 'Vote Preselected Candidates','description'=>'Miss Career Africa'])
+@include('shared.styles',['title' => 'Past Candidates','description'=>'Miss Career Africa'])
 
 <body>
     <div id="fh5co-wrapper">

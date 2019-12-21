@@ -7,10 +7,11 @@
                             <nav id="fh5co-menu-wrap" role="navigation">
                                 <ul class="sf-menu" id="fh5co-primary-menu">
                                     <li><a href="/" style="color: white;">HOME</a></li>
+                                    <li><a href="#" style="color: white;">GET TICKETS</a></li>
+                                   
                                     <li><a class="apply" style="color: white;" href="candidate-application">APPLY
                                             NOW</a></li>
-                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">VOTE
-                                            PRESELECTED CANDIDATES</a></li>
+                                    <li><a class="can-voting" style="color: white;" href="selected-candidates">PAST CANDIDATES</a></li>
 
 
 
