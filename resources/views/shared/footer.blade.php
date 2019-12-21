@@ -34,12 +34,13 @@
                                             </ul>
                                         </div>
                                         <div class="col-md-3">
-                                            <h3 class="apply"><b>MISS CAREER CANDIDATE</b></h3>
+                                            <h3 class=""><b>MISS CAREER CANDIDATE</b></h3>
                                             <ul class="link">
                                                 <li><a style="color: #fff;" class="apply"
                                                         href="candidate-application">APPLY NOW</a></li>
                                                 <li><a style="color: #fff;" class="can-voting"
                                                         href="selected-candidates">CANDIDATES</a></li>
+                                                        <li><a style="color: #fff;" href="videos">VIDEO AND LINKS</a></li>
                                             </ul>
                                         </div>
 
@@ -89,30 +90,31 @@
             </div>
             <!-- END fh5co-wrapper -->
             <!-- Javascripts -->
-            <script src="js/jquery-2.1.4.min.js"></script>
+            <script src="{{ asset('js/jquery-2.1.4.min.js') }}"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
             <!-- Dropdown Menu -->
-            <script src="js/hoverIntent.js"></script>
-            <script src="js/superfish.js"></script>
+            <script src="{{ asset('js/hoverIntent.js') }}"></script>
+            
+            <script src="{{ asset('js/superfish.js') }}"></script>
             <!-- Bootstrap -->
-            <script src="js/bootstrap.min.js"></script>
+            <script src="{{ asset('js/bootstrap.min.js') }}"></script>
             <!-- Waypoints -->
-            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
             <!-- Counters -->
-            <script src="js/jquery.countTo.js"></script>
+            <script src="{{ asset('js/jquery.countTo.js') }}"></script>
             <!-- Stellar Parallax -->
-            <script src="js/jquery.stellar.min.js"></script>
+            <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
             <!-- Owl Slider -->
             <!-- // <script src="js/owl.carousel.min.js"></script> -->
             <!-- Date Picker -->
-            <script src="js/bootstrap-datepicker.min.js"></script>
+            <script src="{{ asset('js/bootstrap-datepicker.min.js') }}"></script>
             <!-- CS Select -->
-            <script src="js/classie.js"></script>
-            <script src="js/selectFx.js"></script>
+            <script src="{{ asset('js/classie.js') }}"></script>
+            <script src="{{ asset('js/selectFx.js') }}"></script>
             <!-- Flexslider -->
-            <script src="js/jquery.flexslider-min.js"></script>
+            <script src="{{ asset('js/jquery.flexslider-min.js') }}"></script>
             <!-- Google Map -->
 
-            <script src="js/custom.js"></script>
-            <script src="js/mca.js"></script>
+            <script src="{{ asset('js/custom.js') }}"></script>
+            <script src="{{ asset('js/mca.js') }}"></script>

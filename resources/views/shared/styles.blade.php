@@ -40,37 +40,37 @@ Facebook: 		https://www.facebook.com/yegobox
 
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="/images/logo.png">
+    <link rel="shortcut icon" href="{{ asset('/images/logo.png') }}">
     <!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
 
     <!-- Stylesheets -->
     <!-- Dropdown Menu -->
-    <link rel="stylesheet" href="css/superfish.css">
+    <link rel="stylesheet" href="{{ asset('css/superfish.css') }}">
     <!-- Owl Slider -->
     <!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
     <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
     <!-- Date Picker -->
     <!-- Style -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.min.css') }}">
     <!-- CS Select -->
-    <link rel="stylesheet" href="css/cs-select.css">
-    <link rel="stylesheet" href="css/cs-skin-border.css">
+    <link rel="stylesheet" href="{{ asset('css/cs-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cs-skin-border.css') }}">
 
     <!-- Themify Icons -->
-    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
     <!-- Flat Icon -->
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="{{ asset('css/flaticon.css') }}">
     <!-- Icomoon -->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}">
     <!-- Flexslider  -->
-    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="{{ asset('css/flexslider.css') }}">
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="{{ asset('js/modernizr-2.6.2.min.js') }}"></script>
     <!-- FOR IE9 below -->
     <!--[if lt IE 9]>
 <script src="js/respond.min.js"></script>
