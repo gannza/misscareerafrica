@@ -101,7 +101,7 @@ Facebook: 		https://www.facebook.com/yegobox
                     <div class="row">
                     @foreach($videos as $video)
                         <div class="col-md-4 mt-4">
-                            <div class="card border-success mb-3" style="max-width: 100%;height:400px">
+                            <div class="card border-success mb-3" style="max-width: 100%;height:400px;overflow:auto">
                                 <div class="card-header bg-transparent border-success"><b>
                                         {{$video->title}}</b></div>
                                         @if ($video->linkType === 'link')
@@ -112,7 +112,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                         <hr />
                                 <div class="card-body text-success">
                                   
-                                    <b class="card-text" style="padding:4px; position: relative;bottom: 17px;">
+                                    <b class="card-text" style="padding:4px; position: relative;bottom: 17px;over">
                                         
                                         <a href="{{$video->links}}" target="_blank">  {{$video->contents}}</a>
                                     </b>
