@@ -25,3 +25,5 @@ Route::resource('sessions', 'SessionAPIController');
 Route::resource('candiate_voters', 'candiateVoterAPIController');
 
 Route::resource('candiate_voters', 'candiateVoterAPIController');
+
+Route::resource('links', 'LinksAPIController');

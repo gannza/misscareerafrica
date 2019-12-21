@@ -183,6 +183,7 @@ return [
         \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
         Yajra\DataTables\DataTablesServiceProvider::class,
         Jenssegers\Agent\AgentServiceProvider::class,
+        Cohensive\Embed\EmbedServiceProvider::class,
 
     ],
 
@@ -237,7 +238,7 @@ return [
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
         'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
         'Agent' => Jenssegers\Agent\Facades\Agent::class,
-
+        'Embed' => Cohensive\Embed\Facades\Embed::class,
     ],
 
 ];

@@ -128,3 +128,6 @@ Route::get('book-mca', 'BookingController@booking');
 
 
 Route::resource('candiateVoters', 'candiateVoterController');
+
+Route::resource('links', 'LinksController');
+Route::get('videos', 'LinksController@videos');
