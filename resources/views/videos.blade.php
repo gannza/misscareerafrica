@@ -1,7 +1,7 @@
 @include('shared.styles',['title' => 'Videos and Links','description'=>'Miss Career Africa'])
 
 <body>
-    <div id="fh5co-wrapper" style=" background-image: url('/images/image-3.jpg');
+    <div id="fh5co-wrapper" style=" background-image: url('/images/sld1.png');
                                     background-repeat: no-repeat;width:100%;
                                     background-size: cover; background-size: center center">
         <div id="fh5co-page">
