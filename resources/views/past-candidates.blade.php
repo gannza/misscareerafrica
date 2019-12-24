@@ -36,7 +36,18 @@
                     <div class="col-md-4">
                             <div class="card border-success mb-3" style="max-width: 100%">
                             <div class="card-header bg-transparent border-success"><b>{{$candidate->fname}} {{$candidate->lname}}</b></div>
-                           
+                            <a href="candidate-page/{{$candidate->id}}">
+                                    <div class="img-fluid" style=" background-image: url('${element.profile}');
+                                    background-repeat: no-repeat;width:100%;min-height:300px;
+                                    background-size: cover; background-size: center center"></div>
+                                    <div class="card-body text-success">
+                                    <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
+                                        <b class="card-text">
+                                        <hr />
+                                       
+                                        </b>
+                                    </div>
+                            </a>
                            
                         </div>
                   </div>
