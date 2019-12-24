@@ -25,7 +25,7 @@ function loadCurrentSession(){
 
                 const data=response.data;
                 if(data.is_current_applying || data.is_voting_open){
-                    var candidate=data.is_voting_open?' <a href="https://theeventx.com/view-event/30" class="btn btn-info"> Get Ticket </a><a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-1 text-white can-voting">VIEW PAST CANDIDATES</a>':'';
+                    var candidate=data.is_voting_open?' <a href="https://theeventx.com/view-event/30" class="btn btn-info"> Get Ticket </a><a href="/selected-candidates" style="color:white!important" class="btn btn-success mr-1 text-white can-voting">VOTE PRESELECTED CANDIDATES</a>':'';
                     var apply=!data.is_voting_open?'<a href="/candidate-application" class="btn btn-primary mr-5">APPLY NOW!</a>':'';
                     row=` <div class="card">
                     <img class="card-img"  style="min-height:350px;max-height:700px" src="images/${data.image}" alt="${data.title}">
@@ -96,21 +96,6 @@ function loadSelectedCandidates(){
             const datas=response.data;
             datas.forEach(element => {
                 if(element){
-var footer="";
-                //     var footer=` <div class="card-footer bg-transparent border-success">
-                //     <div class="col-12">
-                //         <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
-                //         Vote Now! &nbsp;&nbsp;${element.votes}
-                //     </button>
-                //     </div>
-                //     <div class="col-12">
-                //     <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
-                //     Get Ticket
-                //     </a>
-                //     </div>
-
-                // </div>`;
-
                     rows+=`
                     <div class="col-md-4">
                             <div class="card border-success mb-3" style="max-width: 100%">
@@ -127,10 +112,19 @@ var footer="";
                                         </b>
                                     </div>
                             </a>
-                           
-                            ${footer}
+                            <div class="card-footer bg-transparent border-success">
+                                <div class="col-12">
+                                    <button type="button" class="btn btn-primary btn-block btn-sm" onclick="votes(${element.id},${element.votes})">
+                                    Vote Now! &nbsp;&nbsp;${element.votes}
+                                </button>
+                                </div>
+                                <div class="col-12">
+                                <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
+                                Get Ticket
+                                </a>
+                                </div>
 
-
+                            </div>
                         </div>
                   </div>
 

@@ -206,6 +206,20 @@ class CandidateController extends AppBaseController
 
         return $this->sendResponse(count($candidates) > 0?$candidates:[], 'List Selected Candidates');
     }
+
+    public function pastCandidates(){
+        $candidates =[];
+        $session =    Session::where('is_voting_open',1)->first();
+        if($session){
+            foreach(Candidate::where('session_id','!=',$session->id)->orderBy('votes', 'DESC')->get() as $cand){
+           $v=candiateVoter::where('candidate_id', $cand->id)->count();
+            $cand->votes=$cand->votes+$v;
+            $candidates[]=$cand;
+            }
+        }
+
+        return view('past-candidates')->with('candidates', $candidates);
+    }
     /**
      * Show the form for editing the specified Candidate.
      *

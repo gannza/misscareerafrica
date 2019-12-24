@@ -78,6 +78,8 @@ Route::get('/selected-candidates', function () {
     return view('selectedcandidates');
 });
 
+Route::get('/past-candidates', 'CandidateController@pastCandidates');
+
 
 //
 Auth::routes([ 'register' => false ]);
