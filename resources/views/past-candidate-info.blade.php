@@ -85,19 +85,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
-                    <!-- <div class="card border-success mb-3" style="max-width: 100%">
-                        <h1 class="text-center"><b>VOTES CLOSED</b></h1>
-                        <div class="card-footer bg-transparent border-success">
-                            <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
-                                Get Ticket
-                            </a>
-
-                        </div>
-                        <img class="img-fluid" src="/images/buy-ticket.jpeg" style="width:100%;">
-
-
-
-                    </div> -->
+                  
                     <div class="row can-voting">
                         <div class="col-md-12">
                             <div class="card border-success mb-3" style="max-width: 100%">
@@ -117,7 +105,6 @@ Facebook: 		https://www.facebook.com/yegobox
                         </div>
                     </div>
                 </div>
-                <!-- <span class="badge badge-light">{{$candidate->votes==null?0:$candidate->votes}}</span> -->
 
             </div>
         </div>

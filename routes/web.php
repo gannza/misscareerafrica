@@ -36,7 +36,7 @@ Route::get('/candidate-application', function () {
 });
 
 Route::get('candidate-page/{id}', 'CandidateController@showCandidate');
-Route::get('past-candidate-page/{id}', 'CandidateController@showPastCandidate');
+Route::get('/past-candidate-page/{id}', 'CandidateController@showPastCandidate');
 
 Route::get('/competition', function () {
     return view('competition');
