@@ -112,24 +112,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                     </b>
                                 </div>
 
-                                <!-- <div class="card-footer bg-transparent border-success">
-                                    <div class="row">
-                                        <div class="col-6">
-                                           
-                                            <a href="/candiateVoters/{{$candidate->id}}"
-                                                class="btn btn-primary btn-block btn-sm">
-                                                Vote Now! &nbsp;&nbsp;{{$candidate->votes}}
-                                            </a>
-                                        </div>
-
-                                        <div class="col-6">
-                                            <a href="https://theeventx.com/view-event/30"
-                                                class="btn btn-success btn-block btn-sm">
-                                                Get Ticket
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div> -->
+                              
                             </div>
                         </div>
                     </div>

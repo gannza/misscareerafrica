@@ -59,7 +59,7 @@ class CandidateController extends AppBaseController
 
         if (empty($candidate)) {
            
-            return redirect('selected-candidates');
+            return redirect('past-candidates');
         }
         $v=candiateVoter::where('candidate_id', $candidate->id)->count();
         $candidate->votes=$candidate->votes+$v;
