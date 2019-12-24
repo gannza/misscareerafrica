@@ -78,7 +78,7 @@ Facebook: 		https://www.facebook.com/yegobox
 </head>
 
 <body>
-    <div id="fh5co-wrapper" style=" background-image: url('images/image-2.jpeg');
+    <div id="fh5co-wrapper" style=" background-image: url('{{ asset('images/image-2.jpg') }}');
                                     background-repeat: no-repeat;width:100%;
                                     background-size: cover; background-size: center center">
         <div id="fh5co-page">
