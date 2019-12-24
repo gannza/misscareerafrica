@@ -32,10 +32,10 @@
             <div id="fh5co-blog-section">
                 <div class="container" id="blog">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="images/mission.jpg" class="img-responsive img-rounded" alt="Image">
+                        <div class="col-md-12 m-4">
+                            <img src="images/our-mission.jpeg" class="img-responsive img-rounded" alt="Image">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <h3 class="heading">The Miss Career Africa Competition </h3>
                             <p style="color: #252525!important;">
                                 The Miss Career Africa Competition has a 30 –year’s plan of creating a movement of

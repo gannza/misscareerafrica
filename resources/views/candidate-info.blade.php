@@ -85,7 +85,7 @@ Facebook: 		https://www.facebook.com/yegobox
 
             <div id="fh5co-blog-section">
                 <div class="container" id="contact">
-                <!-- <div class="card border-success mb-3" style="max-width: 100%">
+                    <!-- <div class="card border-success mb-3" style="max-width: 100%">
                         <h1 class="text-center"><b>VOTES CLOSED</b></h1>
                         <div class="card-footer bg-transparent border-success">
                             <a href="https://theeventx.com/view-event/30" class="btn btn-success btn-block btn-sm">
@@ -112,16 +112,13 @@ Facebook: 		https://www.facebook.com/yegobox
                                     </b>
                                 </div>
 
-                                <div class="card-footer bg-transparent border-success">
+                                <!-- <div class="card-footer bg-transparent border-success">
                                     <div class="row">
                                         <div class="col-6">
-                                            <!-- <button type="button" class="btn btn-primary btn-block btn-sm"
-                                                onclick="votes({{$candidate->id}},{{$candidate->votes}})">
-                                                Vote Now! &nbsp;&nbsp;
-                                            </button> -->
+                                           
                                             <a href="/candiateVoters/{{$candidate->id}}"
-                                            class="btn btn-primary btn-block btn-sm">
-                                            Vote Now! &nbsp;&nbsp;{{$candidate->votes}}
+                                                class="btn btn-primary btn-block btn-sm">
+                                                Vote Now! &nbsp;&nbsp;{{$candidate->votes}}
                                             </a>
                                         </div>
 
@@ -132,7 +129,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

@@ -48,7 +48,7 @@
 
                         </div>
                         <div class="col-md-6">
-                            <img src="images/job.jpg" class="img-responsive img-rounded" alt="Image">
+                            <img src="images/our-job.jpeg" class="img-responsive img-rounded" alt="Image">
                         </div>
                         <div class="col-md-12">
                             <p style="color: #252525!important;">

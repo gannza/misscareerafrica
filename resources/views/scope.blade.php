@@ -33,7 +33,10 @@
                 <div class="container" id="blog">
 
                     <div class="row m-0">
-                        <div class="mx-auto col-10">
+                    <div class="col-md-12 m-4">
+                            <img src="images/our-scope.jpeg" class="img-responsive img-rounded" alt="Image">
+                        </div>
+                        <div class="mx-auto col-12">
 
                             <h1 class="text-center">
                                 <span style="text-align: center;">
