@@ -207,6 +207,8 @@ class CandidateController extends AppBaseController
         return $this->sendResponse(count($candidates) > 0?$candidates:[], 'List Selected Candidates');
     }
 
+    
+
     public function pastCandidates(){
         $candidates =[];
        // $session =    Session::where('is_voting_open',1)->first();
