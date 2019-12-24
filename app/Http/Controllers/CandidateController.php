@@ -61,9 +61,9 @@ class CandidateController extends AppBaseController
            
             return redirect('past-candidates');
         }
-        $v=candiateVoter::where('candidate_id', $candidate->id)->count();
-        $candidate->votes=$candidate->votes+$v;
-        return view('past-candidate-info')->with('candidate', $candidate);
+        // $v=candiateVoter::where('candidate_id', $candidate->id)->count();
+        // $candidate->votes=$candidate->votes+$v;
+        return view('pastcandidateinfo')->with('candidate', $candidate);
     }
     //
     public function index(Request $request)
