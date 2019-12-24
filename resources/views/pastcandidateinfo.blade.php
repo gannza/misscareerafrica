@@ -99,7 +99,18 @@ Facebook: 		https://www.facebook.com/yegobox
                                         {{$candidate->bio}}
                                     </b>
                                 </div>
+                        <div class="card-footer bg-transparent border-success">
+                                    <div class="row">
+                                       
 
+                                        <div class="col-12">
+                                            <a href="book-mca"
+                                                class="btn btn-success btn-block btn-sm">
+                                                BOOK HER
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                               
                             </div>
                         </div>
