@@ -104,7 +104,7 @@ Facebook: 		https://www.facebook.com/yegobox
                                        
 
                                         <div class="col-12">
-                                            <a href="book-mca"
+                                            <a href="/book-mca"
                                                 class="btn btn-success btn-block btn-sm">
                                                 BOOK HER
                                             </a>
