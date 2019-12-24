@@ -10,7 +10,7 @@
 
             </div>
             <!-- end:fh5co-header -->
-            <div class="fh5co-parallax" style="background-image: url(images/RW.jpg);"
+            <div class="fh5co-parallax" style="background-image: url(images/apply-next.jpeg);"
                 data-stellar-background-ratio="0.5">
                 <div class="overlay"></div>
                 <div class="container">
@@ -40,7 +40,7 @@
                                     <h1><b>MISS CAREER AFRICA - APPLICATION FORM</b></h1>
                                     <!-- <h1 class="text-center text-warning"><b>APPLICATION CLOSED</b></h1> -->
                                     <hr />
-                                    <img src="images/apply-next.jpeg">
+                                    <!-- <img src="images/apply-next.jpeg"> -->
                                 </div>
 
                                 <div class="col-md-12 apply">
