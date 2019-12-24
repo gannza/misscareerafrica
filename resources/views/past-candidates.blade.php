@@ -44,7 +44,7 @@
                                     <h5 class="card-title"><b>{{$candidate->city}} - {{$candidate->country}}</b></h5>
                                         <b class="card-text">
                                         <hr />
-                                        <a href="past-candidate-page/{{$candidate->id}}">{{str_limit($candidate->bio, $limit = 115, $end = 'read more ....')}}</a>
+                                        <a href="past-candidate-page/{{$candidate->id}}">{{str_limit($candidate->bio, $limit = 100, $end = 'read more ....')}}</a>
                                         </b>
                                     </div>
                             </a>
