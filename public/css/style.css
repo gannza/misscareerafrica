@@ -8956,7 +8956,7 @@ input[type="text"] {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  background-position: right 0px bottom -200px;
+  background-position: left -5px bottom 100px;
 }
 .fh5co-parallax .overlay {
   position: absolute;
@@ -8979,6 +8979,11 @@ input[type="text"] {
   .fh5co-parallax,.fh5co-parallax-1 {
     height: inherit;
     padding: 4em 0;
+    background-color: #555;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  background-position: left -5px bottom 0px;
   }
 }
 .fh5co-parallax .fh5co-intro h1 {
