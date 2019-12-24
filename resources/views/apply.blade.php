@@ -38,7 +38,7 @@
                             <div class="col-md-9">
                                 <div class="col-md-12">
                                     <h1><b>MISS CAREER AFRICA - APPLICATION FORM</b></h1>
-                                    <h1 class="text-center text-warning"><b>APPLICATION CLOSED</b></h1>
+                                    <!-- <h1 class="text-center text-warning"><b>APPLICATION CLOSED</b></h1> -->
                                     <hr />
                                     <img src="images/apply-next.jpeg">
                                 </div>
