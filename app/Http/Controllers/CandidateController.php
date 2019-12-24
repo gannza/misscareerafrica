@@ -209,14 +209,14 @@ class CandidateController extends AppBaseController
 
     public function pastCandidates(){
         $candidates =[];
-        $session =    Session::where('is_voting_open',1)->first();
-        if($session){
-            foreach(Candidate::where('session_id','!=',$session->id)->orderBy('votes', 'DESC')->get() as $cand){
+       // $session =    Session::where('is_voting_open',1)->first();
+       // if($session){
+            foreach(Candidate::orderBy('votes', 'DESC')->get() as $cand){
            $v=candiateVoter::where('candidate_id', $cand->id)->count();
             $cand->votes=$cand->votes+$v;
             $candidates[]=$cand;
             }
-        }
+       // }
 
         return view('past-candidates')->with('candidates', $candidates);
     }
