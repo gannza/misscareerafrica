@@ -35,7 +35,7 @@
                         -Young female professionals<br />
                         -Entrepreneurs High School graduates, University Students and working class(Under 24
                         years).<br />
-                        -Eastern African and<br />
+                        -Western Africa and<br />
                         -In a range of 18-24 Years
                     </p>
                     <p>
@@ -43,17 +43,18 @@
                         Complete Online Application as required!<br />
                         Ps: Incomplete Applications will not be accepted.<br>
                         <a href="#">What else is required?</a><br>
-                        If you are lucky to be nominated for the boot camp, Its an eye-Opener program you do not want to
+                        Boot Camp orientation is required and the information regarding <br /> that session will be given to you 3 weeks before the boot camp.
+                        <!-- If you are lucky to be nominated for the boot camp, Its an eye-Opener program you do not want to
                         miss. your availability for the Boot Camp orientation for all the Miss Career Africa sessions,
                         taking place November , 6th 2019 is required. <br />
                         Note: If you cannot make it on that day , call +250784872667 before the meeting date.
                         <br />Attend the Information Session:<br />
                         The Boot Camp information session will be held in Kigali. <br />For Further Information, Emails
                         will be sent to you.
-                        <br>
+                        <br> -->
                         <a href="#">Application timeline:</a><br>
-                        Application open: September, 25th 2019<br>
-                        Deadline: November 25th 11:59 PM.
+                        Application open: Monday 23rd Dec,2019<br>
+                        Deadline: Sunday, 23rd Feb,2020.(11:59) PM.
                     </p>
                 </div>
             </div>
